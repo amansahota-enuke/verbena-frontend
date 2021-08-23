@@ -16,6 +16,8 @@ code {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 
 body
 {
@@ -70,6 +72,11 @@ body
   font-size: 26px;
 }
 
+.font-27
+{
+  font-size: 27px;
+}
+
 .font-28
 {
   font-size: 28px;
@@ -78,6 +85,36 @@ body
 .font-32
 {
   font-size: 32px;
+}
+
+.font-36
+{
+  font-size: 36px;
+}
+
+.font-38
+{
+  font-size: 38px;
+}
+
+.font-40
+{
+  font-size: 40px;
+}
+
+.font-44
+{
+  font-size: 44px;
+}
+
+.font-56
+{
+  font-size: 56px;
+}
+
+.font-72
+{
+  font-size: 72px;
 }
 
 /* font -family */
@@ -100,6 +137,26 @@ body
 .hepta-semibold
 {
   font-weight: 600;
+}
+
+.hepta-extra-light
+{
+  font-weight: 200;
+}
+
+.mont-regular
+{
+  font-weight: 400;
+}
+
+.mont-bold
+{
+  font-weight: 600;
+}
+
+.mont-font
+{
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* custom input */
@@ -374,6 +431,16 @@ input,label,span,p,li,ul
 
 /* text colors */
 
+.blog-subtitle-color
+{
+  color: #DBF1F0;
+}
+
+.question-title-color
+{
+  color: #009B96;
+}
+
 .primary-text-color
 {
   color: #009b98;
@@ -402,6 +469,17 @@ input,label,span,p,li,ul
 .mid-dark-gray-color
 {
   color: #626262;
+}
+
+
+.light-gray-dim
+{
+  color: #333;
+}
+
+.light-dim-gray-color
+{
+  color: #454545;
 }
 
 .success
@@ -973,4 +1051,95 @@ video {
 }
 .pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
   border-radius: unset
+}
+
+
+
+
+/* Blog Footer Css */
+
+.blog-footer
+{
+  background: #009B96;
+}
+
+.blog-footer-social-links .social
+{
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 46px;
+  background: #59BDBA;
+}
+
+.drop-msg-bg
+{
+  background: #DBF1F0;
+}
+
+.msg-ico
+{
+  height: 48px;
+  width:48px;
+  display: block;
+  border-radius: 100%;
+  background: #333;
+  line-height: 46px;
+}
+
+.newsletter-bg
+{
+  background: #7FCCCA;
+}
+
+.blog-image-wrapper
+{
+  max-height: 220px;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.mv-content
+{
+  max-width:487px;
+}
+
+.mv-img
+{
+  max-width:470px;
+}
+
+.mv-img
+{
+  max-height: 480px;
+  height: 480px;
+}
+
+.mv-content 
+{
+  margin-top: -60px;
+  margin-left: 100px;
+  min-height: 300px;
+}
+
+.value-box p
+{
+  min-height: 110px;
+}
+
+.user-img
+{
+  height: 104px;
+  width:104px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.health-care-content,
+.health-explore-content 
+{
+  max-width: 540px;
 }
