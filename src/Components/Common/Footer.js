@@ -11,7 +11,7 @@ const Footer =()=>{
                                 <img src="images/blog-footer-logo.png" alt="" title=""/>
                             </div>
                             <div className="blog-footer-social-links">
-                                <div className="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-6 sm:grid-cols-6 grid-cols-4 gap-2">
+                                <div className="grid xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-6 sm:grid-cols-6 grid-cols-4 gap-2">
                                     <a href="#" className="social block"><i classname="fas fa-fb"></i></a>
                                     <a href="#" className="social block"><i classname="fas fa-fb"></i></a>
                                     <a href="#" className="social block"><i classname="fas fa-fb"></i></a>
@@ -53,10 +53,10 @@ const Footer =()=>{
                     </div>
 
                     <div className="blog-footer-bottom border-t-2 border-opacity-10">
-                        <div className="flex xl:flex-nowrap lg:flex-wrap md:flex-wrap sm:flex-wrap flex-wrap justify-between mt-4">
+                        <div className="flex items-center xl:flex-nowrap lg:flex-wrap md:flex-wrap sm:flex-wrap flex-wrap justify-between mt-4">
                             <div className="flex items-center xl:flex-nowrap lg:flex-wrap md:flex-wrap sm:flex-wrap flex-wrap">
                                 <div>
-                                    <img src="/src/images/hippa.png" alt="" title=""/>
+                                    <img src="images/hipaa.png" alt="" title=""/>
                                 </div>
                                 <div>
                                     <p className="mont-font mont-regular text-white opacity-50 font-16">Copyright © 2021. All Rights Reserved.</p>

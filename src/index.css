@@ -1095,11 +1095,12 @@ video {
 
 .blog-image-wrapper
 {
-  max-height: 220px;
-  height: 220px;
+  max-height: 300px;
+  height: 300px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
+  background-image: url("./images/blog-img-1.png");
 }
 
 .mv-content
@@ -1135,11 +1136,33 @@ video {
   height: 104px;
   width:104px;
   border-radius: 8px;
-  background: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .health-care-content,
 .health-explore-content 
 {
   max-width: 540px;
+}
+
+.mission-img
+{
+  background-image: url('./images/mission-bg.png');
+}
+
+.vision-img
+{
+  background-image: url('./images/vision-bg.png');
+}
+
+.health-care-way span
+{
+  top:-74%
+}
+
+
+@media(max-width:1534px)
+{
+  .mv-content{margin-left: 0;}
 }

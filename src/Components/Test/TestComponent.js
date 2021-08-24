@@ -6,7 +6,8 @@ function TestComponent() {
 
                 {/* Home page Section */}
 
-                <div className="health-care-explore mt-40">
+                <div className="health-care-explore relative mt-40">
+                <span className="absolute right-0 top-0"><img src="images/explore-bg.png" alt="" title=""/></span>
                     <div className="flex justify-start">
                         <div class="health-explore-content">
                             <h3 className="font-72 hepta-semibold mb-5 question-title-color leading-tight">Your Doctor. <br/>Your Care. <br/>Your Time.</h3>
@@ -21,17 +22,20 @@ function TestComponent() {
 
                 <div className="our-values-wrapper mt-40 mb-20">
                     <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-6">
-                        <div className="value-box rounded-xl shadow-xl overflow-hidden px-9 py-12 bg-white">
+                        <div className="value-box rounded-xl relative shadow-xl overflow-hidden px-9 py-12 bg-white">
+                            <span className="vector absolute top-0 right-0"><img src="/images/cloud-vector.png" alt="" title=""/></span>
                             <h4 className="hepta-semibold font-24 text-gray-dim mb-4">Care + <br/>Consultations</h4>
                             <p className="mont-font mont-regular font-18 light-dim-gray-color mb-3">Telehealth Visits, In-office Visits, Sick Visits, Well Visits, Routine Procedures, Emotional Health</p>
                             <a className="primary-text-color mont-font mont-bold" href="#">Read More</a>
                         </div>
-                        <div className="value-box rounded-xl shadow-xl overflow-hidden px-9 py-12 bg-white">
+                        <div className="value-box rounded-xl relative shadow-xl overflow-hidden px-9 py-12 bg-white">
+                            <span className="vector absolute top-0 right-0"><img src="/images/cloud-vector.png" alt="" title=""/></span>
                             <h4 className="hepta-semibold font-24 text-gray-dim mb-4">Evaluations + <br/>Assessments</h4>
                             <p className="mont-font mont-regular font-18 light-dim-gray-color mb-3">Lab Results, Diagnostics Review, Treatment Plans</p>
                             <a className="primary-text-color mont-font mont-bold" href="#">Read More</a>
                         </div>
-                        <div className="value-box rounded-xl shadow-xl overflow-hidden px-9 py-12 bg-white">
+                        <div className="value-box rounded-xl relative shadow-xl overflow-hidden px-9 py-12 bg-white">
+                            <span className="vector absolute top-0 right-0"><img src="/images/cloud-vector.png" alt="" title=""/></span>
                             <h4 className="hepta-semibold font-24 text-gray-dim mb-4">Medication + <br/>Prescriptions</h4>
                             <p className="mont-font mont-regular font-18 light-dim-gray-color mb-3">New, Renewals, Symptom Specific, Medicine Management</p>
                             <a className="primary-text-color mont-font mont-bold" href="#">Read More</a>
@@ -42,7 +46,7 @@ function TestComponent() {
 
                 {/* What our patients say */}
 
-                <div className="our-patient-wrapper text-center mt-20">
+                <div className="our-patient-wrapper text-center mt-40 mb-40">
                     <div className="patient-wrapper-title">
                         <h4 className="uppercase font-18 mb-6 primary-text-color">What Our Patients Say</h4>
                     </div>
@@ -67,7 +71,8 @@ function TestComponent() {
                 </div>
 
 
-                <div className="health-care-way mt-20">
+                <div className="health-care-way relative mt-90">
+                    <span className="absolute left-0 top-0"><img src="images/health-care-bg.png" alt="" title=""/></span>
                     <div className="flex justify-end">
                         <div class="health-care-content">
                             <h3 className="font-72 hepta-semibold mb-5 question-title-color leading-tight">Healthcare <br/>Her Way.</h3>
@@ -89,7 +94,7 @@ function TestComponent() {
 
                     {/* Mission Vision wrapper */}
 
-                    <div className="flex justify-between">
+                    <div className="flex flex-wrap justify-between">
                         <div className="mission mv-box">
                             <div className="mission-img mv-img overflow-hidden rounded-md shadow"></div>
                             <div className="mv-content relative px-10 py-6 bg-white overflow-hidden rounded-lg shadow-lg">
@@ -115,8 +120,8 @@ function TestComponent() {
                 <div className="box-white bg-white rounded-2xl shadow-md mt-40 overflow-hidden mb-24">
                     <div className="get-consult grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1">
                         <div className="p-10 get-consult-form">
-                            <img src="/images/get-consult-logo.png" alt="" title=""/>
-                            <h3 className="mont-font mont-extra-light font-40 mb-2 light-gray-dim">Get a Consultation</h3>
+                            <img src="images/get-consult-logo.png" alt="" title=""/>
+                            <h3 className="mont-font mont-extra-light font-40 mb-2 light-gray-dim mt-4">Get a Consultation</h3>
                             <p className="mont-font mont-regular font-20 mb-10 light-gray-dim">Fill in your information to take the first step in joining the Verbena platform.</p>
                             <div className="form-input">
                                 <div className="flex mb-4">
@@ -171,7 +176,7 @@ function TestComponent() {
                     <div className="our-blog-grid">
                         <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-4">
                             <div className="overflow-hidden rounded-lg shadow-sm relative">
-                                <span className="blog-category bg-black opacity-50 absolute top-3 left-3 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">Category 1</span>
+                                <span className="blog-category bg-black opacity-50 absolute top-6 left-5 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">Category 1</span>
 
                                 <div className="blog-image-wrapper"></div>
                                 <div className="blog-heading px-6 py-4 bg-white">
@@ -179,7 +184,7 @@ function TestComponent() {
                                 </div>
                             </div>
                             <div className="overflow-hidden rounded-lg shadow-sm relative">
-                                <span className="blog-category bg-black opacity-50 absolute top-3 left-3 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">Category 1</span>
+                                <span className="blog-category bg-black opacity-50 absolute top-6 left-5 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">Category 1</span>
 
                                 <div className="blog-image-wrapper"></div>
                                 <div className="blog-heading px-6 py-4 bg-white">
@@ -187,7 +192,7 @@ function TestComponent() {
                                 </div>
                             </div>
                             <div className="overflow-hidden rounded-lg shadow-sm relative">
-                                <span className="blog-category bg-black opacity-50 absolute top-3 left-3 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">Category 1</span>
+                                <span className="blog-category bg-black opacity-50 absolute top-6 left-5 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">Category 1</span>
 
                                 <div className="blog-image-wrapper"></div>
                                 <div className="blog-heading px-6 py-4 bg-white">
