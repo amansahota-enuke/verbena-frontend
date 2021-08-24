@@ -4,10 +4,217 @@ function TestComponent() {
     return (
         <div>
 
+                {/* About Us Section */}
+                <div className="about-us-wrapper mt-40 mb-40">
+                    <div className=" grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 gap-6 items-center">
+                        <div className="about-us-img">
+                            <img src="images/about-us-img.png" alt="" title=""/>
+                        </div>
+                        <div className="about-us-content">
+                            <h2 className="font-72 question-title-color mb-4 hepta-semibold">About Us.</h2>
+                            <p className="font-20 mont-font mont-regular text-gray-dim mb-4">We are a comprehensive women’s health platform offering digital care and telemedicine services to patients, together with their personal doctor—anywhere, anytime.</p>
+                            <button type="submit" class="btn-login calibre-bold font-18 uppercase primary-bg-color text-white mr-3">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* who we are */}
+
+                <div className="who-we-are-wrapper">
+                    <div className="who-we-are-title text-center">
+                        <h5 className="uppercase question-title-color font-18 hepta-semibold mb-4">WHO WE ARE</h5>
+                        <h2 className="font-56 text-gray-dim mb-4 hepta-semibold">Meet Our Founders</h2>
+                    </div>
+
+                    <div className="who-we-are-grid mt-10">
+                        <div className="grid xl:grid-col-2 lg:grid-cols-2 md:grid-col-1 sm:grid-cols-1 grid-cols-1 gap-6">
+                            <div className="bg-white rounded-xl overflow-hidden shadow-xl p-10">
+                                <div className="flex items-center mb-4">
+                                    <div className="founder-img mr-4"></div>
+                                    <div className="founder-name">
+                                        <h4 className="font-28 hepta-semibold mb-0 question-title-color">Dr. Karen Patrusky</h4>
+                                    </div>
+                                </div>
+                                <p className="font-18 mont-font mont-regular">Dr. Karen Patrusky is a board certified obstetrician and gynecologist. A graduate of Tufts University, Patrusky went on to receive her medical degree from The Mount Sinai School of Medicine where she also completed her residency in Obstetrics and Gynecology. For over 20 years, she has been in private practice taking care of women of all ages.</p>
+                            </div>
+                            <div className="bg-white rounded-xl overflow-hidden shadow-xl p-10">
+                                <div className="flex items-center mb-4">
+                                    <div className="founder-img mr-4"></div>
+                                    <div className="founder-name">
+                                        <h4 className="font-28 hepta-semibold mb-0 question-title-color">Heidi Edelstein</h4>
+                                    </div>
+                                </div>
+                                <p className="font-18 mont-font mont-regular">Heidi Edelstein is an accomplished Marketing Executive with more than 25 years of integrated marketing experience.  A graduate of Tulane University, she has worked for leading women’s lifestyle brands and is recognized as both a strategic and creative industry leader.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                {/* Our Story Section */}
+
+                <div className="our-story- mt-40">
+                    <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 gap-10">
+                        <div>
+                            <h5 className="font-18 question-title-color mb-6 uppercase hepta-semibold">where we started</h5>
+                            <h2 className="text-gray-dim font-56 hepta-semibold mb-6">Our Story</h2>
+                            <p className="mont-font mont-regular font-20 text-gray-dim">After 20 years, Dr. Patrusky thought there must be a better and more convenient way to serve her patients. Rather than lengthy in-person visits and crowded waiting rooms, she envisioned a new way for patients to connect with their doctors, a way that would maintain the personal patient-doctor relationship while seamlessly fitting into their busy schedules. </p>
+                        </div>
+                        <div>
+                            <div className="our-story-img">
+                                <img src="images/our-story-right.png" alt="" title=""/>
+                            </div>
+                        </div>
+
+
+                        <div>
+                            <div className="our-story-img">
+                                <img src="images/our-story-left.png" alt="" title=""/>
+                            </div>
+                        </div>
+                        <div>
+                            <p className="mont-font mont-regular font-20 text-gray-dim">At the same time, the world was hit with COVID-19 and her original idea was actually forced to become a reality. Dr. Patrusky spent a year navigating the many challenges associated with the pandemic including but not limited to providing easy remote access and quality medical care to her patients. The realization that alternative digital services could supplement traditional patient care practices is what inspired her to move forward with her vision. With Heidi Edelstein’s decades of experience in branding & marketing, the two launched Verbena as a premiere women’s digital healthcare platform, designed to care for her health, with her doctor, on her time.</p>
+                        </div>
+                        
+
+                    </div>
+                </div>
+
+
+                {/* What we stand for section */}
+
+                <div className="what-we-stand-wrapper mt-40 mb-40">
+                    <div className="what-we-stand-title text-center">
+                        <h3 className="font-18 question-title-color mb-4 uppercase">What we stand for</h3>
+                        <h2 className="font-28 hepta-semibold text-gray-dim leading-snug">“We started Verbena because we wanted to transform the way women engage and interact with their personal physician in a safe, accessible and convenient way. We wanted to create a seamless, modern, fully integrated solution that empowers women to take charge of their sexual health—from menstruation to menopause—in partnership with their trusted physician. Verbena is healthcare her way. Verbena is healthcare your way.”</h2>
+                    </div>
+                </div>
+
+
+
+
+
+                {/* Verbena Services Home Page Section */}
+
+                <div className="health-care-explore relative mt-40 mb-64">
+                    {/* <span className="absolute right-0 top-0"><img src="images/service-home-bg.png" alt="" title=""/></span> */}
+                    <div className="flex justify-start">
+                        <div class="health-explore-content">
+                            <h3 className="font-72 hepta-semibold mb-5 question-title-color leading-tight">How Can <br/>We Help You?</h3>
+                            <p className="mont-font mont-regular font-20 mb-5">We offer a range of services to best address your<br/> healthcare needs.</p>
+                            <button type="submit" class="btn-login calibre-bold font-18 uppercase primary-bg-color text-white mr-3">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="what-we-do">
+                    <div className="what-we-do-wrapper text-center">
+                        <h5 className="font-18 question-title-color uppercase mb-4 hepta-semibold">what we do</h5>
+                        <h5 className="font-56 text-gray-dim mb-4 hepta-semibold">The Care You Need, When You Need It</h5>
+                        <p className="mont-font mont-regular font-20 text-gray-dim m-auto mxw-780">Timely digital access and telehealth visits with your personal doctor that is HIPPA compliant and securely stored on our servers.</p>
+                    </div>
+                </div>
+
+
+                {/* Services page Second Section */}
+
+                <section className="what-we-do-grid mt-24">
+                    <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-6">
+                        <div className="bg-white relative overflow-hidden rounded-lg shadow-xl pl-6 pr-6 pb-6 pt-24">
+                            <span className="absolute left-0 top-0"><img src="images/cloud-vector-left.png" alt="" title=""/></span>
+                            <h4 className="font-24 hepta-semibold light-green-color text-right">Consultations +<br/>Treatments</h4>
+                        </div>
+                        <div className="bg-white relative overflow-hidden rounded-lg shadow-xl pl-6 pr-6 pb-6 pt-24">
+                            <span className="absolute left-0 top-0"><img src="images/cloud-vector-left.png" alt="" title=""/></span>
+                            <h4 className="font-24 hepta-semibold light-green-color text-right">Prescription <br/>Renewal  </h4>
+                        </div>
+                        <div className="bg-white relative overflow-hidden rounded-lg shadow-xl pl-6 pr-6 pb-6 pt-24">
+                            <span className="absolute left-0 top-0"><img src="images/cloud-vector-left.png" alt="" title=""/></span>
+                            <h4 className="font-24 hepta-semibold light-green-color text-right">Telehealth <br/>Medicine</h4>
+                        </div>
+                        <div className="bg-white relative overflow-hidden rounded-lg shadow-xl pl-6 pr-6 pb-6 pt-24">
+                            <span className="absolute left-0 top-0"><img src="images/cloud-vector-left.png" alt="" title=""/></span>
+                            <h4 className="font-24 hepta-semibold light-green-color text-right">Laboratory <br/>Testing </h4>
+                        </div>
+                        <div className="bg-white relative overflow-hidden rounded-lg shadow-xl pl-6 pr-6 pb-6 pt-24">
+                            <span className="absolute left-0 top-0"><img src="images/cloud-vector-left.png" alt="" title=""/></span>
+                            <h4 className="font-24 hepta-semibold light-green-color text-right">Health +<br/>Wellness Education</h4>
+                        </div>
+                        <div className="bg-white relative overflow-hidden rounded-lg shadow-xl pl-6 pr-6 pb-6 pt-24">
+                            <span className="absolute left-0 top-0"><img src="images/cloud-vector-left.png" alt="" title=""/></span>
+                            <h4 className="font-24 hepta-semibold light-green-color text-right">Evaluations +<br/>Assessments</h4>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                {/* for woman's Needs at Every  Stage */}
+
+                <div className="woman-stage-wrapper mt-64 mb-32">
+                    <div className="woman-need-flex">
+                        <div className="woman-need-content">
+                            <h3 className="mb-10 font-20 text-gray-dim uppercase question-title-color">what we offer</h3>
+                            <h2 className="font-56 text-gray-dim mb-5 hepta-semibold leading-tight">For a Woman’s Needs at <br/> Every Stage</h2>
+                            <p className="mont-font mont-regular font-20 text-gray-dim mxw-530 mb-20">Created with her care in mind, Verbena celebrates the unique health needs throughout her lifetime.</p>
+                            <button type="submit" class="btn-login calibre-bold font-18 uppercase primary-bg-color text-white mr-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* women need boxes health */}
+
+                <div className="woman-need-grid">
+                    <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-6">
+                        <div className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
+                            <span className="absolute top-0 right-0"><img src="images/cloud-vector.png" title="" alt=""/></span>
+                            <h3 className="font-24 hepta-semibold question-title-color mb-2">Adolescent + Young Adult Health</h3>
+                            <p className="font-18 mont-font mont-regular text-gray-dim">Birth Control, STI Testing, UTI Treatment <br/> Vaginal Infection, Menstrual Issues</p>
+                        </div>
+                        <div className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
+                            <span className="absolute top-0 right-0"><img src="images/cloud-vector.png" title="" alt=""/></span>
+                            <h3 className="font-24 hepta-semibold question-title-color mb-2">Reproductive Health</h3>
+                            <p className="font-18 mont-font mont-regular text-gray-dim">Contraception, Unintended Pregnancy, Morning After Pill, Fertility Concerns, Preconception Counseling</p>
+                        </div>
+                        <div className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
+                            <span className="absolute top-0 right-0"><img src="images/cloud-vector.png" title="" alt=""/></span>
+                            <h3 className="font-24 hepta-semibold question-title-color mb-2">Obstetrics + Post-Partum Care</h3>
+                            <p className="font-18 mont-font mont-regular text-gray-dim">Post-Delivery Check Up, Breast Feeding Concerns Post-Partum Contraception, Post Partum Mood Changes</p>
+                        </div>
+                        <div className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
+                            <span className="absolute top-0 right-0"><img src="images/cloud-vector.png" title="" alt=""/></span>
+                            <h3 className="font-24 hepta-semibold question-title-color mb-2">Sexual Health</h3>
+                            <p className="font-18 mont-font mont-regular text-gray-dim">UTI Treatment, Vaginal Irritation, STI Concerns Libido, Painful Sex</p>
+                        </div>
+                        <div className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
+                            <span className="absolute top-0 right-0"><img src="images/cloud-vector.png" title="" alt=""/></span>
+                            <h3 className="font-24 hepta-semibold question-title-color mb-2">Peri + Menopausal Health</h3>
+                            <p className="font-18 mont-font mont-regular text-gray-dim">Hot Flashes, Mood + Sleep Disruption, Sexual Dysfunction Hormone Concerns, Bone Health</p>
+                        </div>
+                        <div className="pl-10 pr-10 pt-28 pb-28">
+                            <h3 className="font-24 hepta-semibold question-title-color mb-2">Is there something we didn’t mention that we can help you with?</h3>
+                            <button type="submit" class="btn-login calibre-bold font-18 uppercase primary-bg-color text-white mr-3">Reach Out</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* What we stand for section */}
+
+                <div className="what-we-stand-wrapper mt-40 mb-40">
+                    <div className="what-we-stand-title text-center">
+                        <h3 className="font-18 question-title-color mb-4 uppercase">What we stand for</h3>
+                        <h2 className="font-44 leading-tight hepta-semibold text-gray-dim">We believe patients deserve access to quality, personalized care no matter where they are.</h2>
+                    </div>
+                </div>
+
+
                 {/* Home page Section */}
 
                 <div className="health-care-explore relative mt-40">
-                <span className="absolute right-0 top-0"><img src="images/explore-bg.png" alt="" title=""/></span>
+                {/* <span className="absolute right-0 top-0"><img src="images/explore-bg.png" alt="" title=""/></span> */}
                     <div className="flex justify-start">
                         <div class="health-explore-content">
                             <h3 className="font-72 hepta-semibold mb-5 question-title-color leading-tight">Your Doctor. <br/>Your Care. <br/>Your Time.</h3>
@@ -18,24 +225,25 @@ function TestComponent() {
                 </div>
 
 
+
                 {/* Our Values */}
 
                 <div className="our-values-wrapper mt-40 mb-20">
                     <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-6">
                         <div className="value-box rounded-xl relative shadow-xl overflow-hidden px-9 py-12 bg-white">
-                            <span className="vector absolute top-0 right-0"><img src="/images/cloud-vector.png" alt="" title=""/></span>
+                            <span className="vector absolute top-3 right-0"><img src="/images/value-box-ico-1.png" alt="" title=""/></span>
                             <h4 className="hepta-semibold font-24 text-gray-dim mb-4">Care + <br/>Consultations</h4>
                             <p className="mont-font mont-regular font-18 light-dim-gray-color mb-3">Telehealth Visits, In-office Visits, Sick Visits, Well Visits, Routine Procedures, Emotional Health</p>
                             <a className="primary-text-color mont-font mont-bold" href="#">Read More</a>
                         </div>
                         <div className="value-box rounded-xl relative shadow-xl overflow-hidden px-9 py-12 bg-white">
-                            <span className="vector absolute top-0 right-0"><img src="/images/cloud-vector.png" alt="" title=""/></span>
+                            <span className="vector absolute top-3 right-0"><img src="/images/value-box-ico-2.png" alt="" title=""/></span>
                             <h4 className="hepta-semibold font-24 text-gray-dim mb-4">Evaluations + <br/>Assessments</h4>
                             <p className="mont-font mont-regular font-18 light-dim-gray-color mb-3">Lab Results, Diagnostics Review, Treatment Plans</p>
                             <a className="primary-text-color mont-font mont-bold" href="#">Read More</a>
                         </div>
                         <div className="value-box rounded-xl relative shadow-xl overflow-hidden px-9 py-12 bg-white">
-                            <span className="vector absolute top-0 right-0"><img src="/images/cloud-vector.png" alt="" title=""/></span>
+                            <span className="vector absolute top-3 right-0"><img src="/images/value-box-ico-3.png" alt="" title=""/></span>
                             <h4 className="hepta-semibold font-24 text-gray-dim mb-4">Medication + <br/>Prescriptions</h4>
                             <p className="mont-font mont-regular font-18 light-dim-gray-color mb-3">New, Renewals, Symptom Specific, Medicine Management</p>
                             <a className="primary-text-color mont-font mont-bold" href="#">Read More</a>

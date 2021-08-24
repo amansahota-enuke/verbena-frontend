@@ -471,7 +471,6 @@ input,label,span,p,li,ul
   color: #626262;
 }
 
-
 .light-gray-dim
 {
   color: #333;
@@ -480,6 +479,11 @@ input,label,span,p,li,ul
 .light-dim-gray-color
 {
   color: #454545;
+}
+
+.light-green-color
+{
+  color: #009A95;
 }
 
 .success
@@ -1138,6 +1142,7 @@ video {
   border-radius: 8px;
   background-repeat: no-repeat;
   background-position: center;
+  background-image: url('./images/user-img.png');
 }
 
 .health-care-content,
@@ -1165,4 +1170,31 @@ video {
 @media(max-width:1534px)
 {
   .mv-content{margin-left: 0;}
+}
+
+
+/* 24 Aug 2021 Css */
+
+.mxw-780
+{
+  max-width: 780px;
+}
+
+.mxw-530
+{
+  max-width: 530px;
+}
+
+@media(max-width:990px)
+{
+  .mxw-780{max-width: 100%;}
+  .mxw-530{max-width: 100%;}
+}
+
+.founder-img
+{
+  height: 150px;
+  width:150px;
+  border-radius: 100%;
+  background: #009B96;
 }
