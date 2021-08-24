@@ -8,7 +8,7 @@ function TestComponent() {
                 <div className="about-us-wrapper mt-40 mb-40">
                     <div className=" grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 gap-6 items-center">
                         <div className="about-us-img">
-                            <img src="images/about-us-img.png" alt="" title=""/>
+                            <img src="/images/about-us-img.png" alt="" title=""/>
                         </div>
                         <div className="about-us-content">
                             <h2 className="font-72 question-title-color mb-4 hepta-semibold">About Us.</h2>
@@ -63,14 +63,14 @@ function TestComponent() {
                         </div>
                         <div>
                             <div className="our-story-img">
-                                <img src="images/our-story-right.png" alt="" title=""/>
+                                <img src="/images/our-story-right.png" alt="" title=""/>
                             </div>
                         </div>
 
 
                         <div>
                             <div className="our-story-img">
-                                <img src="images/our-story-left.png" alt="" title=""/>
+                                <img src="/images/our-story-left.png" alt="" title=""/>
                             </div>
                         </div>
                         <div>
@@ -98,7 +98,7 @@ function TestComponent() {
                 {/* Verbena Services Home Page Section */}
 
                 <div className="health-care-explore relative mt-40 mb-64">
-                    {/* <span className="absolute right-0 top-0"><img src="images/service-home-bg.png" alt="" title=""/></span> */}
+                    {/* <span className="absolute right-0 top-0"><img src="/images/service-home-bg.png" alt="" title=""/></span> */}
                     <div className="flex justify-start">
                         <div class="health-explore-content">
                             <h3 className="font-72 hepta-semibold mb-5 question-title-color leading-tight">How Can <br/>We Help You?</h3>
@@ -122,27 +122,27 @@ function TestComponent() {
                 <section className="what-we-do-grid mt-24">
                     <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-6">
                         <div className="bg-white relative overflow-hidden rounded-lg shadow-xl pl-6 pr-6 pb-6 pt-24">
-                            <span className="absolute left-0 top-0"><img src="images/cloud-vector-left.png" alt="" title=""/></span>
+                            <span className="absolute left-0 top-0"><img src="/images/cloud-vector-left.png" alt="" title=""/></span>
                             <h4 className="font-24 hepta-semibold light-green-color text-right">Consultations +<br/>Treatments</h4>
                         </div>
                         <div className="bg-white relative overflow-hidden rounded-lg shadow-xl pl-6 pr-6 pb-6 pt-24">
-                            <span className="absolute left-0 top-0"><img src="images/cloud-vector-left.png" alt="" title=""/></span>
+                            <span className="absolute left-0 top-0"><img src="/images/cloud-vector-left.png" alt="" title=""/></span>
                             <h4 className="font-24 hepta-semibold light-green-color text-right">Prescription <br/>Renewal  </h4>
                         </div>
                         <div className="bg-white relative overflow-hidden rounded-lg shadow-xl pl-6 pr-6 pb-6 pt-24">
-                            <span className="absolute left-0 top-0"><img src="images/cloud-vector-left.png" alt="" title=""/></span>
+                            <span className="absolute left-0 top-0"><img src="/images/cloud-vector-left.png" alt="" title=""/></span>
                             <h4 className="font-24 hepta-semibold light-green-color text-right">Telehealth <br/>Medicine</h4>
                         </div>
                         <div className="bg-white relative overflow-hidden rounded-lg shadow-xl pl-6 pr-6 pb-6 pt-24">
-                            <span className="absolute left-0 top-0"><img src="images/cloud-vector-left.png" alt="" title=""/></span>
+                            <span className="absolute left-0 top-0"><img src="/images/cloud-vector-left.png" alt="" title=""/></span>
                             <h4 className="font-24 hepta-semibold light-green-color text-right">Laboratory <br/>Testing </h4>
                         </div>
                         <div className="bg-white relative overflow-hidden rounded-lg shadow-xl pl-6 pr-6 pb-6 pt-24">
-                            <span className="absolute left-0 top-0"><img src="images/cloud-vector-left.png" alt="" title=""/></span>
+                            <span className="absolute left-0 top-0"><img src="/images/cloud-vector-left.png" alt="" title=""/></span>
                             <h4 className="font-24 hepta-semibold light-green-color text-right">Health +<br/>Wellness Education</h4>
                         </div>
                         <div className="bg-white relative overflow-hidden rounded-lg shadow-xl pl-6 pr-6 pb-6 pt-24">
-                            <span className="absolute left-0 top-0"><img src="images/cloud-vector-left.png" alt="" title=""/></span>
+                            <span className="absolute left-0 top-0"><img src="/images/cloud-vector-left.png" alt="" title=""/></span>
                             <h4 className="font-24 hepta-semibold light-green-color text-right">Evaluations +<br/>Assessments</h4>
                         </div>
                     </div>
@@ -169,27 +169,27 @@ function TestComponent() {
                 <div className="woman-need-grid">
                     <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-6">
                         <div className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
-                            <span className="absolute top-0 right-0"><img src="images/cloud-vector.png" title="" alt=""/></span>
+                            <span className="absolute top-0 right-0"><img src="/images/cloud-vector.png" title="" alt=""/></span>
                             <h3 className="font-24 hepta-semibold question-title-color mb-2">Adolescent + Young Adult Health</h3>
                             <p className="font-18 mont-font mont-regular text-gray-dim">Birth Control, STI Testing, UTI Treatment <br/> Vaginal Infection, Menstrual Issues</p>
                         </div>
                         <div className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
-                            <span className="absolute top-0 right-0"><img src="images/cloud-vector.png" title="" alt=""/></span>
+                            <span className="absolute top-0 right-0"><img src="/images/cloud-vector.png" title="" alt=""/></span>
                             <h3 className="font-24 hepta-semibold question-title-color mb-2">Reproductive Health</h3>
                             <p className="font-18 mont-font mont-regular text-gray-dim">Contraception, Unintended Pregnancy, Morning After Pill, Fertility Concerns, Preconception Counseling</p>
                         </div>
                         <div className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
-                            <span className="absolute top-0 right-0"><img src="images/cloud-vector.png" title="" alt=""/></span>
+                            <span className="absolute top-0 right-0"><img src="/images/cloud-vector.png" title="" alt=""/></span>
                             <h3 className="font-24 hepta-semibold question-title-color mb-2">Obstetrics + Post-Partum Care</h3>
                             <p className="font-18 mont-font mont-regular text-gray-dim">Post-Delivery Check Up, Breast Feeding Concerns Post-Partum Contraception, Post Partum Mood Changes</p>
                         </div>
                         <div className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
-                            <span className="absolute top-0 right-0"><img src="images/cloud-vector.png" title="" alt=""/></span>
+                            <span className="absolute top-0 right-0"><img src="/images/cloud-vector.png" title="" alt=""/></span>
                             <h3 className="font-24 hepta-semibold question-title-color mb-2">Sexual Health</h3>
                             <p className="font-18 mont-font mont-regular text-gray-dim">UTI Treatment, Vaginal Irritation, STI Concerns Libido, Painful Sex</p>
                         </div>
                         <div className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
-                            <span className="absolute top-0 right-0"><img src="images/cloud-vector.png" title="" alt=""/></span>
+                            <span className="absolute top-0 right-0"><img src="/images/cloud-vector.png" title="" alt=""/></span>
                             <h3 className="font-24 hepta-semibold question-title-color mb-2">Peri + Menopausal Health</h3>
                             <p className="font-18 mont-font mont-regular text-gray-dim">Hot Flashes, Mood + Sleep Disruption, Sexual Dysfunction Hormone Concerns, Bone Health</p>
                         </div>
@@ -214,7 +214,7 @@ function TestComponent() {
                 {/* Home page Section */}
 
                 <div className="health-care-explore relative mt-40">
-                {/* <span className="absolute right-0 top-0"><img src="images/explore-bg.png" alt="" title=""/></span> */}
+                {/* <span className="absolute right-0 top-0"><img src="/images/explore-bg.png" alt="" title=""/></span> */}
                     <div className="flex justify-start">
                         <div class="health-explore-content">
                             <h3 className="font-72 hepta-semibold mb-5 question-title-color leading-tight">Your Doctor. <br/>Your Care. <br/>Your Time.</h3>
@@ -280,7 +280,7 @@ function TestComponent() {
 
 
                 <div className="health-care-way relative mt-90">
-                    <span className="absolute left-0 top-0"><img src="images/health-care-bg.png" alt="" title=""/></span>
+                    <span className="absolute left-0 top-0"><img src="/images/health-care-bg.png" alt="" title=""/></span>
                     <div className="flex justify-end">
                         <div class="health-care-content">
                             <h3 className="font-72 hepta-semibold mb-5 question-title-color leading-tight">Healthcare <br/>Her Way.</h3>
@@ -328,7 +328,7 @@ function TestComponent() {
                 <div className="box-white bg-white rounded-2xl shadow-md mt-40 overflow-hidden mb-24">
                     <div className="get-consult grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1">
                         <div className="p-10 get-consult-form">
-                            <img src="images/get-consult-logo.png" alt="" title=""/>
+                            <img src="/images/get-consult-logo.png" alt="" title=""/>
                             <h3 className="mont-font mont-extra-light font-40 mb-2 light-gray-dim mt-4">Get a Consultation</h3>
                             <p className="mont-font mont-regular font-20 mb-10 light-gray-dim">Fill in your information to take the first step in joining the Verbena platform.</p>
                             <div className="form-input">

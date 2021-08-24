@@ -8,7 +8,7 @@ const Footer =()=>{
                     <div className="grid grid-flow-row xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 mb-12">
                         <div className="footer-detail-logo xl:mb-0 lg:mb-0 md-mb-4 sm:mb-4 mb-8">
                             <div className="verbena-footer-logo mb-4">
-                                <img src="images/blog-footer-logo.png" alt="" title=""/>
+                                <img src="/images/blog-footer-logo.png" alt="" title=""/>
                             </div>
                             <div className="blog-footer-social-links">
                                 <div className="grid xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-6 sm:grid-cols-6 grid-cols-4 gap-2">
@@ -56,7 +56,7 @@ const Footer =()=>{
                         <div className="flex items-center xl:flex-nowrap lg:flex-wrap md:flex-wrap sm:flex-wrap flex-wrap justify-between mt-4">
                             <div className="flex items-center xl:flex-nowrap lg:flex-wrap md:flex-wrap sm:flex-wrap flex-wrap">
                                 <div>
-                                    <img src="images/hipaa.png" alt="" title=""/>
+                                    <img src="/images/hipaa.png" alt="" title=""/>
                                 </div>
                                 <div>
                                     <p className="mont-font mont-regular text-white opacity-50 font-16">Copyright © 2021. All Rights Reserved.</p>
