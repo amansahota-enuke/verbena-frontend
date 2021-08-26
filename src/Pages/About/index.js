@@ -1,15 +1,15 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import { Test } from "../../Components";
+import { About } from "../../Components";
 
-const TestPage = (props) => {
+const AboutPage = (props) => {
     return (
         <>
             <Switch>
-                <Route path={props.match.path} component={Test} />
+                <Route path={props.match.path} component={About} />
             </Switch>
         </>
     );
 };
 
-export default TestPage;
+export default AboutPage;
