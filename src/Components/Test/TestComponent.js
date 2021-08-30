@@ -98,7 +98,7 @@ function TestComponent() {
                 {/* Verbena Services Home Page Section */}
 
                 <div className="health-care-explore relative mt-40 mb-64">
-                    {/* <span className="absolute right-0 top-0"><img src="/images/service-home-bg.png" alt="" title=""/></span> */}
+                    <span className="absolute right-0 top-0"><img src="/images/service-home-bg.png" alt="" title=""/></span>
                     <div className="flex justify-start">
                         <div class="health-explore-content">
                             <h3 className="font-72 hepta-semibold mb-5 question-title-color leading-tight">How Can <br/>We Help You?</h3>
@@ -214,7 +214,7 @@ function TestComponent() {
                 {/* Home page Section */}
 
                 <div className="health-care-explore relative mt-40">
-                {/* <span className="absolute right-0 top-0"><img src="/images/explore-bg.png" alt="" title=""/></span> */}
+                <span className="absolute right-0 top-0"><img src="/images/explore-bg.png" alt="" title=""/></span>
                     <div className="flex justify-start">
                         <div class="health-explore-content">
                             <h3 className="font-72 hepta-semibold mb-5 question-title-color leading-tight">Your Doctor. <br/>Your Care. <br/>Your Time.</h3>
@@ -346,7 +346,7 @@ function TestComponent() {
                                 <h5 className="uppercase hepta-semibold question-title-color mb-10 mt-16">have a question? Let us know.</h5>
                                 <div className="flex mb-10">
                                     <div class="mr-4">
-                                        <span className="msg-ico"></span>
+                                        <span className="msg-ico"><img src="/images/mail-ico.png" alt="" title=""/></span>
                                     </div>
                                     <div>
                                         <h4 className="mont-font font-20 mont-bold">info@verbenacare.com</h4>
