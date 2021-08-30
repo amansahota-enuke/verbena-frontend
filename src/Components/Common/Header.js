@@ -32,7 +32,7 @@ const Header = ({ handleToggle }) => {
                             </span>
                         </div>
 
-                        <Dropdown />
+                        {/* <Dropdown /> */}
                     </div>
                 </div>
             </div>

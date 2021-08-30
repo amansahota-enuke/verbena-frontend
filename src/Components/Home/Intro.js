@@ -2,10 +2,10 @@ import React from "react";
 
 function Intro() {
     return (
-        <div className="health-care-explore relative mt-40">
+        <div className="health-care-explore">
             <span className="absolute right-0 top-0"><img src="/images/explore-bg.png" alt="" title=""/></span>
             <div className="flex justify-start">
-                <div className="health-explore-content">
+                <div className="health-explore-content mt-40">
                     <h3 className="font-72 hepta-semibold mb-5 question-title-color leading-tight">
                         Your Doctor. <br />
                         Your Care. <br />
