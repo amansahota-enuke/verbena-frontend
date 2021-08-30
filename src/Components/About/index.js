@@ -7,14 +7,30 @@ import Stand from "./Stand";
 
 function About() {
     return (
-        <BoxedWidthContainer>
-            <AboutUsSection />
-            <Founders />
-            <Story />
-            <Stand />
-            <Consultation />
-            <Blog />
-        </BoxedWidthContainer>
+        <>
+            <section>
+                <BoxedWidthContainer>
+                    <AboutUsSection />
+                </BoxedWidthContainer>
+            </section>
+            <section>
+                <BoxedWidthContainer>
+                    <Founders />
+                    <Story />
+                </BoxedWidthContainer>
+            </section>
+            <section>
+                <BoxedWidthContainer>
+                    <Stand />
+                </BoxedWidthContainer>
+            </section>
+            <section>
+                <BoxedWidthContainer>
+                    <Consultation />
+                    <Blog />
+                </BoxedWidthContainer>
+            </section>
+        </>
     );
 }
 
