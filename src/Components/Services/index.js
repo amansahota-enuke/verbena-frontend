@@ -9,16 +9,32 @@ import Task from "./Task";
 
 function Services() {
     return (
-        <BoxedWidthContainer>
-            <Help />
-            <Task />
-            <Cards />
-            <Need />
-            <Health />
-            <Represent />
-            <Consultation />
-            <Blog />
-        </BoxedWidthContainer>
+        <>
+            <section>
+                <BoxedWidthContainer>
+                    <Help />
+                </BoxedWidthContainer>
+            </section>
+            <section>
+                <BoxedWidthContainer>
+                    <Task />
+                    <Cards />
+                    <Need />
+                    <Health />
+                </BoxedWidthContainer>
+            </section>
+            <section>
+                <BoxedWidthContainer>
+                    <Represent />
+                </BoxedWidthContainer>
+            </section>
+            <section>
+                <BoxedWidthContainer>
+                    <Consultation />
+                    <Blog />
+                </BoxedWidthContainer>
+            </section>
+        </>
     );
 }
 
