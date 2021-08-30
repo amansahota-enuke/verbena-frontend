@@ -2,8 +2,8 @@ import React from "react";
 
 function Consultation() {
     return (
-        <div className="box-white bg-white rounded-2xl shadow-md mt-40 overflow-hidden mb-24">
-            <div className="get-consult grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1">
+        <div data-aos="flip-right" data-aos-duration="2000" className="get-consult box-white bg-white rounded-2xl shadow-md mt-40 overflow-hidden mb-24">
+            <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1">
                 <div className="p-10 get-consult-form">
                     <img src="/images/get-consult-logo.png" alt="" title="" />
                     <h3 className="mont-font mont-extra-light font-40 mb-2 light-gray-dim mt-4">

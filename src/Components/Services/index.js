@@ -10,12 +10,12 @@ import Task from "./Task";
 function Services() {
     return (
         <>
-            <section>
+            <section className="bg-white pt-40 pb-300">
                 <BoxedWidthContainer>
                     <Help />
                 </BoxedWidthContainer>
             </section>
-            <section>
+            <section className="light-green-bg-color pt-40 pb-40">
                 <BoxedWidthContainer>
                     <Task />
                     <Cards />
@@ -23,12 +23,12 @@ function Services() {
                     <Health />
                 </BoxedWidthContainer>
             </section>
-            <section>
+            <section className="bg-white pt-20 pb-80">
                 <BoxedWidthContainer>
                     <Represent />
                 </BoxedWidthContainer>
             </section>
-            <section>
+            <section className="dark-green-bg-color pt-40 pb-40">
                 <BoxedWidthContainer>
                     <Consultation />
                     <Blog />

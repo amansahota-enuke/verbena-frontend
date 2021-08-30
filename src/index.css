@@ -508,6 +508,16 @@ input,label,span,p,li,ul
   background: #6bc8c4;
 }
 
+.light-green-bg-color
+{
+  background: #DBF1F0;
+}
+
+.dark-green-bg-color
+{
+  background: #59BDBA;
+}
+
 
 /* input color border-color */
 
@@ -780,32 +790,6 @@ ul#tabs li.active
   border-bottom-right-radius: 8px;
 }
 
-
-
-/* Media Css */
-
-@media(max-width:1024px)
-{
-  .create-account,.login-box,.ca-width{width:100%;}
-  h1{font-size: 32px;}
-  .main-panel{padding: 15px;}
-}
-
-@media(max-width:990px)
-{
-  .main-panel{margin-left: 0;}
-  .left-menu{left:-80px;}
-  .main-panel.expanded{margin-left: 0;}
-  .main-panel.expanded .left-menu{left: 0;}
-}
-
-
-@media(max-width:400px)
-{
-  h1{font-size: 20px;}
-  .font-18{font-size: 14px;}
-  .btn-login, .btn-create-account{padding: 10px 20px;}
-}
 
 .feedback.selected
 {
@@ -1161,10 +1145,10 @@ video {
   background-image: url('./images/vision-bg.png');
 }
 
-.health-care-way span
+/* .health-care-way span
 {
   top:-74%
-}
+} */
 
 
 @media(max-width:1534px)
@@ -1198,3 +1182,71 @@ video {
   border-radius: 100%;
   background: #009B96;
 }
+
+/* 30 Aug 2021 Css */
+
+.our-values-wrapper 
+{
+  margin-top: -320px;
+}
+
+.get-consult
+{
+  margin-top: -320px;
+}
+
+.health-care-way span img
+{
+  max-width: 100%;
+  width:100%;
+}
+
+.what-we-do 
+{
+  margin-top: -530px;
+}
+
+.pb-300
+{
+  padding-bottom: 50%;
+}
+
+
+
+/* Media Css */
+
+@media(max-width:1024px)
+{
+  .create-account,.login-box,.ca-width{width:100%;}
+  h1{font-size: 32px;}
+  .main-panel{padding: 15px;}
+}
+
+@media(max-width:990px)
+{
+  .main-panel{margin-left: 0;}
+  .left-menu{left:-80px;}
+  .main-panel.expanded{margin-left: 0;}
+  .main-panel.expanded .left-menu{left: 0;}
+  .what-we-do {margin-top: 0;}
+  .pb-300{padding-bottom: 20%;}
+  .font-56,.font-44{font-size: 32px;}
+  .font-40{font-size: 28px;}
+  .font-72{font-size: 54px;}
+  .health-care-explore span img,.about-us-img img{max-width: 100%;margin: 0 auto 30px;}
+}
+
+@media(max-width:768px)
+{
+  .founder-img{height: 90px;width: 90px;}
+  .font-28{font-size: 18px;}
+}
+
+
+@media(max-width:400px)
+{
+  h1{font-size: 20px;}
+  .font-18{font-size: 14px;}
+  .btn-login, .btn-create-account{padding: 10px 20px;}
+}
+

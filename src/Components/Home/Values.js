@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 function Values() {
     return (
-        <div className="our-values-wrapper mt-40 mb-20">
+        <div className="our-values-wrapper">
             <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-6">
-                <div className="value-box rounded-xl relative shadow-xl overflow-hidden px-9 py-12 bg-white">
+                <div data-aos="fade-up" data-aos-duration="2000" className="value-box rounded-xl relative shadow-xl overflow-hidden px-9 py-12 bg-white">
                     <span className="vector absolute top-3 right-0">
                         <img
                             src="/images/value-box-ico-1.png"
@@ -28,7 +28,7 @@ function Values() {
                         Read More
                     </Link>
                 </div>
-                <div className="value-box rounded-xl relative shadow-xl overflow-hidden px-9 py-12 bg-white">
+                <div data-aos="fade-up" data-aos-duration="2000" className="value-box rounded-xl relative shadow-xl overflow-hidden px-9 py-12 bg-white">
                     <span className="vector absolute top-3 right-0">
                         <img
                             src="/images/value-box-ico-2.png"
@@ -50,7 +50,7 @@ function Values() {
                         Read More
                     </Link>
                 </div>
-                <div className="value-box rounded-xl relative shadow-xl overflow-hidden px-9 py-12 bg-white">
+                <div data-aos="fade-up" data-aos-duration="2000" className="value-box rounded-xl relative shadow-xl overflow-hidden px-9 py-12 bg-white">
                     <span className="vector absolute top-3 right-0">
                         <img
                             src="/images/value-box-ico-3.png"

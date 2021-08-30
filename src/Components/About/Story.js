@@ -4,7 +4,16 @@ function Story() {
     return (
         <div className="our-story- mt-40">
             <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 gap-10">
-                <div>
+                <div data-aos="fade-left" data-aos-duration="4000" className="xl:hidden lg:hidden md:block sm:block block">
+                    <div className="our-story-img">
+                        <img
+                            src="/images/our-story-right.png"
+                            alt=""
+                            title=""
+                        />
+                    </div>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="4000">
                     <h5 className="font-18 question-title-color mb-6 uppercase hepta-semibold">
                         where we started
                     </h5>
@@ -21,7 +30,7 @@ function Story() {
                         fitting into their busy schedules.{" "}
                     </p>
                 </div>
-                <div>
+                <div data-aos="fade-left" data-aos-duration="4000" className="xl:block lg:block md:hidden sm:hidden hidden">
                     <div className="our-story-img">
                         <img
                             src="/images/our-story-right.png"
@@ -31,12 +40,12 @@ function Story() {
                     </div>
                 </div>
 
-                <div>
+                <div data-aos="fade-right" data-aos-duration="6000">
                     <div className="our-story-img">
                         <img src="/images/our-story-left.png" alt="" title="" />
                     </div>
                 </div>
-                <div>
+                <div data-aos="fade-left" data-aos-duration="6000">
                     <p className="mont-font mont-regular font-20 text-gray-dim">
                         At the same time, the world was hit with COVID-19 and
                         her original idea was actually forced to become a

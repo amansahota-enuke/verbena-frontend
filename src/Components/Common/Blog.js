@@ -15,7 +15,7 @@ function Blog() {
 
             <div className="our-blog-grid">
                 <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-4">
-                    <div className="overflow-hidden rounded-lg shadow-sm relative">
+                    <div data-aos="fade-down" data-aos-duration="1000" className="overflow-hidden rounded-lg shadow-sm relative">
                         <span className="blog-category bg-black opacity-50 absolute top-6 left-5 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">
                             Category 1
                         </span>
@@ -27,7 +27,7 @@ function Blog() {
                             </h4>
                         </div>
                     </div>
-                    <div className="overflow-hidden rounded-lg shadow-sm relative">
+                    <div data-aos="fade-down" data-aos-duration="2000" className="overflow-hidden rounded-lg shadow-sm relative">
                         <span className="blog-category bg-black opacity-50 absolute top-6 left-5 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">
                             Category 1
                         </span>
@@ -40,7 +40,7 @@ function Blog() {
                             </h4>
                         </div>
                     </div>
-                    <div className="overflow-hidden rounded-lg shadow-sm relative">
+                    <div data-aos="fade-down" data-aos-duration="3000" className="overflow-hidden rounded-lg shadow-sm relative">
                         <span className="blog-category bg-black opacity-50 absolute top-6 left-5 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">
                             Category 1
                         </span>

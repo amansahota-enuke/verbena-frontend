@@ -2,8 +2,8 @@ import React from "react";
 
 function Help() {
     return (
-        <div className="health-care-explore relative mt-40 mb-64">
-            <span className="absolute right-0 top-0"><img src="/images/service-home-bg.png" alt="" title=""/></span>
+        <div className="health-care-explore">
+            <span className="xl:absolute lg:absolute md:relative sm:relative relative right-0 top-0"><img src="/images/service-home-bg.png" alt="" title=""/></span>
             <div className="flex justify-start">
                 <div className="health-explore-content">
                     <h3 className="font-72 hepta-semibold mb-5 question-title-color leading-tight">

@@ -3,9 +3,9 @@ import React from "react";
 function Intro() {
     return (
         <div className="health-care-explore">
-            <span className="absolute right-0 top-0"><img src="/images/explore-bg.png" alt="" title=""/></span>
+            <span  data-aos-duration="1000"data-aos="slide-left" className="xl:absolute lg:absolute md:relative sm:relative relative right-0 top-0"><img src="/images/explore-bg.png" alt="" title=""/></span>
             <div className="flex justify-start">
-                <div className="health-explore-content mt-40">
+                <div data-aos-duration="1000" data-aos="slide-right" className="health-explore-content">
                     <h3 className="font-72 hepta-semibold mb-5 question-title-color leading-tight">
                         Your Doctor. <br />
                         Your Care. <br />

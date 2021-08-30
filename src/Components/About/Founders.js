@@ -14,9 +14,9 @@ function Founders() {
 
             <div className="who-we-are-grid mt-10">
                 <div className="grid xl:grid-col-2 lg:grid-cols-2 md:grid-col-1 sm:grid-cols-1 grid-cols-1 gap-6">
-                    <div className="bg-white rounded-xl overflow-hidden shadow-xl p-10">
+                    <div data-aos="fade-down" data-aos-duration="1000" className="bg-white rounded-xl overflow-hidden shadow-xl p-10">
                         <div className="flex items-center mb-4">
-                            <div className="founder-img mr-4"></div>
+                            <div className="founder-img mr-4 flex-shrink-0"></div>
                             <div className="founder-name">
                                 <h4 className="font-28 hepta-semibold mb-0 question-title-color">
                                     Dr. Karen Patrusky
@@ -33,9 +33,9 @@ function Founders() {
                             private practice taking care of women of all ages.
                         </p>
                     </div>
-                    <div className="bg-white rounded-xl overflow-hidden shadow-xl p-10">
+                    <div data-aos="fade-down" data-aos-duration="2000" className="bg-white rounded-xl overflow-hidden shadow-xl p-10">
                         <div className="flex items-center mb-4">
-                            <div className="founder-img mr-4"></div>
+                            <div className="founder-img mr-4 flex-shrink-0"></div>
                             <div className="founder-name">
                                 <h4 className="font-28 hepta-semibold mb-0 question-title-color">
                                     Heidi Edelstein

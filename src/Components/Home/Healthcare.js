@@ -3,7 +3,7 @@ import React from "react";
 function Healthcare() {
     return (
         <div className="health-care-way relative mt-90">
-            <span className="absolute left-0 top-0">
+            <span className="xl:absolute lg:absolute md:relative sm:relative relative left-0 top-0">
                 <img src="/images/health-care-bg.png" alt="" title="" />
             </span>
             <div className="flex justify-end">

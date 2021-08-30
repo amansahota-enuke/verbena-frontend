@@ -4,7 +4,7 @@ function Health() {
     return (
         <div className="woman-need-grid">
             <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-6">
-                <div className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
+                <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
                     <span className="absolute top-0 right-0">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
@@ -16,7 +16,7 @@ function Health() {
                         Infection, Menstrual Issues
                     </p>
                 </div>
-                <div className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
+                <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
                     <span className="absolute top-0 right-0">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
@@ -28,7 +28,7 @@ function Health() {
                         Fertility Concerns, Preconception Counseling
                     </p>
                 </div>
-                <div className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
+                <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
                     <span className="absolute top-0 right-0">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
@@ -40,7 +40,7 @@ function Health() {
                         Post-Partum Contraception, Post Partum Mood Changes
                     </p>
                 </div>
-                <div className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
+                <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
                     <span className="absolute top-0 right-0">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
@@ -52,7 +52,7 @@ function Health() {
                         Painful Sex
                     </p>
                 </div>
-                <div className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
+                <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
                     <span className="absolute top-0 right-0">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
@@ -64,7 +64,7 @@ function Health() {
                         Hormone Concerns, Bone Health
                     </p>
                 </div>
-                <div className="pl-10 pr-10 pt-28 pb-28">
+                <div data-aos="slide-up" data-aos-duration="2000" className="pl-10 pr-10 pt-28 pb-28">
                     <h3 className="font-24 hepta-semibold question-title-color mb-2">
                         Is there something we didn’t mention that we can help
                         you with?

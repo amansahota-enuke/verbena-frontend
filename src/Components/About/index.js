@@ -8,23 +8,23 @@ import Stand from "./Stand";
 function About() {
     return (
         <>
-            <section>
+            <section className="bg-white pt-40 pb-40">
                 <BoxedWidthContainer>
                     <AboutUsSection />
                 </BoxedWidthContainer>
             </section>
-            <section>
+            <section className="light-green-bg-color pt-40 pb-40">
                 <BoxedWidthContainer>
                     <Founders />
                     <Story />
                 </BoxedWidthContainer>
             </section>
-            <section>
+            <section className="bg-white pt-20 pb-60">
                 <BoxedWidthContainer>
                     <Stand />
                 </BoxedWidthContainer>
             </section>
-            <section>
+            <section className="dark-green-bg-color pt-40 pb-40">
                 <BoxedWidthContainer>
                     <Consultation />
                     <Blog />

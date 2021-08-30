@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutUsSection() {
     return (
-        <div className="about-us-wrapper mt-40 mb-40">
+        <div className="about-us-wrapper">
             <div className=" grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 gap-6 items-center">
                 <div className="about-us-img">
                     <img src="/images/about-us-img.png" alt="" title="" />

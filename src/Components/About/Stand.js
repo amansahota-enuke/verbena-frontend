@@ -2,7 +2,7 @@ import React from "react";
 
 function Stand() {
     return (
-        <div className="what-we-stand-wrapper mt-40 mb-40">
+        <div className="what-we-stand-wrapper">
             <div className="what-we-stand-title text-center">
                 <h3 className="font-18 question-title-color mb-4 uppercase">
                     What we stand for

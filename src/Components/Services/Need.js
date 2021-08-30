@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Need() {
     return (
-        <div className="woman-stage-wrapper mt-64 mb-32">
+        <div className="woman-stage-wrapper xl:mt-64 lg:mt-64 md:mt-20 sm:mt-10 mt-10 mb-32">
             <div className="woman-need-flex">
                 <div className="woman-need-content">
                     <h3 className="mb-10 font-20 text-gray-dim uppercase question-title-color">

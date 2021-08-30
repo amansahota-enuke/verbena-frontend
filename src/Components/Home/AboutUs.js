@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutUs() {
     return (
-        <div className="about-us-wrapper mt-40">
+        <div className="about-us-wrapper">
             <div className="about-wrapper-title mb-20 text-center">
                 <h2 className="hepta-semibold text-gray-dim font-56 mb-10">
                     About Us
@@ -17,7 +17,7 @@ function AboutUs() {
             {/* Mission Vision wrapper */}
 
             <div className="flex flex-wrap justify-between">
-                <div className="mission mv-box">
+                <div data-aos="fade-right" data-aos-duration="2000" className="mission mv-box">
                     <div className="mission-img mv-img overflow-hidden rounded-md shadow"></div>
                     <div className="mv-content relative px-10 py-6 bg-white overflow-hidden rounded-lg shadow-lg">
                         <h5 className="uppercase question-title-color mb-4 hepta-semibold">
@@ -30,7 +30,7 @@ function AboutUs() {
                         </p>
                     </div>
                 </div>
-                <div className="vision mv-box">
+                <div data-aos="fade-left" data-aos-duration="3000" className="vision mv-box">
                     <div className="vision-img mv-img overflow-hidden rounded-md shadow"></div>
                     <div className="mv-content relative px-10 py-6 bg-white overflow-hidden rounded-lg shadow-lg">
                         <h5 className="uppercase question-title-color mb-4 hepta-semibold">
