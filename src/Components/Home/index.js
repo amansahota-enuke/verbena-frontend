@@ -8,15 +8,31 @@ import Values from "./Values";
 
 function Home() {
     return (
-        <BoxedWidthContainer>
-            <Intro />
-            <Values />
-            <Feedback />
-            <Healthcare />
-            <AboutUs />
-            <Consultation />
-            <Blog />
-        </BoxedWidthContainer>
+        <>
+            <section>
+                <BoxedWidthContainer>
+                    <Intro />
+                </BoxedWidthContainer>
+            </section>
+            <section>
+                <BoxedWidthContainer>
+                    <Values />
+                    <Feedback />
+                    <Healthcare />
+                </BoxedWidthContainer>
+            </section>
+            <section>
+                <BoxedWidthContainer>
+                    <AboutUs />
+                </BoxedWidthContainer>
+            </section>
+            <section>
+                <BoxedWidthContainer>
+                    <Consultation />
+                    <Blog />
+                </BoxedWidthContainer>
+            </section>
+        </>
     );
 }
 
