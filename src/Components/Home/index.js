@@ -26,7 +26,7 @@ function Home() {
                     <AboutUs />
                 </BoxedWidthContainer>
             </section>
-            <section className="dark-green-bg-color pt-40 pb-40">
+            <section className="dark-green-bg-color pt-40 pb-40 relative curve overflow-hidden">
                 <BoxedWidthContainer>
                     <Consultation />
                     <Blog />

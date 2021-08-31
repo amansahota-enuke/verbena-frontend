@@ -1251,7 +1251,29 @@ video {
   top: -24px;
 }
 
+.curve::after
+{
+  content: url('./images/curve-line.png');
+  position: absolute;
+  left:-25%;
+  top:20%;
+}
 
+.curve::before
+{
+  content: url('./images/curve-line.png');
+  position: absolute;
+  right:-25%;
+  top:20%;
+}
+
+/* .curve-left::before
+{
+  content: url('./images/curve-left.png');
+  position: absolute;
+  left:-25%;
+  top:20%;
+} */
 
 /* Media Css */
 
