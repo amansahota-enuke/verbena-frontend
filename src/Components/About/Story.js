@@ -3,7 +3,7 @@ import React from "react";
 function Story() {
     return (
         <div className="our-story- mt-40">
-            <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 gap-10">
+            <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 gap-10 items-center">
                 <div data-aos="fade-left" data-aos-duration="4000" className="xl:hidden lg:hidden md:block sm:block block">
                     <div className="our-story-img">
                         <img

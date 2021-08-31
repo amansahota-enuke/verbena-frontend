@@ -13,7 +13,7 @@ function About() {
                     <AboutUsSection />
                 </BoxedWidthContainer>
             </section>
-            <section className="light-green-bg-color pt-40 pb-40">
+            <section className="light-green-bg-color pt-40 pb-40 overflow-hidden">
                 <BoxedWidthContainer>
                     <Founders />
                     <Story />

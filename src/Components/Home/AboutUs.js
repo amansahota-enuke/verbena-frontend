@@ -17,7 +17,7 @@ function AboutUs() {
             {/* Mission Vision wrapper */}
 
             <div className="flex flex-wrap justify-between">
-                <div data-aos="fade-right" data-aos-duration="2000" className="mission mv-box">
+                <div data-aos="fade-right" data-aos-duration="2000" className="mission mv-box xl:mb-0 lg:mb-0 mb:mb-10 sm:mb-10 mb-10">
                     <div className="mission-img mv-img overflow-hidden rounded-md shadow"></div>
                     <div className="mv-content relative px-10 py-6 bg-white overflow-hidden rounded-lg shadow-lg">
                         <h5 className="uppercase question-title-color mb-4 hepta-semibold">

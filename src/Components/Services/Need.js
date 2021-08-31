@@ -23,6 +23,9 @@ function Need() {
                         Read More
                     </Link>
                 </div>
+                <div className="women-need-img xl:absolute lg:absolute md:relative sm:relative relative right-0 top-25">
+                    <img src="/images/women-need-stage-img.png" alt="" title=""/>
+                </div>
             </div>
         </div>
     );

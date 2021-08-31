@@ -7,11 +7,10 @@ function Consultation() {
                 <div className="p-10 get-consult-form">
                     <img src="/images/get-consult-logo.png" alt="" title="" />
                     <h3 className="mont-font mont-extra-light font-40 mb-2 light-gray-dim mt-4">
-                        Get a Consultation
+                     Find a Physician
                     </h3>
                     <p className="mont-font mont-regular font-20 mb-10 light-gray-dim">
-                        Fill in your information to take the first step in
-                        joining the Verbena platform.
+                     Enter your state for a list of participating Verbena providers.
                     </p>
                     <div className="form-input">
                         <div className="flex mb-4">
@@ -43,7 +42,7 @@ function Consultation() {
                         <h5 className="uppercase hepta-semibold question-title-color mb-10 mt-16">
                             have a question? Let us know.
                         </h5>
-                        <div className="flex mb-10">
+                        <div className="flex mb-10 xl:flex-nowrap lg:flex-wrap md:flex-wrap sm:flex-wrap flex-wrap">
                             <div className="mr-4">
                                 <span className="msg-ico"></span>
                             </div>
@@ -52,8 +51,8 @@ function Consultation() {
                                     info@verbenacare.com
                                 </h4>
                                 <p className="mb-0 mont-font mont-regular font-20 light-gray-dim">
-                                    Drop us a message with any questions or
-                                    concerns about the platform.
+                                    Send us a message with any questions or
+                                    feedback about Verbena.
                                 </p>
                             </div>
                         </div>
@@ -63,6 +62,9 @@ function Consultation() {
                         <h3 className="hepta-semibold font-40 mb-5 text-white">
                             Newsletter
                         </h3>
+                        <p className="mb-5 mont-font mont-regular font-20 text-white">
+                        Register for our quarterly newsletter to receive Verbena product and provider updates, top women’s health news and Q&A with our Verbena medical advisers.
+                                </p>
                         <div className="newsletter-form mb-10">
                             <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-3">
                                 <div>

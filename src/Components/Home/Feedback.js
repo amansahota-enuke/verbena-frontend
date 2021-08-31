@@ -2,7 +2,7 @@ import React from "react";
 
 function Feedback() {
     return (
-        <div className="our-patient-wrapper text-center mt-40 mb-40">
+        <div className="our-patient-wrapper text-center mt-40 xl:mb-80 lg:mb-80 md:mb-20 sm:mb-20 mb-20">
             <div className="patient-wrapper-title">
                 <h4 className="uppercase font-18 mb-6 primary-text-color">
                     What Our Patients Say
@@ -11,7 +11,7 @@ function Feedback() {
 
             <div className="testimonial-carousel">
                 <div className="item text-center">
-                    <p className="font-44 hepta-semibold text-gray-dim lh-40">
+                    <p className="content font-44 hepta-semibold text-gray-dim lh-40">
                         Verbena is an easy and affordable <br />
                         way to connect with my doctor <br />
                         from the convenience of my home.

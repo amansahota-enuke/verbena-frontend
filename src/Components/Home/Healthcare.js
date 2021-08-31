@@ -2,12 +2,10 @@ import React from "react";
 
 function Healthcare() {
     return (
-        <div className="health-care-way relative mt-90">
-            <span className="xl:absolute lg:absolute md:relative sm:relative relative left-0 top-0">
-                <img src="/images/health-care-bg.png" alt="" title="" />
-            </span>
-            <div className="flex justify-end">
-                <div className="health-care-content">
+        <div className="health-care-way mt-90">
+            
+            <div className="flex justify-end xl:flex-nowrap lg:flex-nowrap md:flex-wrap sm:flex-wrap flex-wrap">
+                <div className="health-care-content xl:mb-0 lg:mb-0 md:mb-10 sm:mb-10 mb-10">
                     <h3 className="font-72 hepta-semibold mb-5 question-title-color leading-tight">
                         Healthcare <br />
                         Her Way.
@@ -25,6 +23,9 @@ function Healthcare() {
                     >
                         Get Started
                     </button>
+                </div>
+                <div className="health-care-left-img xl:absolute lg:absolute md:relative sm:relative relative left-0 top-55">
+                    <img src="/images/health-care-bg.png" alt="" title="" />
                 </div>
             </div>
         </div>

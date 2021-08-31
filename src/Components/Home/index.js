@@ -14,14 +14,14 @@ function Home() {
                     <Intro />
                 </BoxedWidthContainer>
             </section>
-            <section className="light-green-bg-color pt-40 pb-40">
+            <section className="light-green-bg-color pt-40 pb-40 relative">
                 <BoxedWidthContainer>
                     <Values />
                     <Feedback />
                     <Healthcare />
                 </BoxedWidthContainer>
             </section>
-            <section className="bg-white pt-40 pb-80">
+            <section className="bg-white pt-40 xl:pb-80 lg:pb-80 mb:pb-40 sm:pb-40 pb-40 overflow-hidden">
                 <BoxedWidthContainer>
                     <AboutUs />
                 </BoxedWidthContainer>
