@@ -1,11 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import Dropdown from "./Dropdown";
+import $ from "jquery";
 
 const Header = ({ handleToggle }) => {
+    useEffect(() => {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $("#header").addClass("bg-white");
+            } else {
+                $("#header").removeClass("bg-white");
+            }
+        });
+    });
+    
     return (
         <>
-            <div className="fixed top-0 w-full z-10 bg-white bg-opacity-0">
+            <div
+                id="header"
+                className="fixed top-0 w-full z-10"
+            >
                 <div className="container mx-auto px-4 sm:px-6">
                     <div className="flex justify-between items-center py-4 md:space-x-10">
                         <div className="flex justify-start items-center">
@@ -31,8 +44,6 @@ const Header = ({ handleToggle }) => {
                                 />
                             </span>
                         </div>
-
-                        {/* <Dropdown /> */}
                     </div>
                 </div>
             </div>
