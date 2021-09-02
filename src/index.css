@@ -1251,15 +1251,21 @@ video {
   top: -24px;
 }
 
-.curve::after
+.curve-left::after
 {
   content: url('./images/curve-line.png');
   position: absolute;
   left:-25%;
-  top:20%;
+  top:-15%;
+  z-index: -1;
 }
 
-.curve::before
+.curve-left-center::after
+{
+  top:15%;
+}
+
+.curve-right::before
 {
   content: url('./images/curve-line.png');
   position: absolute;
@@ -1267,13 +1273,26 @@ video {
   top:20%;
 }
 
-/* .curve-left::before
+.curve-right-bottom::before
+{
+  top:auto;
+  bottom: 0;
+}
+
+/* .curve-top-half-left::before
 {
   content: url('./images/curve-left.png');
   position: absolute;
   left:-25%;
   top:20%;
 } */
+
+
+.custom-overflow
+{
+  overflow-x: clip;
+  overflow-y: visible;
+}
 
 /* Media Css */
 
@@ -1297,6 +1316,7 @@ video {
   .font-72{font-size: 54px;}
   .health-care-explore span img,.about-us-img img{max-width: 100%;margin: 0 auto 30px;}
   .testimonial-carousel .item p.content::after,.testimonial-carousel .item p.content::before{display: none;}
+  .curve-left::after,.curve-right::before{display: none;}
 }
 
 @media(max-width:768px)

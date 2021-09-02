@@ -17,7 +17,7 @@ const Header = ({ handleToggle }) => {
         <>
             <div
                 id="header"
-                className="fixed top-0 w-full z-10"
+                className="fixed top-0 w-full z-50"
             >
                 <div className="container mx-auto px-4 sm:px-6">
                     <div className="flex justify-between items-center py-4 md:space-x-10">

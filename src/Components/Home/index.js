@@ -9,12 +9,12 @@ import Values from "./Values";
 function Home() {
     return (
         <>
-            <section data-aos="fade-right" className="bg-white pt-40 pb-80">
+            <section data-aos="fade-right" className="bg-white pt-40 pb-80 relative z-20">
                 <BoxedWidthContainer>
                     <Intro />
                 </BoxedWidthContainer>
             </section>
-            <section className="light-green-bg-color pt-40 pb-40 relative">
+            <section className="light-green-bg-color pt-40 pb-40 custom-overflow curve-right relative z-20">
                 <BoxedWidthContainer>
                     <Values />
                     <Feedback />
@@ -26,7 +26,7 @@ function Home() {
                     <AboutUs />
                 </BoxedWidthContainer>
             </section>
-            <section className="dark-green-bg-color pt-40 pb-40 relative">
+            <section className="dark-green-bg-color pt-40 pb-40 relative custom-overflow z-20 curve-left curve-right curve-left-center curve-right-bottom">
                 <BoxedWidthContainer>
                     <Consultation />
                     <Blog />

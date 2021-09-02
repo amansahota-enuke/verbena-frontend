@@ -51,7 +51,7 @@ function Values() {
                     </Link>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="2000" className="value-box rounded-xl relative shadow-xl overflow-hidden px-9 py-12 bg-white">
-                    <span className="vector absolute top-3 right-0">
+                    <span className="vector absolute top-3 right-4">
                         <img
                             src="/images/value-box-ico-3.png"
                             alt=""
