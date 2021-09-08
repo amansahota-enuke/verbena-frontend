@@ -2,12 +2,14 @@ import { Redirect, Route, Switch } from "react-router-dom";
 import "./App.css";
 import { Footer, Header, Error, ScrollToTop } from "./Components";
 import { AboutPage, HomePage, ServicesPage } from "./Pages";
+import Test from "./Components/Common/Test";
 
 function App() {
     return (
         <>
             <div className="wrapper h-full">
-                <Header />
+                <Test />
+                {/* <Header /> */}
                 <ScrollToTop>
                     <Switch>
                         <Route
