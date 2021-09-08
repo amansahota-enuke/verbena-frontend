@@ -2,12 +2,13 @@
 import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { Link } from "react-router-dom";
+import { ChevronDownIcon } from "@heroicons/react/solid";
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
 }
 
-export default function Dropdown({ name }) {
+export default function Dropdown({ name, type }) {
     const menuItems = [
         { for: "Info", name: "Resources", type: "link", path: "/home" },
         { for: "Info", name: "Blog", type: "link", path: "/home" },
@@ -51,6 +52,13 @@ export default function Dropdown({ name }) {
                     <div>
                         <Menu.Button className="inline-flex justify-center items-center">
                             {name}
+                            <ChevronDownIcon
+                                className={`${
+                                    open
+                                        ? "transition ease-out duration-100 transform rotate-180"
+                                        : ""
+                                } w-5 h-5`}
+                            />
                         </Menu.Button>
                     </div>
 
@@ -66,9 +74,13 @@ export default function Dropdown({ name }) {
                     >
                         <Menu.Items
                             static
-                            className="origin-top-right absolute right-0 w-24 rounded-md shadow-lg bg-white"
+                            className={`${
+                                type === "mobile"
+                                    ? ""
+                                    : "top-10 origin-top-right absolute right-0 w-24 rounded-md shadow-lg"
+                            } bg-gray-100`}
                         >
-                            {menuItems.map((item,index) => {
+                            {menuItems.map((item, index) => {
                                 if (item.for === name) {
                                     return (
                                         <Menu.Item key={index}>
@@ -77,10 +89,17 @@ export default function Dropdown({ name }) {
                                                     <Link
                                                         to={item.path}
                                                         className={classNames(
-                                                            active
-                                                                ? "bg-gray-100 text-gray-900"
-                                                                : "text-gray-700",
-                                                            "block px-4 py-2 text-sm"
+                                                            `${
+                                                                active
+                                                                    ? "bg-gray-100 text-gray-900"
+                                                                    : "text-gray-700"
+                                                            } hover:bg-hover-bg hover:text-white`,
+                                                            `${
+                                                                type ===
+                                                                "mobile"
+                                                                    ? "px-2 py-3"
+                                                                    : "px-4 py-2"
+                                                            } block text-sm`
                                                         )}
                                                     >
                                                         {item.name}
@@ -89,10 +108,17 @@ export default function Dropdown({ name }) {
                                                     <a
                                                         href={item.path}
                                                         className={classNames(
-                                                            active
-                                                                ? "bg-gray-100 text-gray-900"
-                                                                : "text-gray-700",
-                                                            "block px-4 py-2 text-sm"
+                                                            `${
+                                                                active
+                                                                    ? "bg-gray-100 text-gray-900"
+                                                                    : "text-gray-700"
+                                                            } hover:bg-hover-bg hover:text-white`,
+                                                            `${
+                                                                type ===
+                                                                "mobile"
+                                                                    ? "px-2 py-3"
+                                                                    : "px-4 py-2"
+                                                            } block text-sm`
                                                         )}
                                                     >
                                                         {item.name}
