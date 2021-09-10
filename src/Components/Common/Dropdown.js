@@ -29,7 +29,7 @@ export default function Dropdown({ name, type }) {
             for: "For Providers",
             name: "login",
             type: "url",
-            path: process.env.REACT_APP_VERBENA_PATIENT,
+            path: process.env.REACT_APP_VERBENA_PROVIDER,
         },
         {
             for: "For Providers",
@@ -41,7 +41,7 @@ export default function Dropdown({ name, type }) {
             for: "For Providers",
             name: "register",
             type: "url",
-            path: `${process.env.REACT_APP_VERBENA_PATIENT}/signup`,
+            path: `${process.env.REACT_APP_VERBENA_PROVIDER}/signup`,
         },
     ];
 
