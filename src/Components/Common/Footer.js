@@ -33,52 +33,52 @@ const Footer = () => {
                         </div>
 
                         <div className="blog-footer-heading xl:mb-0 lg:mb-0 md-mb-4 sm:mb-4 mb-8">
-                            <h5 className="hepta-extra-light uppercase text-white mb-4">
+                            <h5 className="hepta-semibold uppercase text-white mb-4">
                                 Patient Services
                             </h5>
                             <div className="blog-footer-links">
                                 <ul className="blog-footer-list">
                                     <li>
-                                        <button className="mont-regular text-white font-20 mont-font cursor-pointer">
+                                        <a className="mont-regular text-white font-20 mont-font cursor-pointer">
                                             Make Appointment
-                                        </button>
+                                        </a>
                                     </li>
                                     <li>
-                                        <button className="mont-regular text-white font-20 mont-font cursor-pointer">
+                                        <a className="mont-regular text-white font-20 mont-font cursor-pointer">
                                             Patient Log In
-                                        </button>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
                         <div className="blog-footer-heading xl:mb-0 lg:mb-0 md-mb-4 sm:mb-4 mb-8">
-                            <h5 className="hepta-extra-light uppercase text-white mb-4">
+                            <h5 className="hepta-semibold uppercase text-white mb-4">
                                 Provider Services
                             </h5>
                             <div className="blog-footer-links">
                                 <ul className="blog-footer-list">
                                     <li>
-                                        <button className="mont-regular text-white font-20 mont-font cursor-pointer">
+                                        <a className="mont-regular text-white font-20 mont-font cursor-pointer">
                                             Provider Log In
-                                        </button>
+                                        </a>
                                     </li>
                                     <li>
-                                        <button className="mont-regular text-white font-20 mont-font cursor-pointer">
+                                        <a href="mailto:info@verbenacare.com" className="mont-regular text-white font-20 mont-font cursor-pointer">
                                             Contact
-                                        </button>
+                                        </a>
                                     </li>
                                     <li>
-                                        <button className="mont-regular text-white font-20 mont-font cursor-pointer">
-                                            Benefits
-                                        </button>
+                                        <a className="mont-regular text-white font-20 mont-font cursor-pointer">
+                                            Why Verbena?
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
                         <div className="blog-footer-heading xl:mb-0 lg:mb-0 md-mb-4 sm:mb-4 mb-8">
-                            <h5 className="hepta-extra-light uppercase text-white mb-4">
+                            <h5 className="hepta-semibold uppercase text-white mb-4">
                                 Who We Are
                             </h5>
                             <div className="blog-footer-links">

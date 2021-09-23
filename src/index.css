@@ -15,8 +15,7 @@ code {
     monospace;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 
 body
@@ -137,11 +136,6 @@ body
 .hepta-semibold
 {
   font-weight: 600;
-}
-
-.hepta-extra-light
-{
-  font-weight: 200;
 }
 
 .mont-regular
@@ -446,6 +440,11 @@ input,label,span,p,li,ul
   color: #009b98;
 }
 
+.primary-text-hover-color:hover 
+{
+  color: #009A95;
+}
+
 .light-gray-color
 {
   color: #b2b2b2;
@@ -517,6 +516,8 @@ input,label,span,p,li,ul
 {
   background: #59BDBA;
 }
+
+
 
 
 /* input color border-color */
@@ -1228,7 +1229,7 @@ video {
   top:55rem;
 }
 
-.testimonial-carousel .item p
+.testimonial-carousel .item > p
 {
   position: relative;
   max-width: 724px;
@@ -1294,7 +1295,22 @@ video {
   overflow-y: visible;
 }
 
+.woman-need-flex {
+  display: flex;
+}
+
+.woman-need-flex .woman-need-content {
+  flex-basis: 667px;
+}
+
 /* Media Css */
+
+
+@media(max-width:1280px)
+{
+  .woman-need-flex .woman-need-content{flex-basis: auto;}
+  .women-need-img.top-25{top:0;}
+}
 
 @media(max-width:1024px)
 {
@@ -1325,6 +1341,7 @@ video {
   .font-28{font-size: 18px;}
   .top-25,.top-55{top:0;}
   .health-care-explore span img,.about-us-img img{max-width: 60%;margin: 0 auto 30px;}
+  .woman-need-flex{flex-wrap: wrap;}
 }
 
 @media(max-width:640px)

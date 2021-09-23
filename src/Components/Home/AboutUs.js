@@ -4,7 +4,7 @@ function AboutUs() {
     return (
         <div className="about-us-wrapper">
             <div className="about-wrapper-title mb-20 text-center">
-                <h2 className="hepta-semibold text-gray-dim font-56 mb-10">
+                <h2 className="hepta-semibold text-gray-dim font-56 mb-10 question-title-color">
                     About Us
                 </h2>
                 <p className="mont-font mont-regular font-20 text-gray-dim">
