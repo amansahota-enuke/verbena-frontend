@@ -31,7 +31,7 @@ function Consultation() {
                         </div>
                         <button
                             type="submit"
-                            className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3"
+                            className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
                         >
                             Submit
                         </button>
@@ -78,7 +78,7 @@ function Consultation() {
                                 <div>
                                     <button
                                         type="submit"
-                                        className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3"
+                                        className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
                                     >
                                         Subscribe
                                     </button>

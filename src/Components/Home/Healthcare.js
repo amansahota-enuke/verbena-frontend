@@ -19,7 +19,7 @@ function Healthcare() {
                     </p>
                     <button
                         type="submit"
-                        className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3"
+                        className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
                     >
                         Get Started
                     </button>

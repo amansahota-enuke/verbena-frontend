@@ -17,7 +17,7 @@ function Need() {
                         unique health needs throughout her lifetime.
                     </p>
                     <Link
-                        className="btn-login calibre-regular font-18 uppercase primary-bg-color text-white mr-3"
+                        className="btn-login calibre-regular font-18 uppercase primary-bg-color text-white mr-3 tracking-widest"
                         to="/about"
                     >
                         Read More
