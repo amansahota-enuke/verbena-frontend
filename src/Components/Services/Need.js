@@ -12,12 +12,12 @@ function Need() {
                     <h2 className="font-56 question-title-color mb-5 hepta-semibold leading-tight">
                         For a Woman’s Needs at Every Stage
                     </h2>
-                    <p className="mont-font mont-regular font-20 text-gray-dim mxw-530 mb-20">
+                    <p className="mont-font mont-regular font-20 text-gray-dim mxw-530 mb-10">
                         Created with her care in mind, Verbena celebrates the
                         unique health needs throughout her lifetime.
                     </p>
                     <Link
-                        className="btn-login calibre-bold font-18 uppercase primary-bg-color text-white mr-3"
+                        className="btn-login calibre-regular font-18 uppercase primary-bg-color text-white mr-3"
                         to="/about"
                     >
                         Read More

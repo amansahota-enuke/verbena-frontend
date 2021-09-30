@@ -19,15 +19,15 @@ const Footer = () => {
                             </div>
                             <div className="blog-footer-social-links">
                                 <div className="grid xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-6 sm:grid-cols-6 grid-cols-4 gap-2">
-                                    <button className="social block cursor-pointer">
-                                        <span classname="fas fa-fb"></span>
-                                    </button>
-                                    <button className="social block cursor-pointer">
-                                        <span classname="fas fa-fb"></span>
-                                    </button>
-                                    <button className="social block cursor-pointer">
-                                        <span classname="fas fa-fb"></span>
-                                    </button>
+                                    <a href="https://www.facebook.com/verbenacare/" target="_blank" className="social block cursor-pointer">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/verbena_care/" target="_blank" className="social block cursor-pointer">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/company/herhealthnow/" target="_blank" className="social block cursor-pointer">
+                                    <i class="fab fa-linkedin-in"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -39,12 +39,12 @@ const Footer = () => {
                             <div className="blog-footer-links">
                                 <ul className="blog-footer-list">
                                     <li>
-                                        <a className="mont-regular text-white font-20 mont-font cursor-pointer">
+                                        <a className="mont-regular text-white font-18 mont-font cursor-pointer">
                                             Make Appointment
                                         </a>
                                     </li>
                                     <li>
-                                        <a className="mont-regular text-white font-20 mont-font cursor-pointer">
+                                        <a className="mont-regular text-white font-18 mont-font cursor-pointer">
                                             Patient Log In
                                         </a>
                                     </li>
@@ -59,17 +59,17 @@ const Footer = () => {
                             <div className="blog-footer-links">
                                 <ul className="blog-footer-list">
                                     <li>
-                                        <a className="mont-regular text-white font-20 mont-font cursor-pointer">
+                                        <a className="mont-regular text-white font-18 mont-font cursor-pointer">
                                             Provider Log In
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="mailto:info@verbenacare.com" className="mont-regular text-white font-20 mont-font cursor-pointer">
+                                        <a href="mailto:info@verbenacare.com" className="mont-regular text-white font-18 mont-font cursor-pointer">
                                             Contact
                                         </a>
                                     </li>
                                     <li>
-                                        <a className="mont-regular text-white font-20 mont-font cursor-pointer">
+                                        <a className="mont-regular text-white font-18 mont-font cursor-pointer">
                                             Why Verbena?
                                         </a>
                                     </li>
@@ -85,14 +85,14 @@ const Footer = () => {
                                 <ul className="blog-footer-list">
                                     <li>
                                         <Link
-                                            className="mont-regular text-white font-20 mont-font cursor-pointer"
+                                            className="mont-regular text-white font-18 mont-font cursor-pointer"
                                             to="/about"
                                         >
                                             About Us
                                         </Link>
                                     </li>
                                     <li>
-                                        <button className="mont-regular text-white font-20 mont-font cursor-pointer">
+                                        <button className="mont-regular text-white font-18 mont-font cursor-pointer">
                                             FAQs
                                         </button>
                                     </li>

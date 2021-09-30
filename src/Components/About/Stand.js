@@ -4,10 +4,10 @@ function Stand() {
     return (
         <div className="what-we-stand-wrapper">
             <div className="what-we-stand-title text-center">
-                <h3 className="font-18 question-title-color mb-4 uppercase">
+                <h3 className="font-20 hepta-semibold question-title-color mb-4 uppercase">
                     What we stand for
                 </h3>
-                <h2 className="font-24 hepta-semibold text-gray-dim leading-snug">
+                <h2 className="font-18 hepta-regular text-gray-dim leading-snug">
                     “We started Verbena because we wanted to transform the way
                     women engage and interact with their personal physician in a
                     safe, accessible and convenient way. We wanted to create a

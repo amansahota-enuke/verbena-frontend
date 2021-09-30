@@ -1060,6 +1060,8 @@ video {
   text-align: center;
   line-height: 46px;
   background: #59BDBA;
+  color: #fff;
+  font-size: 24px;
 }
 
 .drop-msg-bg

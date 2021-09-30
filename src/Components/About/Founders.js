@@ -18,15 +18,15 @@ function Founders() {
                         <div className="flex items-center mb-4">
                             <div className="founder-img mr-4 flex-shrink-0"></div>
                             <div className="founder-name">
-                                <h4 className="font-28 hepta-semibold mb-0 question-title-color">
+                                <h4 className="font-24 hepta-semibold mb-0 question-title-color">
                                     Dr. Karen Patrusky
                                 </h4>
                             </div>
                         </div>
-                        <p className="font-18 mont-font mont-regular">
+                        <p className="font-16 mont-font mont-regular">
                             Dr. Karen Patrusky is a board certified obstetrician
                             and gynecologist. A graduate of Tufts University,
-                            Patrusky went on to receive her medical degree from
+                            Dr. Patrusky went on to receive her medical degree from
                             The Mount Sinai School of Medicine where she also
                             completed her residency in Obstetrics and
                             Gynecology. For over 20 years, she has been in
@@ -37,13 +37,13 @@ function Founders() {
                         <div className="flex items-center mb-4">
                             <div className="founder-img mr-4 flex-shrink-0"></div>
                             <div className="founder-name">
-                                <h4 className="font-28 hepta-semibold mb-0 question-title-color">
-                                    Dr. Heidi Edelstein
+                                <h4 className="font-24 hepta-semibold mb-0 question-title-color">
+                                    Heidi Edelstein
                                 </h4>
                             </div>
                         </div>
-                        <p className="font-18 mont-font mont-regular">
-                            Dr. Heidi Edelstein is an accomplished Marketing
+                        <p className="font-16 mont-font mont-regular">
+                            Heidi Edelstein is an accomplished Marketing
                             Executive with more than 25 years of integrated
                             marketing experience. A graduate of Tulane
                             University, she has worked for leading women’s

@@ -23,7 +23,7 @@ function AboutUs() {
                         <h5 className="uppercase question-title-color mb-4 hepta-semibold">
                             Our Mission
                         </h5>
-                        <p className="text-gray-dim font-27">
+                        <p className="text-gray-dim font-24">
                             Empower women to take <br /> charge of their
                             healthcare in a <br /> safe, private, and convenient
                             way.
@@ -36,7 +36,7 @@ function AboutUs() {
                         <h5 className="uppercase question-title-color mb-4 hepta-semibold">
                             Our Vision
                         </h5>
-                        <p className="text-gray-dim font-27">
+                        <p className="text-gray-dim font-24">
                             To provide a superior <br />
                             women’s telehealth <br />
                             platform that elevates <br />
