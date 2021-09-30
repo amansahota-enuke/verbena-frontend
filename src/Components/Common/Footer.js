@@ -64,7 +64,10 @@ const Footer = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="mailto:info@verbenacare.com" className="mont-regular text-white font-20 mont-font cursor-pointer">
+                                        <a
+                                            href="mailto:info@verbenacare.com"
+                                            className="mont-regular text-white font-20 mont-font cursor-pointer"
+                                        >
                                             Contact
                                         </a>
                                     </li>
@@ -92,9 +95,12 @@ const Footer = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <button className="mont-regular text-white font-20 mont-font cursor-pointer">
+                                        <Link
+                                            className="mont-regular text-white font-20 mont-font cursor-pointer"
+                                            to="/faq"
+                                        >
                                             FAQs
-                                        </button>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
