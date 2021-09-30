@@ -92,9 +92,12 @@ const Footer = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <button className="mont-regular text-white font-18 mont-font cursor-pointer">
+                                        <Link
+                                            className="mont-regular text-white font-20 mont-font cursor-pointer"
+                                            to="/faq"
+                                        >
                                             FAQs
-                                        </button>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>

@@ -10,9 +10,14 @@ function classNames(...classes) {
 
 export default function Dropdown({ name, type }) {
     const menuItems = [
-        // { for: "Info", name: "Resources", type: "link", path: "/home" },
+        {
+            for: "Info",
+            name: "V-Blog",
+            type: "url",
+            path: "https://verbenacare.com/blog",
+        },
         { for: "Info", name: "Blog", type: "link", path: "/home" },
-        { for: "Info", name: "FAQ", type: "link", path: "/home" },
+        { for: "Info", name: "FAQ", type: "link", path: "/faq" },
         {
             for: "For Patients",
             name: "Login",
