@@ -1316,6 +1316,7 @@ video {
 
 @media(max-width:1024px)
 {
+  .btn-create-account, .btn-login{padding:10px 20px 5px;}
   .create-account,.login-box,.ca-width{width:100%;}
   h1{font-size: 32px;}
   .main-panel{padding: 15px;}
