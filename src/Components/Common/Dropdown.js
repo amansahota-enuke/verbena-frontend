@@ -10,24 +10,29 @@ function classNames(...classes) {
 
 export default function Dropdown({ name, type }) {
     const menuItems = [
-        { for: "Info", name: "Resources", type: "link", path: "/home" },
+        {
+            for: "Info",
+            name: "V-Blog",
+            type: "url",
+            path: "https://verbenacare.com/blog",
+        },
         { for: "Info", name: "Blog", type: "link", path: "/home" },
-        { for: "Info", name: "FAQ", type: "link", path: "/home" },
+        { for: "Info", name: "FAQ", type: "link", path: "/faq" },
         {
             for: "For Patients",
-            name: "login",
+            name: "Login",
             type: "url",
             path: process.env.REACT_APP_VERBENA_PATIENT,
         },
         {
             for: "For Patients",
-            name: "register",
+            name: "Register",
             type: "url",
             path: `${process.env.REACT_APP_VERBENA_PATIENT}/signup`,
         },
         {
             for: "For Providers",
-            name: "login",
+            name: "Login",
             type: "url",
             path: process.env.REACT_APP_VERBENA_PROVIDER,
         },
@@ -39,7 +44,7 @@ export default function Dropdown({ name, type }) {
         },
         {
             for: "For Providers",
-            name: "register",
+            name: "Register",
             type: "url",
             path: `${process.env.REACT_APP_VERBENA_PROVIDER}/signup`,
         },
@@ -50,7 +55,7 @@ export default function Dropdown({ name, type }) {
             {({ open }) => (
                 <>
                     <div>
-                        <Menu.Button className="inline-flex justify-center items-center">
+                        <Menu.Button className="inline-flex justify-center items-center font-bold">
                             {name}
                             <ChevronDownIcon
                                 className={`${
@@ -93,13 +98,13 @@ export default function Dropdown({ name, type }) {
                                                                 active
                                                                     ? "bg-gray-100 text-gray-900"
                                                                     : "text-gray-700"
-                                                            } hover:bg-hover-bg hover:text-white`,
+                                                            }  primary-text-hover-color`,
                                                             `${
                                                                 type ===
                                                                 "mobile"
                                                                     ? "px-2 py-3"
                                                                     : "px-4 py-2"
-                                                            } block text-sm`
+                                                            } block text-lg`
                                                         )}
                                                     >
                                                         {item.name}
@@ -112,13 +117,13 @@ export default function Dropdown({ name, type }) {
                                                                 active
                                                                     ? "bg-gray-100 text-gray-900"
                                                                     : "text-gray-700"
-                                                            } hover:bg-hover-bg hover:text-white`,
+                                                            } primary-text-hover-color`,
                                                             `${
                                                                 type ===
                                                                 "mobile"
                                                                     ? "px-2 py-3"
                                                                     : "px-4 py-2"
-                                                            } block text-sm`
+                                                            } block text-lg cursor-pointer`
                                                         )}
                                                     >
                                                         {item.name}

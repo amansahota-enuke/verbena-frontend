@@ -14,6 +14,7 @@ import FullWidthContainer from "./Container/FullWidthContainer";
 import Home from "./Home";
 import About from "./About";
 import Services from "./Services";
+import FAQ from "./FAQ";
 
 export {
     //Common
@@ -33,4 +34,5 @@ export {
     Home,
     About,
     Services,
+    FAQ,
 };

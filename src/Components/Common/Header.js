@@ -87,9 +87,9 @@ export default function Header() {
                                                         to={item.path}
                                                         className={classNames(
                                                             item.current
-                                                                ? "primary-bg-color text-white rounded-md"
-                                                                : "hover:bg-hover-bg hover:rounded-md hover:text-white",
-                                                            "px-3 py-2 text-lg font-medium"
+                                                                ? "primary-text-color primary-text-hover-color"
+                                                                : "",
+                                                            "px-3 py-2 text-lg font-bold primary-text-hover-color"
                                                         )}
                                                         aria-current={
                                                             item.current
@@ -108,9 +108,9 @@ export default function Header() {
                                                     <span
                                                         className={classNames(
                                                             item.current
-                                                                ? "primary-bg-color text-white rounded-md"
-                                                                : "hover:bg-hover-bg hover:rounded-md hover:text-white",
-                                                            "px-3 py-2 text-lg font-medium"
+                                                                ? "primary-text-color"
+                                                                : "",
+                                                            "px-3 py-2 text-lg font-bold primary-text-hover-color"
                                                         )}
                                                         aria-current={
                                                             item.current
@@ -147,7 +147,7 @@ export default function Header() {
                                                 item.current
                                                     ? ""
                                                     : "hover:text-black",
-                                                "block px-3 py-2 text-sm font-medium"
+                                                "block px-3 py-2 text-sm font-bold"
                                             )}
                                             aria-current={
                                                 item.current
@@ -166,7 +166,7 @@ export default function Header() {
                                                 item.current
                                                     ? ""
                                                     : "hover:text-black",
-                                                "block px-3 py-2 text-sm font-medium"
+                                                "block px-3 py-2 text-sm font-bold"
                                             )}
                                             aria-current={
                                                 item.current

@@ -19,82 +19,85 @@ const Footer = () => {
                             </div>
                             <div className="blog-footer-social-links">
                                 <div className="grid xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-6 sm:grid-cols-6 grid-cols-4 gap-2">
-                                    <button className="social block cursor-pointer">
-                                        <span classname="fas fa-fb"></span>
-                                    </button>
-                                    <button className="social block cursor-pointer">
-                                        <span classname="fas fa-fb"></span>
-                                    </button>
-                                    <button className="social block cursor-pointer">
-                                        <span classname="fas fa-fb"></span>
-                                    </button>
+                                    <a href="https://www.facebook.com/verbenacare/" target="_blank" className="social block cursor-pointer">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/verbena_care/" target="_blank" className="social block cursor-pointer">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/company/herhealthnow/" target="_blank" className="social block cursor-pointer">
+                                    <i class="fab fa-linkedin-in"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
 
                         <div className="blog-footer-heading xl:mb-0 lg:mb-0 md-mb-4 sm:mb-4 mb-8">
-                            <h5 className="hepta-extra-light uppercase text-white mb-4">
+                            <h5 className="hepta-semibold uppercase text-white mb-4">
                                 Patient Services
                             </h5>
                             <div className="blog-footer-links">
                                 <ul className="blog-footer-list">
                                     <li>
-                                        <button className="mont-regular text-white font-20 mont-font cursor-pointer">
+                                        <a className="mont-regular text-white font-18 mont-font cursor-pointer">
                                             Make Appointment
-                                        </button>
+                                        </a>
                                     </li>
                                     <li>
-                                        <button className="mont-regular text-white font-20 mont-font cursor-pointer">
+                                        <a className="mont-regular text-white font-18 mont-font cursor-pointer">
                                             Patient Log In
-                                        </button>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
                         <div className="blog-footer-heading xl:mb-0 lg:mb-0 md-mb-4 sm:mb-4 mb-8">
-                            <h5 className="hepta-extra-light uppercase text-white mb-4">
+                            <h5 className="hepta-semibold uppercase text-white mb-4">
                                 Provider Services
                             </h5>
                             <div className="blog-footer-links">
                                 <ul className="blog-footer-list">
                                     <li>
-                                        <button className="mont-regular text-white font-20 mont-font cursor-pointer">
+                                        <a className="mont-regular text-white font-18 mont-font cursor-pointer">
                                             Provider Log In
-                                        </button>
+                                        </a>
                                     </li>
                                     <li>
-                                        <button className="mont-regular text-white font-20 mont-font cursor-pointer">
+                                        <a href="mailto:info@verbenacare.com" className="mont-regular text-white font-18 mont-font cursor-pointer">
                                             Contact
-                                        </button>
+                                        </a>
                                     </li>
                                     <li>
-                                        <button className="mont-regular text-white font-20 mont-font cursor-pointer">
-                                            Benefits
-                                        </button>
+                                        <a className="mont-regular text-white font-18 mont-font cursor-pointer">
+                                            Why Verbena?
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
                         <div className="blog-footer-heading xl:mb-0 lg:mb-0 md-mb-4 sm:mb-4 mb-8">
-                            <h5 className="hepta-extra-light uppercase text-white mb-4">
+                            <h5 className="hepta-semibold uppercase text-white mb-4">
                                 Who We Are
                             </h5>
                             <div className="blog-footer-links">
                                 <ul className="blog-footer-list">
                                     <li>
                                         <Link
-                                            className="mont-regular text-white font-20 mont-font cursor-pointer"
+                                            className="mont-regular text-white font-18 mont-font cursor-pointer"
                                             to="/about"
                                         >
                                             About Us
                                         </Link>
                                     </li>
                                     <li>
-                                        <button className="mont-regular text-white font-20 mont-font cursor-pointer">
+                                        <Link
+                                            className="mont-regular text-white font-20 mont-font cursor-pointer"
+                                            to="/faq"
+                                        >
                                             FAQs
-                                        </button>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>

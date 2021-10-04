@@ -22,7 +22,7 @@ function Values() {
                         Visits, Routine Procedures, Emotional Health
                     </p>
                     <Link
-                        className="primary-text-color mont-font mont-bold"
+                        className="primary-text-color mont-font mont-regular"
                         to="/services"
                     >
                         Read More
@@ -44,7 +44,7 @@ function Values() {
                         Lab Results, Diagnostics Review, Treatment Plans
                     </p>
                     <Link
-                        className="primary-text-color mont-font mont-bold"
+                        className="primary-text-color mont-font mont-regular"
                         to="/services"
                     >
                         Read More
@@ -66,7 +66,7 @@ function Values() {
                         New, Renewals, Symptom Specific, Medicine Management
                     </p>
                     <Link
-                        className="primary-text-color mont-font mont-bold"
+                        className="primary-text-color mont-font mont-regular"
                         to="/services"
                     >
                         Read More

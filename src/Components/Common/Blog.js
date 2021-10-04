@@ -22,7 +22,7 @@ function Blog() {
 
                         <div className="blog-image-wrapper"></div>
                         <div className="blog-heading px-6 py-4 bg-white">
-                            <h4 className="text-gray-dim font-24 hepta-semibold m-0">
+                            <h4 className="text-gray-dim font-18 hepta-semibold m-0">
                                 The best vitamins <br /> for your lifestyle
                             </h4>
                         </div>
@@ -34,7 +34,7 @@ function Blog() {
 
                         <div className="blog-image-wrapper"></div>
                         <div className="blog-heading px-6 py-4 bg-white">
-                            <h4 className="text-gray-dim font-24 hepta-semibold m-0">
+                            <h4 className="text-gray-dim font-18 hepta-semibold m-0">
                                 Our top five recos for <br />
                                 the menopausal life
                             </h4>
@@ -58,7 +58,7 @@ function Blog() {
             <div className="see-more flex justify-center mt-10">
                 <a
                     href="https://verbenacare.com/blog"
-                    className="btn-login calibre-bold font-18 uppercase primary-bg-color text-white mr-3"
+                    className="btn-login calibre-regular font-18 uppercase primary-bg-color text-white mr-3 tracking-widest"
                 >
                     See More
                 </a>
