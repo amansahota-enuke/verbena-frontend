@@ -1076,7 +1076,14 @@ video {
   display: block;
   border-radius: 100%;
   background: #333;
-  line-height: 46px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+}
+
+.msg-ico i
+{
+  font-size: 24px;
 }
 
 .newsletter-bg

@@ -31,7 +31,7 @@ function Consultation() {
                         </div>
                         <button
                             type="submit"
-                            className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
+                            className="btn-login calibre-bold font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
                         >
                             Submit
                         </button>
@@ -44,7 +44,7 @@ function Consultation() {
                         </h5>
                         <div className="flex mb-10 xl:flex-nowrap lg:flex-wrap md:flex-wrap sm:flex-wrap flex-wrap">
                             <div className="mr-4">
-                                <span className="msg-ico"></span>
+                                <span className="msg-ico"><i className="fas fa-envelope"></i></span>
                             </div>
                             <div>
                                 <h4 className="mont-font font-20 mont-bold">
@@ -78,7 +78,7 @@ function Consultation() {
                                 <div>
                                     <button
                                         type="submit"
-                                        className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
+                                        className="btn-login calibre-bold font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
                                     >
                                         Subscribe
                                     </button>

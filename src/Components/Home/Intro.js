@@ -6,7 +6,7 @@ function Intro() {
             <span  data-aos-duration="1000"data-aos="slide-left" className="xl:absolute lg:absolute md:relative sm:relative relative right-0 top-0"><img src="/images/explore-bg.png" alt="" title=""/></span>
             <div className="flex justify-start">
                 <div data-aos-duration="1000" data-aos="slide-right" className="health-explore-content">
-                    <h3 className="font-72 hepta-semibold mb-5 question-title-color leading-tight">
+                    <h3 className="font-72 hepta-bold mb-5 question-title-color leading-tight">
                         Your Doctor. <br />
                         Your Care. <br />
                         Your Time.
@@ -18,7 +18,7 @@ function Intro() {
                     </p>
                     <button
                         type="submit"
-                        className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
+                        className="btn-login calibre-bold font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
                     >
                         Explore
                     </button>
