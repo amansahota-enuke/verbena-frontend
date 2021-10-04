@@ -9,7 +9,7 @@ function Need() {
                     <h3 className="mb-10 font-20  uppercase hepta-semibold question-title-color">
                         what we offer
                     </h3>
-                    <h2 className="font-56 question-title-color mb-5 hepta-semibold leading-tight">
+                    <h2 className="font-56 question-title-color mb-5 hepta-regular leading-tight">
                         For a Woman’s Needs at Every Stage
                     </h2>
                     <p className="mont-font mont-regular font-20 text-gray-dim mxw-530 mb-10">
