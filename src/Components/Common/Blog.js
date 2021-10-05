@@ -29,7 +29,7 @@ function Blog() {
                     </div>
                     <div data-aos="fade-down" data-aos-duration="2000" className="overflow-hidden rounded-lg shadow-sm relative">
                         <span className="blog-category bg-black opacity-50 absolute top-6 left-5 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">
-                            Category 1
+                            Category 2
                         </span>
 
                         <div className="blog-image-wrapper"></div>
@@ -42,13 +42,13 @@ function Blog() {
                     </div>
                     <div data-aos="fade-down" data-aos-duration="3000" className="overflow-hidden rounded-lg shadow-sm relative">
                         <span className="blog-category bg-black opacity-50 absolute top-6 left-5 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">
-                            Category 1
+                            Category 3
                         </span>
 
                         <div className="blog-image-wrapper"></div>
                         <div className="blog-heading px-6 py-4 bg-white">
-                            <h4 className="text-gray-dim font-18 hepta-semibold m-0">
-                                Finding the best birth <br /> control for you
+                            <h4 className="text-gray-dim font-24 hepta-semibold m-0">
+                                Finding the best birth control for you
                             </h4>
                         </div>
                     </div>
