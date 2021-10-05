@@ -58,7 +58,7 @@ function Blog() {
             <div className="see-more flex justify-center mt-10">
                 <a
                     href="https://verbenacare.com/blog"
-                    className="btn-login calibre-regular font-18 uppercase primary-bg-color text-white mr-3 tracking-widest"
+                    className="btn-login calibre-bold font-18 uppercase primary-bg-color text-white mr-3 tracking-widest"
                 >
                     See More
                 </a>

@@ -1,30 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 
 body
 {
-  font-family:'Calibre-Regular', sans-serif;
-  background-color: #ebf4f3 ;
+  margin: 0;
+  font-family:'Conv_Calibre-Regular';
+  background-color: #ebf4f3;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Calibre-Bold';
   src: url('/src/fonts/Calibre-Bold.otf');
 }
@@ -32,6 +21,28 @@ body
 @font-face {
   font-family:'Calibre-Regular';
   src: url('/src/fonts/Calibre-Regular.otf');
+} */
+
+@font-face {
+	font-family: 'Conv_Calibre-Regular';
+	src: url('/src/fonts/Calibre-Regular.eot');
+	src: local('☺'), 
+  url('/src/fonts/Calibre-Regular.woff') format('woff'), 
+  url('/src/fonts/Calibre-Regular.ttf') format('truetype'), 
+  url('/src/fonts/Calibre-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Calibre-Bold';
+	src: url('/src/fonts/Calibre-Bold.eot');
+	src: local('☺'), 
+  url('/src/fonts/Calibre-Bold.woff') format('woff'), 
+  url('/src/fonts/Calibre-Bold.ttf') format('truetype'), 
+  url('/src/fonts/Calibre-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 /* font sizez */
@@ -120,12 +131,12 @@ body
 
 .calibre-bold
 {
-  font-family: 'Calibre-Bold';
+  font-family: 'Conv_Calibre-Bold';
 }
 
 .calibre-regular
 {
-  font-family:'Calibre-Regular';
+  font-family:'Conv_Calibre-Regular';
 }
 
 .hepta-bold
@@ -202,7 +213,9 @@ body
 {
   padding: 12px 35px;
   border-radius: 30px;
-  font-weight: 800;
+  font-weight: 700;
+  line-height: 24px;
+  min-height: 48px;
 }
 
 .btn-search,
@@ -210,7 +223,7 @@ body
 {
   padding: 12px 20px;
   border-radius: 30px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .btn-create-account
@@ -412,7 +425,7 @@ h6
 
 input,label,span,p,li,ul
 {
-  font-family:'Calibre-Regular', sans-serif;
+  font-family:'Conv_Calibre-Regular';
 }
 
 /* line height */
@@ -1076,7 +1089,14 @@ video {
   display: block;
   border-radius: 100%;
   background: #333;
-  line-height: 46px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+}
+
+.msg-ico i
+{
+  font-size: 24px;
 }
 
 .newsletter-bg
@@ -1316,7 +1336,6 @@ video {
 
 @media(max-width:1024px)
 {
-  .btn-create-account, .btn-login{padding:10px 20px 5px;}
   .create-account,.login-box,.ca-width{width:100%;}
   h1{font-size: 32px;}
   .main-panel{padding: 15px;}

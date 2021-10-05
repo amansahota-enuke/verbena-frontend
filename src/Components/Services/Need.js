@@ -6,10 +6,10 @@ function Need() {
         <div className="woman-stage-wrapper xl:mt-64 lg:mt-64 md:mt-20 sm:mt-10 mt-10 mb-32">
             <div className="woman-need-flex">
                 <div className="woman-need-content">
-                    <h3 className="mb-10 font-20  uppercase question-title-color">
+                    <h3 className="mb-10 font-20  uppercase hepta-semibold question-title-color">
                         what we offer
                     </h3>
-                    <h2 className="font-56 question-title-color mb-5 hepta-semibold leading-tight">
+                    <h2 className="font-56 question-title-color mb-5 hepta-regular leading-tight">
                         For a Woman’s Needs at Every Stage
                     </h2>
                     <p className="mont-font mont-regular font-20 text-gray-dim mxw-530 mb-10">
@@ -17,7 +17,7 @@ function Need() {
                         unique health needs throughout her lifetime.
                     </p>
                     <Link
-                        className="btn-login calibre-regular font-18 uppercase primary-bg-color text-white mr-3 tracking-widest"
+                        className="btn-login calibre-bold font-18 uppercase primary-bg-color text-white mr-3 tracking-widest"
                         to="/about"
                     >
                         Read More
