@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function Help() {
     return (
@@ -14,12 +15,14 @@ function Help() {
                         We offer a range of services to best address your
                         <br /> healthcare needs.
                     </p>
+                    <Link to="">
                     <button
                         type="submit"
                         className="btn-login calibre-bold font-18 uppercase primary-bg-color text-white mr-3 tracking-widest"
                     >
                         Get Started
                     </button>
+                    </Link>
                 </div>
             </div>
         </div>
