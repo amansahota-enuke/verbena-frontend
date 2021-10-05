@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function AboutUsSection() {
     return (
@@ -16,12 +17,14 @@ function AboutUsSection() {
                         digital care and telemedicine services to patients,
                         together with their personal doctor—anywhere, anytime.
                     </p>
+                    <Link to="/">
                     <button
                         type="submit"
                         className="btn-login calibre-bold font-18 uppercase primary-bg-color text-white mr-3 tracking-widest"
                     >
                         Get Started
                     </button>
+                    </Link>
                 </div>
             </div>
         </div>
