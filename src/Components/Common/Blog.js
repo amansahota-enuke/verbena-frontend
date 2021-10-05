@@ -47,7 +47,7 @@ function Blog() {
 
                         <div className="blog-image-wrapper"></div>
                         <div className="blog-heading px-6 py-4 bg-white">
-                            <h4 className="text-gray-dim font-24 hepta-semibold m-0">
+                            <h4 className="text-gray-dim font-18 hepta-semibold m-0">
                                 Finding the best birth control for you
                             </h4>
                         </div>
