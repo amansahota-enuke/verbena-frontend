@@ -16,7 +16,6 @@ export default function Dropdown({ name, type }) {
             type: "url",
             path: "https://verbenacare.com/blog",
         },
-        { for: "Info", name: "Blog", type: "link", path: "/home" },
         { for: "Info", name: "FAQ", type: "link", path: "/faq" },
         {
             for: "For Patients",

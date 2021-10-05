@@ -1,5 +1,5 @@
 import { Disclosure } from "@headlessui/react";
-import { ChevronUpIcon } from "@heroicons/react/solid";
+import { ChevronDownIcon } from "@heroicons/react/solid";
 import React, { Fragment, useState } from "react";
 
 export default function FAQ() {
@@ -29,7 +29,7 @@ export default function FAQ() {
                             <>
                                 <Disclosure.Button className="flex justify-between border-b w-full px-0 py-2 text-lg font-semibold text-left">
                                     <span>{item.question}</span>
-                                    <ChevronUpIcon
+                                    <ChevronDownIcon
                                         className={`${
                                             open ? "transform rotate-180" : ""
                                         } w-5 h-5`}
