@@ -17,9 +17,7 @@ function Story() {
                     <h5 className="font-18 question-title-color mb-6 uppercase hepta-semibold">
                         where we started
                     </h5>
-                    <h2 className="text-gray-dim font-56 hepta-semibold mb-6">
-                        Our Story
-                    </h2>
+                    <h2 className="question-title-color font-72 hepta-semibold mb-10 leading-none">Our Story</h2>
                     <p className="mont-font mont-regular font-18 text-gray-dim">
                         After 20 years, Dr. Patrusky thought there must be a
                         better and more convenient way to serve her patients.

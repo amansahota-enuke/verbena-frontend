@@ -7,7 +7,7 @@ function Founders() {
                 <h5 className="uppercase question-title-color font-18 hepta-semibold mb-4">
                     WHO WE ARE
                 </h5>
-                <h2 className="font-56 question-title-color mb-4 hepta-semibold">
+                <h2 className="font-72 question-title-color mb-10 hepta-semibold">
                     Meet Our Founders
                 </h2>
             </div>

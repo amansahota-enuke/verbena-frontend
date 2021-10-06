@@ -4,10 +4,10 @@ function Blog() {
     return (
         <div className="our-blog-wrapper">
             <div className="blog-title-wrapper text-center mb-24">
-                <h5 className="hepta-semibold uppercase blog-subtitle-color mb-5">
+                <h5 className="font-18 hepta-semibold uppercase blog-subtitle-color mb-5">
                     Our Blog
                 </h5>
-                <h2 className="hepta-semibold text-white font-40">
+                <h2 className="hepta-semibold text-white font-40 leading-none">
                     Check out our Verbena blog for <br /> the latest articles on
                     women’s health.
                 </h2>
@@ -58,7 +58,7 @@ function Blog() {
             <div className="see-more flex justify-center mt-10">
                 <a
                     href="https://verbenacare.com/blog"
-                    className="btn-login calibre-bold font-18 uppercase primary-bg-color text-white mr-3 tracking-widest"
+                    className="btn-login calibre-regular font-18 uppercase primary-bg-color text-white mr-3 tracking-widest"
                 >
                     See More
                 </a>

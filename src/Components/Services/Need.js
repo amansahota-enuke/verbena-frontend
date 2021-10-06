@@ -9,7 +9,7 @@ function Need() {
                     <h3 className="mb-10 font-20  uppercase hepta-semibold question-title-color">
                         what we offer
                     </h3>
-                    <h2 className="font-56 question-title-color mb-5 hepta-regular leading-tight">
+                    <h2 className="font-56 question-title-color mb-10 hepta-semibold leading-none">
                         For a Woman’s Needs at Every Stage
                     </h2>
                     <p className="mont-font mont-regular font-20 text-gray-dim mxw-530 mb-10">
@@ -17,7 +17,7 @@ function Need() {
                         unique health needs throughout her lifetime.
                     </p>
                     <Link
-                        className="btn-login calibre-bold font-18 uppercase primary-bg-color text-white mr-3 tracking-widest"
+                        className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
                         to="/about"
                     >
                         Read More
