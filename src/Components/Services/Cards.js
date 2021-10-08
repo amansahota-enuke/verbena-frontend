@@ -5,7 +5,7 @@ function Cards() {
         <section className="what-we-do-grid mt-24">
             <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-6">
                 <div data-aos="fade-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-lg shadow-xl pl-6 pr-6 pb-6 pt-24">
-                    <span className="absolute left-0 top-0">
+                    <span className="absolute -left-2 top-0">
                         <img
                             src="/images/cloud-vector-left.png"
                             alt=""
@@ -18,7 +18,7 @@ function Cards() {
                     </h4>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-lg shadow-xl pl-6 pr-6 pb-6 pt-24">
-                    <span className="absolute left-0 top-0">
+                    <span className="absolute -left-2 top-0">
                         <img
                             src="/images/cloud-vector-left.png"
                             alt=""
@@ -31,7 +31,7 @@ function Cards() {
                     </h4>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-lg shadow-xl pl-6 pr-6 pb-6 pt-24">
-                    <span className="absolute left-0 top-0">
+                    <span className="absolute -left-2 top-0">
                         <img
                             src="/images/cloud-vector-left.png"
                             alt=""
@@ -44,7 +44,7 @@ function Cards() {
                     </h4>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-lg shadow-xl pl-6 pr-6 pb-6 pt-24">
-                    <span className="absolute left-0 top-0">
+                    <span className="absolute -left-2 top-0">
                         <img
                             src="/images/cloud-vector-left.png"
                             alt=""
@@ -57,7 +57,7 @@ function Cards() {
                     </h4>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-lg shadow-xl pl-6 pr-6 pb-6 pt-24">
-                    <span className="absolute left-0 top-0">
+                    <span className="absolute -left-2 top-0">
                         <img
                             src="/images/cloud-vector-left.png"
                             alt=""
@@ -70,7 +70,7 @@ function Cards() {
                     </h4>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-lg shadow-xl pl-6 pr-6 pb-6 pt-24">
-                    <span className="absolute left-0 top-0">
+                    <span className="absolute -left-2 top-0">
                         <img
                             src="/images/cloud-vector-left.png"
                             alt=""

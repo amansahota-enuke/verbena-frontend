@@ -4,7 +4,7 @@ function AboutUs() {
     return (
         <div className="about-us-wrapper">
             <div className="about-wrapper-title mb-20 text-center">
-                <h2 className="hepta-semibold text-gray-dim font-56 mb-10 question-title-color">
+                <h2 className="hepta-semibold text-gray-dim font-72 mb-10 question-title-color leading-none">
                     About Us
                 </h2>
                 <p className="mont-font mont-regular font-20 text-gray-dim">
@@ -23,7 +23,7 @@ function AboutUs() {
                         <h5 className="uppercase question-title-color mb-4 hepta-semibold">
                             Our Mission
                         </h5>
-                        <p className="text-gray-dim font-24">
+                        <p className="text-gray-dim font-18 mont-regular mont-font">
                             Empower women to take <br /> charge of their
                             healthcare in a <br /> safe, private, and convenient
                             way.
@@ -36,7 +36,7 @@ function AboutUs() {
                         <h5 className="uppercase question-title-color mb-4 hepta-semibold">
                             Our Vision
                         </h5>
-                        <p className="text-gray-dim font-24">
+                        <p className="text-gray-dim font-18 mont-regular mont-font">
                             To provide a superior <br />
                             women’s telehealth <br />
                             platform that elevates <br />

@@ -1,37 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 
 body
 {
-  font-family:'Calibre-Regular', sans-serif;
-  background-color: #ebf4f3 ;
+  margin: 0;
+  font-family:'Conv_Calibre-Regular';
+  background-color: #ebf4f3;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @font-face {
-  font-family: 'Calibre-Bold';
-  src: url('/src/fonts/Calibre-Bold.otf');
+	font-family: 'Conv_Calibre-Regular';
+	src: url('/src/fonts/Calibre-Regular.eot');
+	src: local('☺'), 
+  url('/src/fonts/Calibre-Regular.woff') format('woff'), 
+  url('/src/fonts/Calibre-Regular.ttf') format('truetype'), 
+  url('/src/fonts/Calibre-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-  font-family:'Calibre-Regular';
-  src: url('/src/fonts/Calibre-Regular.otf');
+	font-family: 'Conv_Calibre-Bold';
+	src: url('/src/fonts/Calibre-Bold.eot');
+	src: local('☺'), 
+  url('/src/fonts/Calibre-Bold.woff') format('woff'), 
+  url('/src/fonts/Calibre-Bold.ttf') format('truetype'), 
+  url('/src/fonts/Calibre-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 /* font sizez */
@@ -120,12 +121,17 @@ body
 
 .calibre-bold
 {
-  font-family: 'Calibre-Bold';
+  font-family: 'Conv_Calibre-Bold';
 }
 
 .calibre-regular
 {
-  font-family:'Calibre-Regular';
+  font-family:'Conv_Calibre-Regular';
+}
+
+.hepta-font
+{
+  font-family: 'Hepta Slab';
 }
 
 .hepta-bold
@@ -202,7 +208,9 @@ body
 {
   padding: 12px 35px;
   border-radius: 30px;
-  font-weight: 800;
+  font-weight: 700;
+  line-height: 24px;
+  min-height: 48px;
 }
 
 .btn-search,
@@ -210,7 +218,7 @@ body
 {
   padding: 12px 20px;
   border-radius: 30px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .btn-create-account
@@ -367,17 +375,11 @@ body
   top:1px;
 }
 
-
-
-
-
-
-
 /* heading */
 
 h1,h2,h3,h4,h5,h6
 {
-  font-family: 'Hepta Slab', serif;
+  font-family: 'Hepta Slab';
 }
 
 h1
@@ -410,10 +412,10 @@ h6
   font-size: 16px;
 }
 
-input,label,span,p,li,ul
+/* input,label,span,p,li,ul
 {
-  font-family:'Calibre-Regular', sans-serif;
-}
+  font-family:'Conv_Calibre-Regular';
+} */
 
 /* line height */
 
@@ -1058,7 +1060,7 @@ video {
   height: 48px;
   border-radius: 100%;
   text-align: center;
-  line-height: 46px;
+  line-height: 52px;
   background: #59BDBA;
   color: #fff;
   font-size: 24px;
@@ -1076,7 +1078,14 @@ video {
   display: block;
   border-radius: 100%;
   background: #333;
-  line-height: 46px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+}
+
+.msg-ico i
+{
+  font-size: 24px;
 }
 
 .newsletter-bg
@@ -1114,7 +1123,7 @@ video {
 {
   margin-top: -60px;
   margin-left: 100px;
-  min-height: 300px;
+  min-height: 230px;
 }
 
 .value-box p
@@ -1234,7 +1243,7 @@ video {
 .testimonial-carousel .item > p
 {
   position: relative;
-  max-width: 724px;
+  max-width: 840px;
   margin: 0 auto 30px;
 }
 
@@ -1242,15 +1251,15 @@ video {
 {
   content: url('./images/blockquote-after.png');
   position: absolute;
-  right: -24px;
-  bottom: -24px;
+  right: 70px;
+  bottom: -40px;
 }
 
 .testimonial-carousel .item p.content::before
 {
   content: url('./images/blockquote-before.png');
   position: absolute;
-  left: -24px;
+  left: -70px;
   top: -24px;
 }
 
@@ -1304,6 +1313,24 @@ video {
 .woman-need-flex .woman-need-content {
   flex-basis: 667px;
 }
+
+/* 06 Oct 2021 Css */
+
+.what-we-stand-content::before {
+  content: url('./images/blockquote-before.png');
+  position: absolute;
+  left: -70px;
+  top: -24px;
+}
+
+.what-we-stand-content::after {
+  content: url('./images/blockquote-after.png');
+  position: absolute;
+  right: 53px;
+  bottom: -53px;
+}
+
+
 
 /* Media Css */
 

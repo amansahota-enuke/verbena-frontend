@@ -1,7 +1,7 @@
 import { Redirect, Route, Switch } from "react-router-dom";
 import "./App.css";
 import { Footer, Header, Error, ScrollToTop } from "./Components";
-import { AboutPage, HomePage, ServicesPage, FAQPage } from "./Pages";
+import { AboutPage, HomePage, ServicesPage, FAQPage, WhyVerbenaPage } from "./Pages";
 
 function App() {
     return (
@@ -19,6 +19,7 @@ function App() {
                         <Route path="/services" component={ServicesPage} />
                         <Route path="/about" component={AboutPage} />
                         <Route path="/faq" component={FAQPage} />
+                        <Route path="/Why-Verbena" component={WhyVerbenaPage} />
                         <Route component={Error} />
                     </Switch>
                 </ScrollToTop>
