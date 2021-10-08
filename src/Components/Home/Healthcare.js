@@ -6,11 +6,11 @@ function Healthcare() {
             
             <div className="flex justify-end xl:flex-nowrap lg:flex-nowrap md:flex-wrap sm:flex-wrap flex-wrap">
                 <div className="health-care-content xl:mb-0 lg:mb-0 md:mb-10 sm:mb-10 mb-10">
-                    <h3 className="font-72 hepta-semibold mb-5 question-title-color leading-tight">
+                    <h3 className="font-72 hepta-semibold mb-10 question-title-color leading-none">
                         Healthcare <br />
                         Her Way.
                     </h3>
-                    <p className="mont-font mont-regular font-20 mb-5">
+                    <p className="mont-font mont-regular font-20 mb-10">
                         Created with her care in mind, Verbena celebrates the
                         unique health needs throughout her lifetime—from
                         menstruation to menopause (and everything in between).

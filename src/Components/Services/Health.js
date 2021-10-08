@@ -5,7 +5,7 @@ function Health() {
         <div className="woman-need-grid">
             <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-6">
                 <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
-                    <span className="absolute top-0 right-0">
+                    <span className="absolute top-0 -right-2">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
                     <h3 className="font-24 hepta-semibold question-title-color mb-2">
@@ -17,7 +17,7 @@ function Health() {
                     </p>
                 </div>
                 <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
-                    <span className="absolute top-0 right-0">
+                    <span className="absolute top-0 -right-2">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
                     <h3 className="font-24 hepta-semibold question-title-color mb-2">
@@ -29,7 +29,7 @@ function Health() {
                     </p>
                 </div>
                 <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
-                    <span className="absolute top-0 right-0">
+                    <span className="absolute top-0 -right-2">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
                     <h3 className="font-24 hepta-semibold question-title-color mb-2">
@@ -41,7 +41,7 @@ function Health() {
                     </p>
                 </div>
                 <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
-                    <span className="absolute top-0 right-0">
+                    <span className="absolute top-0 -right-2">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
                     <h3 className="font-24 hepta-semibold question-title-color mb-2">
@@ -53,7 +53,7 @@ function Health() {
                     </p>
                 </div>
                 <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
-                    <span className="absolute top-0 right-0">
+                    <span className="absolute top-0 -right-2">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
                     <h3 className="font-24 hepta-semibold question-title-color mb-2">
@@ -71,7 +71,7 @@ function Health() {
                     </h3>
                     <button
                         type="submit"
-                        className="btn-login calibre-regular font-18 uppercase primary-bg-color text-white mr-3 tracking-widest"
+                        className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
                     >
                         Reach Out
                     </button>

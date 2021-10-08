@@ -15,6 +15,7 @@ import Home from "./Home";
 import About from "./About";
 import Services from "./Services";
 import FAQ from "./FAQ";
+import WhyVerbena from "./WhyVerbena";
 
 export {
     //Common
@@ -35,4 +36,5 @@ export {
     About,
     Services,
     FAQ,
+    WhyVerbena
 };

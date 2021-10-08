@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function AboutUsSection() {
     return (
@@ -8,20 +9,22 @@ function AboutUsSection() {
                     <img src="/images/about-us-img.png" alt="" title="" />
                 </div>
                 <div className="about-us-content">
-                    <h2 className="font-72 question-title-color mb-4 hepta-semibold">
+                    <h2 className="font-72 question-title-color mb-10 hepta-semibold leading-none">
                         About Us.
                     </h2>
-                    <p className="font-20 mont-font mont-regular text-gray-dim mb-4">
+                    <p className="font-20 mont-font mont-regular text-gray-dim mb-10">
                         We are a comprehensive women’s health platform offering
                         digital care and telemedicine services to patients,
                         together with their personal doctor—anywhere, anytime.
                     </p>
+                    <Link to="/">
                     <button
                         type="submit"
-                        className="btn-login calibre-regular font-18 uppercase primary-bg-color text-white mr-3 tracking-widest"
+                        className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
                     >
                         Get Started
                     </button>
+                    </Link>
                 </div>
             </div>
         </div>

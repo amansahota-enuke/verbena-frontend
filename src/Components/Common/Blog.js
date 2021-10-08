@@ -4,10 +4,10 @@ function Blog() {
     return (
         <div className="our-blog-wrapper">
             <div className="blog-title-wrapper text-center mb-24">
-                <h5 className="hepta-semibold uppercase blog-subtitle-color mb-5">
+                <h5 className="font-18 hepta-semibold uppercase blog-subtitle-color mb-5">
                     Our Blog
                 </h5>
-                <h2 className="hepta-semibold text-white font-40">
+                <h2 className="hepta-semibold text-white font-40 leading-none">
                     Check out our Verbena blog for <br /> the latest articles on
                     women’s health.
                 </h2>
@@ -47,7 +47,7 @@ function Blog() {
 
                         <div className="blog-image-wrapper"></div>
                         <div className="blog-heading px-6 py-4 bg-white">
-                            <h4 className="text-gray-dim font-24 hepta-semibold m-0">
+                            <h4 className="text-gray-dim font-18 hepta-semibold m-0">
                                 Finding the best birth control for you
                             </h4>
                         </div>
