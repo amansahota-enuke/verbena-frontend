@@ -11,10 +11,8 @@ function Feedback() {
 
             <div className="testimonial-carousel">
                 <div className="item text-center">
-                    <p className="content font-44 hepta-regular light-gray-dim lh-40">
-                        Verbena is an easy and affordable <br />
-                        way to connect with my doctor <br />
-                        from the convenience of my home.
+                    <p className="content font-40 hepta-font light-gray-dim lh-40">
+                        Verbena is an easy and affordable way to connect with my doctor from the convenience of my home.
                     </p>
                     <div className="flex justify-center items-center mt-8">
                         <div>

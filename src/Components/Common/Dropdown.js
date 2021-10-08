@@ -39,7 +39,7 @@ export default function Dropdown({ name, type }) {
             for: "For Providers",
             name: "Why Verbena",
             type: "link",
-            path: "/home",
+            path: "/Why-Verbena",
         },
         {
             for: "For Providers",

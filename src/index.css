@@ -13,16 +13,6 @@ body
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* @font-face {
-  font-family: 'Calibre-Bold';
-  src: url('/src/fonts/Calibre-Bold.otf');
-}
-
-@font-face {
-  font-family:'Calibre-Regular';
-  src: url('/src/fonts/Calibre-Regular.otf');
-} */
-
 @font-face {
 	font-family: 'Conv_Calibre-Regular';
 	src: url('/src/fonts/Calibre-Regular.eot');
@@ -137,6 +127,11 @@ body
 .calibre-regular
 {
   font-family:'Conv_Calibre-Regular';
+}
+
+.hepta-font
+{
+  font-family: 'Hepta Slab';
 }
 
 .hepta-bold
@@ -380,17 +375,11 @@ body
   top:1px;
 }
 
-
-
-
-
-
-
 /* heading */
 
 h1,h2,h3,h4,h5,h6
 {
-  font-family: 'Hepta Slab', serif;
+  font-family: 'Hepta Slab';
 }
 
 h1
@@ -423,10 +412,10 @@ h6
   font-size: 16px;
 }
 
-input,label,span,p,li,ul
+/* input,label,span,p,li,ul
 {
   font-family:'Conv_Calibre-Regular';
-}
+} */
 
 /* line height */
 
@@ -1134,7 +1123,7 @@ video {
 {
   margin-top: -60px;
   margin-left: 100px;
-  min-height: 300px;
+  min-height: 230px;
 }
 
 .value-box p
@@ -1254,7 +1243,7 @@ video {
 .testimonial-carousel .item > p
 {
   position: relative;
-  max-width: 724px;
+  max-width: 840px;
   margin: 0 auto 30px;
 }
 
@@ -1262,15 +1251,15 @@ video {
 {
   content: url('./images/blockquote-after.png');
   position: absolute;
-  right: -24px;
-  bottom: -24px;
+  right: 70px;
+  bottom: -40px;
 }
 
 .testimonial-carousel .item p.content::before
 {
   content: url('./images/blockquote-before.png');
   position: absolute;
-  left: -24px;
+  left: -70px;
   top: -24px;
 }
 
@@ -1324,6 +1313,24 @@ video {
 .woman-need-flex .woman-need-content {
   flex-basis: 667px;
 }
+
+/* 06 Oct 2021 Css */
+
+.what-we-stand-content::before {
+  content: url('./images/blockquote-before.png');
+  position: absolute;
+  left: -70px;
+  top: -24px;
+}
+
+.what-we-stand-content::after {
+  content: url('./images/blockquote-after.png');
+  position: absolute;
+  right: 53px;
+  bottom: -53px;
+}
+
+
 
 /* Media Css */
 
