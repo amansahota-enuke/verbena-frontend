@@ -17,14 +17,14 @@ function AboutUsSection() {
                         digital care and telemedicine services to patients,
                         together with their personal doctor—anywhere, anytime.
                     </p>
-                    <Link to="/">
+                    <a href={`${process.env.REACT_APP_VERBENA_PATIENT}`}> 
                     <button
                         type="submit"
                         className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
                     >
                         Get Started
                     </button>
-                    </Link>
+                    </a>
                 </div>
             </div>
         </div>

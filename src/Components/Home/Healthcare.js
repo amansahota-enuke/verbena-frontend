@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from 'react-router-dom';
 function Healthcare() {
     return (
         <div className="health-care-way mt-90">
@@ -17,12 +17,14 @@ function Healthcare() {
                         We provide a secure and direct line of communication to
                         your personal doctor/provider anytime, anywhere.
                     </p>
+                    <a href={`${process.env.REACT_APP_VERBENA_PATIENT}/signup`}>
                     <button
                         type="submit"
                         className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
                     >
                         Get Started
                     </button>
+                    </a>
                 </div>
                 <div className="health-care-left-img xl:absolute lg:absolute md:relative sm:relative relative left-0 top-55">
                     <img src="/images/health-care-bg.png" alt="" title="" />
