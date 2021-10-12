@@ -69,9 +69,11 @@ const Footer = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <a className="mont-regular text-white font-18 mont-font cursor-pointer">
+                                        <Link className="mont-regular text-white font-18 mont-font cursor-pointer"
+                                        to="/Why-Verbena"
+                                        >
                                             Why Verbena?
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
