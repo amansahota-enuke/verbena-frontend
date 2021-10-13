@@ -1,37 +1,125 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useDispatch } from "react-redux";
+import { CommonService } from "../../services";
+import { Loader } from "../";
+import { ConfirmationActions } from "../../redux/slice/confirmation.slice";
+import confirmationConstants from "../../constants/confirmation.constants";
 
 function Consultation() {
+    const dispatch = useDispatch();
+    const [loader, setLoader] = useState(true);
+    const [states, setStates] = useState([]);
+    const [selectedState, setSelectedState] = useState("");
+    const [providers, setProviders] = useState([]);
+    const [selectedProvider, setSelectedProvider] = useState("");
+
+    const getStates = async () => {
+        try {
+            const response = await CommonService.getStates();
+            setStates(response.data.data);
+            setLoader(false);
+        } catch (error) {
+            setLoader(false);
+            console.log(error);
+        }
+    };
+
+    const getProviders = async () => {
+        try {
+            setLoader();
+            const response = await CommonService.getProviderList({
+                state: selectedState,
+            });
+            setProviders(response.data.data);
+            setLoader(false);
+        } catch (error) {
+            setLoader(false);
+            console.log(error);
+        }
+    };
+
+    const openProviderConfirmation = () => {
+        dispatch(ConfirmationActions.setConfirmationProvider(selectedProvider));
+        dispatch(ConfirmationActions.setConfirmationType(confirmationConstants.PROVIDER_DETAIL));
+        dispatch(ConfirmationActions.openConfirmation())
+    };
+
+    useEffect(() => {
+        getStates();
+    }, []);
+
+    useEffect(() => {
+        if (!!selectedState) {
+            getProviders();
+        }
+    }, [selectedState]);
+
     return (
-        <div data-aos="flip-right" data-aos-duration="2000" className="get-consult box-white bg-white rounded-2xl shadow-md mt-40 overflow-hidden mb-24">
+        <div
+            data-aos="flip-right"
+            data-aos-duration="2000"
+            className="get-consult box-white bg-white rounded-2xl shadow-md mt-40 overflow-hidden mb-24"
+        >
+            {loader && <Loader />}
             <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1">
                 <div className="p-10 get-consult-form">
                     <img src="/images/get-consult-logo.png" alt="" title="" />
-                    <h3 className="mont-font mont-extra-light font-40 mb-2 light-gray-dim mt-4">
-                     Find a Physician
+                    <h3 className="hepta-font font-40 mb-2 light-gray-dim mt-4">
+                        Find a Physician
                     </h3>
                     <p className="mont-font mont-regular font-18 mb-10 light-gray-dim">
-                     Enter your state for a list of participating Verbena providers.
+                        Select your state for a list of participating Verbena
+                        providers.
                     </p>
                     <div className="form-input">
                         <div className="flex mb-4">
-                            <input
-                                type="text"
-                                className="custom-input input-border-color border"
-                                placeholder="Your Name"
-                                name="name"
-                            />
+                            <select
+                                className="custom-select ca-width input-border-color border text-justify"
+                                value={selectedState}
+                                onChange={(e) =>
+                                    setSelectedState(e.target.value)
+                                }
+                            >
+                                <option value="">Select State</option>
+                                {states.map((state) => (
+                                    <option value={state.id} key={state.id}>
+                                        {state.state_name}
+                                    </option>
+                                ))}
+                            </select>
                         </div>
-                        <div className="flex mb-8">
-                            <input
-                                type="text"
-                                className="custom-input input-border-color border"
-                                placeholder="Your Email"
-                                name="email"
-                            />
-                        </div>
+                        {selectedState && (
+                            <div className="flex mb-4">
+                                {!loader && providers.length === 0 ? (
+                                    "No providers found in selected state"
+                                ) : (
+                                    <select
+                                        className="custom-select ca-width input-border-color border text-justify"
+                                        value={selectedProvider}
+                                        onChange={(e) =>
+                                            setSelectedProvider(e.target.value)
+                                        }
+                                    >
+                                        <option value="">
+                                            Select Provider
+                                        </option>
+                                        {providers.map((provider) => (
+                                            <option
+                                                value={provider.id}
+                                                key={provider.id}
+                                            >
+                                                {`${provider.first_name} ${provider.last_name} (${provider.provider_speciality_master.name})`}
+                                            </option>
+                                        ))}
+                                    </select>
+                                )}
+                            </div>
+                        )}
                         <button
                             type="submit"
-                            className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
+                            disabled={selectedProvider ? false : true}
+                            className="disabled:opacity-50 btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
+                            onClick={openProviderConfirmation}
                         >
                             Submit
                         </button>
@@ -44,7 +132,9 @@ function Consultation() {
                         </h5>
                         <div className="flex mb-10 xl:flex-nowrap lg:flex-wrap md:flex-wrap sm:flex-wrap flex-wrap">
                             <div className="mr-4">
-                                <span className="msg-ico"><i className="fas fa-envelope"></i></span>
+                                <span className="msg-ico">
+                                    <i className="fas fa-envelope"></i>
+                                </span>
                             </div>
                             <div>
                                 <h4 className="mont-font font-20 mont-bold">
@@ -63,8 +153,11 @@ function Consultation() {
                             Newsletter
                         </h3>
                         <p className="mb-5 mont-font mont-regular font-16 text-white">
-                        Register for our quarterly newsletter to receive Verbena product and provider updates, top women’s health news and Q&A with our Verbena medical advisers.
-                                </p>
+                            Register for our quarterly newsletter to receive
+                            Verbena product and provider updates, top women’s
+                            health news and Q&A with our Verbena medical
+                            advisers.
+                        </p>
                         <div className="newsletter-form mb-10">
                             <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-3">
                                 <div>

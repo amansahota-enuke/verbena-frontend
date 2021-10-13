@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import AOS from "aos";
+import store from "./redux/store";
+import { Provider } from "react-redux";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 
 import "./index.css";
@@ -11,9 +13,11 @@ import reportWebVitals from "./reportWebVitals";
 AOS.init();
 ReactDOM.render(
     <React.StrictMode>
-        <BrowserRouter>
-            <App />
-        </BrowserRouter>
+        <Provider store={store}>
+            <BrowserRouter>
+                <App />
+            </BrowserRouter>
+        </Provider>
     </React.StrictMode>,
     document.getElementById("root")
 );
