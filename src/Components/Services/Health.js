@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Health() {
     return (
@@ -8,18 +9,22 @@ function Health() {
                     <span className="absolute top-0 -right-2">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
+                    <a href={`${process.env.REACT_APP_VERBENA_PATIENT}/login`}>
                     <h3 className="font-24 hepta-semibold question-title-color mb-2">
                         Adolescent + Young Adult Health
                     </h3>
+                    
                     <p className="font-18 mont-font mont-regular text-gray-dim">
                         Birth Control, STI Testing, UTI Treatment <br /> Vaginal
                         Infection, Menstrual Issues
                     </p>
+                    </a>
                 </div>
                 <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
                     <span className="absolute top-0 -right-2">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
+                    <a href={`${process.env.REACT_APP_VERBENA_PATIENT}/login`}>
                     <h3 className="font-24 hepta-semibold question-title-color mb-2">
                         Reproductive Health
                     </h3>
@@ -27,11 +32,13 @@ function Health() {
                         Contraception, Unintended Pregnancy, Morning After Pill,
                         Fertility Concerns, Preconception Counseling
                     </p>
+                    </a>
                 </div>
                 <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
                     <span className="absolute top-0 -right-2">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
+                    <a href={`${process.env.REACT_APP_VERBENA_PATIENT}/login`}>
                     <h3 className="font-24 hepta-semibold question-title-color mb-2">
                         Obstetrics + Post-Partum Care
                     </h3>
@@ -39,11 +46,13 @@ function Health() {
                         Post-Delivery Check Up, Breast Feeding Concerns
                         Post-Partum Contraception, Post Partum Mood Changes
                     </p>
+                    </a>
                 </div>
                 <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
                     <span className="absolute top-0 -right-2">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
+                    <a href={`${process.env.REACT_APP_VERBENA_PATIENT}/login`}>
                     <h3 className="font-24 hepta-semibold question-title-color mb-2">
                         Sexual Health
                     </h3>
@@ -51,11 +60,13 @@ function Health() {
                         UTI Treatment, Vaginal Irritation, STI Concerns Libido,
                         Painful Sex
                     </p>
+                    </a>
                 </div>
                 <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
                     <span className="absolute top-0 -right-2">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
+                    <a href={`${process.env.REACT_APP_VERBENA_PATIENT}/login`}>
                     <h3 className="font-24 hepta-semibold question-title-color mb-2">
                         Peri + Menopausal Health
                     </h3>
@@ -63,18 +74,21 @@ function Health() {
                         Hot Flashes, Mood + Sleep Disruption, Sexual Dysfunction
                         Hormone Concerns, Bone Health
                     </p>
+                    </a>
                 </div>
                 <div data-aos="slide-up" data-aos-duration="2000" className="pl-10 pr-10 pt-28 pb-28">
                     <h3 className="font-24 hepta-semibold question-title-color mb-2">
                         Is there something we didn’t mention that we can help
                         you with?
                     </h3>
+                    <Link to="/contact">
                     <button
                         type="submit"
                         className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
                     >
                         Reach Out
                     </button>
+                    </Link>
                 </div>
             </div>
         </div>

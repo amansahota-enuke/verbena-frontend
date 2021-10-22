@@ -7,6 +7,7 @@ import confirmationConstants from "../../constants/confirmation.constants";
 import selector from "../../redux/selector";
 import { ConfirmationActions } from "../../redux/slice/confirmation.slice";
 import TestConfirmation from "./TestConfirmation";
+import SubscribeConfirmation from "./SubscibeConfirmation";
 import ProviderDetail from "./ProviderDetail";
 
 const Confirmation = () => {
@@ -72,6 +73,8 @@ const SelectedConfirmation = () => {
             return <TestConfirmation />;
         case confirmationConstants.PROVIDER_DETAIL:
             return <ProviderDetail />;
+        case confirmationConstants.SUBSCRIBE_CONFIRMATION:
+            return <SubscribeConfirmation />;
         default:
             return "";
     }
