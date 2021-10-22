@@ -16,7 +16,9 @@ import About from "./About";
 import Services from "./Services";
 import FAQ from "./FAQ";
 import WhyVerbena from "./WhyVerbena";
-
+import Contact from './Contact/Contact';
+import TermsOfUse from "./TermsAndPolicy/TermsOfUse";
+import PrivacyPolicy from "./TermsAndPolicy/PrivacyPolicy";
 export {
     //Common
     Header,
@@ -36,5 +38,8 @@ export {
     About,
     Services,
     FAQ,
-    WhyVerbena
+    WhyVerbena,
+    Contact,
+    TermsOfUse,
+    PrivacyPolicy
 };

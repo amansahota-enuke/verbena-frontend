@@ -1330,6 +1330,12 @@ video {
   bottom: -53px;
 }
 
+/* 22 Oct 2021 Css */
+
+.our-blog-grid .grid img {
+  min-height: 280px;
+  object-fit: cover;
+}
 
 
 /* Media Css */
