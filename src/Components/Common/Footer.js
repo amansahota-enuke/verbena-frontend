@@ -70,9 +70,11 @@ const Footer = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="mailto:info@verbenacare.com" className="mont-regular text-white font-18 mont-font cursor-pointer">
+                                        <Link className="mont-regular text-white font-18 mont-font cursor-pointer"
+                                        to="/contact"
+                                        >
                                             Contact
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
                                         <Link className="mont-regular text-white font-18 mont-font cursor-pointer"
@@ -130,14 +132,20 @@ const Footer = () => {
                             </div>
                             <div className="grid grid-cols-2 gap-4 xl:mt-0 lg:mt-0 md:mt-4 sm:mt-4 mt-4">
                                 <div>
+                                    <Link 
+                                    to="/termsofuse">
                                     <button className="mont-font mont-regular text-white font-16 cursor-pointer">
                                         Terms of Use
                                     </button>
+                                    </Link>
                                 </div>
                                 <div>
+                                <Link 
+                                    to="/privacypolicy">
                                     <button className="mont-font mont-regular text-white font-16 cursor-pointer">
                                         Privacy Policy
                                     </button>
+                                </Link>
                                 </div>
                             </div>
                         </div>
