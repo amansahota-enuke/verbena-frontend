@@ -39,13 +39,17 @@ const Footer = () => {
                             <div className="blog-footer-links">
                                 <ul className="blog-footer-list">
                                     <li>
-                                        <a className="mont-regular text-white font-18 mont-font cursor-pointer">
-                                            Make Appointment
+                                        <a href={`${process.env.REACT_APP_VERBENA_PATIENT}/home/appointment`}>
+                                            <a className="mont-regular text-white font-18 mont-font cursor-pointer">
+                                                Make Appointment
+                                            </a>
                                         </a>
                                     </li>
                                     <li>
-                                        <a className="mont-regular text-white font-18 mont-font cursor-pointer">
-                                            Patient Log In
+                                        <a href={`${process.env.REACT_APP_VERBENA_PATIENT}/login`}>
+                                            <a className="mont-regular text-white font-18 mont-font cursor-pointer">
+                                                Patient Log In
+                                            </a>
                                         </a>
                                     </li>
                                 </ul>
@@ -59,8 +63,10 @@ const Footer = () => {
                             <div className="blog-footer-links">
                                 <ul className="blog-footer-list">
                                     <li>
-                                        <a className="mont-regular text-white font-18 mont-font cursor-pointer">
-                                            Provider Log In
+                                        <a href={`${process.env.REACT_APP_VERBENA_PROVIDER}/login`}>
+                                            <a className="mont-regular text-white font-18 mont-font cursor-pointer">
+                                                Provider Log In
+                                            </a>
                                         </a>
                                     </li>
                                     <li>
@@ -69,9 +75,11 @@ const Footer = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <a className="mont-regular text-white font-18 mont-font cursor-pointer">
+                                        <Link className="mont-regular text-white font-18 mont-font cursor-pointer"
+                                        to="/Why-Verbena"
+                                        >
                                             Why Verbena?
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>

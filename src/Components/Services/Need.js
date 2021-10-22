@@ -16,12 +16,7 @@ function Need() {
                         Created with her care in mind, Verbena celebrates the
                         unique health needs throughout her lifetime.
                     </p>
-                    <Link
-                        className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
-                        to="/about"
-                    >
-                        Read More
-                    </Link>
+                    
                 </div>
                 <div className="women-need-img xl:absolute lg:relative md:relative sm:relative relative right-0 top-25">
                     <img src="/images/women-need-stage-img.png" alt="" title=""/>
