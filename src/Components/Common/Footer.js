@@ -70,11 +70,10 @@ const Footer = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <Link className="mont-regular text-white font-18 mont-font cursor-pointer"
-                                        to="/contact"
+                                        <a href="mailto:info@verbenacare.com" className="mont-regular text-white font-18 mont-font cursor-pointer"
                                         >
                                             Contact
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
                                         <Link className="mont-regular text-white font-18 mont-font cursor-pointer"

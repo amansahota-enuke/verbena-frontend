@@ -16,7 +16,7 @@ export default function Header() {
         { name: "About", type: "link", path: "/about", current: false },
         { name: "Services", type: "link", path: "/services", current: false },
         { name: "Info", type: "drop", path: "#", current: false },
-        { name: "Contact", type: "link", path: "/contact", current: false },
+        { name: "Contact", type: "link", path: "info@verbenacare.com", current: false },
         { name: "For Patients", type: "drop", path: "#", current: false },
         { name: "For Providers", type: "drop", path: "#", current: false },
     ]);
