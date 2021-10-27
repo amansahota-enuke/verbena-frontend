@@ -49,11 +49,11 @@ export default function Header() {
         if (location.pathname === "/Why-Verbena") {
             return handleNavigation(navigation[6]);
         }
-        if (location.pathname) {
-            return handleNavigation(
-                navigation.find((ele) => ele.path === location.pathname)
-            );
-        }
+        // if (location.pathname) {
+        //     return handleNavigation(
+        //         navigation.find((ele) => ele.path === location.pathname)
+        //     );
+        // }
     }, [location]);
 
     return (
