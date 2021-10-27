@@ -16,13 +16,14 @@ const Confirmation = () => {
     const closeModal = () => {
         dispatch(ConfirmationActions.closeConfirmation());
     };
+    const confirmationType = useSelector(selector.confirmationType);
 
     return (
         <>
             <Transition appear show={isOpen} as={Fragment}>
                 <Dialog
                     as="div"
-                    className="fixed inset-0 z-20 overflow-y-auto"
+                    className="fixed inset-0 z-50 overflow-y-auto"
                     onClose={() => console.log("Do nothing")}
                 >
                     <div className="min-h-screen px-4 text-center">
@@ -54,7 +55,14 @@ const Confirmation = () => {
                             leaveFrom="opacity-100 scale-100"
                             leaveTo="opacity-0 scale-95"
                         >
-                            <div className="inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
+                            <div
+                                className={`${
+                                    confirmationType ===
+                                    confirmationConstants.PROVIDER_DETAIL
+                                        ? "w-3/4"
+                                        : "w-full max-w-md"
+                                } inline-block p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl`}
+                            >
                                 <SelectedConfirmation />
                             </div>
                         </Transition.Child>

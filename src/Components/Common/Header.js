@@ -1,6 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
-import React, { Fragment, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import React, { Fragment, useEffect, useState } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
@@ -11,12 +11,19 @@ function classNames(...classes) {
 }
 
 export default function Header() {
+    const location = useLocation();
+
     const [navigation, setNavigation] = useState([
         { name: "Home", type: "link", path: "/home", current: true },
         { name: "About", type: "link", path: "/about", current: false },
         { name: "Services", type: "link", path: "/services", current: false },
         { name: "Info", type: "drop", path: "#", current: false },
-        { name: "Contact", type: "link", path: "info@verbenacare.com", current: false },
+        {
+            name: "Contact",
+            type: "url",
+            path: "mailto:info@verbenacare.com",
+            current: false,
+        },
         { name: "For Patients", type: "drop", path: "#", current: false },
         { name: "For Providers", type: "drop", path: "#", current: false },
     ]);
@@ -33,6 +40,21 @@ export default function Header() {
 
         setNavigation(updatedNavigation);
     };
+
+    useEffect(() => {
+        console.log(location);
+        if (location.pathname === "/faq") {
+            return handleNavigation(navigation[3]);
+        }
+        if (location.pathname === "/Why-Verbena") {
+            return handleNavigation(navigation[6]);
+        }
+        if (location.pathname) {
+            return handleNavigation(
+                navigation.find((ele) => ele.path === location.pathname)
+            );
+        }
+    }, [location]);
 
     return (
         <Disclosure as="nav" className="fixed top-0 py-4 w-full z-50 bg-white">
@@ -104,6 +126,28 @@ export default function Header() {
                                                     >
                                                         {item.name}
                                                     </Link>
+                                                ) : item.type === "url" ? (
+                                                    <a
+                                                        href={item.path}
+                                                        className={classNames(
+                                                            item.current
+                                                                ? "primary-text-color primary-text-hover-color"
+                                                                : "",
+                                                            "px-3 py-2 text-lg font-bold primary-text-hover-color"
+                                                        )}
+                                                        aria-current={
+                                                            item.current
+                                                                ? "page"
+                                                                : undefined
+                                                        }
+                                                        onClick={() =>
+                                                            handleNavigation(
+                                                                item
+                                                            )
+                                                        }
+                                                    >
+                                                        {item.name}
+                                                    </a>
                                                 ) : (
                                                     <span
                                                         className={classNames(
@@ -160,6 +204,26 @@ export default function Header() {
                                         >
                                             {item.name}
                                         </Link>
+                                    ) : item.type === "url" ? (
+                                        <a
+                                            href={item.path}
+                                            className={classNames(
+                                                item.current
+                                                    ? ""
+                                                    : "hover:text-black",
+                                                "block px-3 py-2 text-sm font-bold"
+                                            )}
+                                            aria-current={
+                                                item.current
+                                                    ? "page"
+                                                    : undefined
+                                            }
+                                            onClick={() =>
+                                                handleNavigation(item)
+                                            }
+                                        >
+                                            {item.name}
+                                        </a>
                                     ) : (
                                         <span
                                             className={classNames(

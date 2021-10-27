@@ -43,7 +43,7 @@ function Founders() {
                         <div className="flex items-center mb-4">
                             <div className="founder-img mr-4 flex-shrink-0">
                             <img
-                                        src="/images/Heidishot.png"
+                                        src="/images/Heidishot.jpg"
                                         alt=""
                                         title=""
                                     />
