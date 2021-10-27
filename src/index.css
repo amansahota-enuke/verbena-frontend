@@ -1193,6 +1193,10 @@ video {
   width:150px;
   border-radius: 100%;
   background: #009B96;
+  overflow: hidden;
+}
+.founder-img img {
+  object-fit: cover;
 }
 
 /* 30 Aug 2021 Css */
