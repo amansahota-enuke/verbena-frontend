@@ -20,13 +20,13 @@ const Footer = () => {
                             <div className="blog-footer-social-links">
                                 <div className="grid xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-6 sm:grid-cols-6 grid-cols-4 gap-2">
                                     <a href="https://www.facebook.com/verbenacare/" target="_blank" className="social block cursor-pointer">
-                                        <i class="fab fa-facebook-f"></i>
+                                        <i className="fab fa-facebook-f"></i>
                                     </a>
                                     <a href="https://www.instagram.com/verbena_care/" target="_blank" className="social block cursor-pointer">
-                                        <i class="fab fa-instagram"></i>
+                                        <i className="fab fa-instagram"></i>
                                     </a>
                                     <a href="https://www.linkedin.com/company/herhealthnow/" target="_blank" className="social block cursor-pointer">
-                                    <i class="fab fa-linkedin-in"></i>
+                                    <i className="fab fa-linkedin-in"></i>
                                     </a>
                                 </div>
                             </div>
@@ -70,11 +70,10 @@ const Footer = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <Link className="mont-regular text-white font-18 mont-font cursor-pointer"
-                                        to="/contact"
+                                        <a href="mailto:info@verbenacare.com" className="mont-regular text-white font-18 mont-font cursor-pointer"
                                         >
                                             Contact
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
                                         <Link className="mont-regular text-white font-18 mont-font cursor-pointer"

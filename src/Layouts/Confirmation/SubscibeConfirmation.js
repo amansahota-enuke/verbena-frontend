@@ -16,12 +16,11 @@ function SubscribeConfirmation() {
                 as="h3"
                 className="text-lg font-medium leading-6 text-gray-900"
             >
-                Subscription successful
+                Successful
             </Dialog.Title>
             <div className="mt-2">
                 <p className="text-sm text-gray-500">
                     Thank you for subscribing to the Verbena newsletter
-                    message
                 </p>
             </div>
 

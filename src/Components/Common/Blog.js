@@ -17,28 +17,6 @@ function Blog() {
                 <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-4">
                     <div
                         data-aos="fade-down"
-                        data-aos-duration="1000"
-                        className="overflow-hidden rounded-lg shadow-sm relative"
-                    >
-                        <a href={`https://verbenacare.com/v-blog/health`}>
-                            {/* <span className="blog-category bg-black opacity-50 absolute top-6 left-5 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">
-                            Category 1
-                        </span> */}
-
-                            {/* <div className="blog-image-wrapper"> */}
-                            <div>
-                                <img src="/images/c.jpg" alt="" title="" />
-                            </div>
-                            <div className="blog-heading px-6 py-4 bg-white">
-                                <h4 className="text-gray-dim font-14 hepta-semibold m-0">
-                                    Top V. STIs (Sexually Transmitted
-                                    Infections)
-                                </h4>
-                            </div>
-                        </a>
-                    </div>
-                    <div
-                        data-aos="fade-down"
                         data-aos-duration="2000"
                         className="overflow-hidden rounded-lg shadow-sm relative"
                     >
@@ -46,8 +24,8 @@ function Blog() {
                             href={`https://verbenacare.com/v-blog/birth-control`}
                         >
                             {/* <span className="blog-category bg-black opacity-50 absolute top-6 left-5 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">
-                            Category 2
-                        </span> */}
+                                Category 2
+                            </span> */}
 
                             <div>
                                 <img
@@ -66,15 +44,36 @@ function Blog() {
                     </div>
                     <div
                         data-aos="fade-down"
+                        data-aos-duration="1000"
+                        className="overflow-hidden rounded-lg shadow-sm relative"
+                    >
+                        <a href={`https://verbenacare.com/v-blog/health`}>
+                            {/* <span className="blog-category bg-black opacity-50 absolute top-6 left-5 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">
+                                Category 1
+                            </span> */}
+
+                            <div>
+                                <img src="/images/c.jpg" alt="" title="" />
+                            </div>
+                            <div className="blog-heading px-6 py-4 bg-white">
+                                <h4 className="text-gray-dim font-14 hepta-semibold m-0">
+                                    Top V. STIs (Sexually Transmitted
+                                    Infections)
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    {/* <div
+                        data-aos="fade-down"
                         data-aos-duration="3000"
                         className="overflow-hidden rounded-lg shadow-sm relative"
                     >
                         <a
                             href={`https://verbenacare.com/v-blog/v-reasons-why-you-may-not-be-getting-pregnant-even-if-you-are-trying`}
                         >
-                            {/* <span className="blog-category bg-black opacity-50 absolute top-6 left-5 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">
+                            <span className="blog-category bg-black opacity-50 absolute top-6 left-5 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">
                             Category 3
-                        </span> */}
+                        </span>
 
                             <div>
                                 <img
@@ -90,8 +89,8 @@ function Blog() {
                                 </h4>
                             </div>
                         </a>
-                    </div>
-                    {/* <div
+                    </div> */}
+                    <div
                         data-aos="fade-down"
                         data-aos-duration="3000"
                         className="overflow-hidden rounded-lg shadow-sm relative"
@@ -99,9 +98,9 @@ function Blog() {
                         <a
                             href={`https://verbenacare.com/v-blog/v-health-issues-to-be-mindful-of-during-menopause-bonus-there-are-vi`}
                         >
-                            <span className="blog-category bg-black opacity-50 absolute top-6 left-5 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">
+                            {/* <span className="blog-category bg-black opacity-50 absolute top-6 left-5 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">
                                 Category 4
-                            </span>
+                            </span> */}
 
                             <div>
                                 <img
@@ -117,7 +116,7 @@ function Blog() {
                                 </h4>
                             </div>
                         </a>
-                    </div> */}
+                    </div>
                 </div>
             </div>
 
@@ -126,7 +125,7 @@ function Blog() {
                     href="https://verbenacare.com/blog"
                     className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
                 >
-                    See More
+                    Read More
                 </a>
             </div>
         </div>

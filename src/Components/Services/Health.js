@@ -81,14 +81,14 @@ function Health() {
                         Is there something we didn’t mention that we can help
                         you with?
                     </h3>
-                    <Link to="/contact">
+                    <a href="mailto:info@verbenacare.com">
                     <button
                         type="submit"
                         className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
                     >
                         Reach Out
                     </button>
-                    </Link>
+                    </a>
                 </div>
             </div>
         </div>

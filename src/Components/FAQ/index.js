@@ -126,7 +126,7 @@ export default function FAQ() {
         <div className="w-full px-4 pt-48 pb-40">
             <div className="max-w-4xl mx-auto xl:px-8 lg:px-8 md:px-8 sm:px-8 px-8 h-auto mb-10">
                 <div className="bg-white rounded-lg pt-10 pl-8 pr-8 pb-8">
-                    <h2 className="font-32 question-title-color mb-4 hepta-semibold">Frequently Asked Question</h2>
+                    <h2 className="font-32 question-title-color mb-4 hepta-semibold">Frequently Asked Questions</h2>
                 {faq.map((item, index) => (
                     <Disclosure key={index} as="div" className="mt-4">
                         {({ open }) => (
