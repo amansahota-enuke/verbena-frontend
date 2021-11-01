@@ -14,14 +14,14 @@ function Intro() {
                         digital care and telemedicine services to patients,
                         together with their personal doctor—anywhere, anytime.
                     </p>
-                    <a href={`${process.env.REACT_APP_VERBENA_PATIENT}/login`}>
+                    <Link to='/services'>
                     <button
                         type="submit"
                         className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
                     >
                         Explore
                     </button>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
