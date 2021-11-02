@@ -148,7 +148,7 @@ function Index(props) {
                                             href={
                                                 process.env
                                                     .REACT_APP_VERBENA_PATIENT +
-                                                "home/appointment/schedule/" +
+                                                "/home/appointment/schedule/" +
                                                 providerId
                                             }
                                         >
