@@ -15,7 +15,7 @@ function Help() {
                         We offer a range of services to best address your
                         <br /> healthcare needs.
                     </p>
-                    <a href={`${process.env.REACT_APP_VERBENA_PATIENT}/login`}>
+                    <a href={`${process.env.REACT_APP_VERBENA_PATIENT}`}>
                     <button
                         type="submit"
                         className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
