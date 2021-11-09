@@ -30,7 +30,7 @@ export default function FAQ() {
         },
         {
             question:"How much does it cost to enroll?",
-            answer:"Patients pay an annual fee of $24.99 to have access to the Verbena platform and its digital products, telehealth services, information/content plus scheduling and ongoing communication features."   
+            answer:"Patients pay an annual fee of $9.99 to have access to the Verbena platform and its digital products, telehealth services, information/content plus scheduling and ongoing communication features."   
         },
         {
             question:"Can I schedule a telehealth visit/appointment using the Verbena platform?",
