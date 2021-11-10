@@ -86,7 +86,7 @@ function Consultation() {
           <h3 className="hepta-semibold font-40 mb-2 light-gray-dim mt-4">
             Find a Physician
           </h3>
-          <p className="mont-font mont-regular font-18 mb-10 light-gray-dim">
+          <p className="calibre-regular font-18 font-normal mb-10 light-gray-dim">
             Select your state for a list of participating Verbena providers.
           </p>
           <div className="form-input">
@@ -151,7 +151,7 @@ function Consultation() {
                 <a href="mailto:info@verbenacare.com" className="mont-font font-20 mont-bold">
                   info@verbenacare.com
                 </a>
-                <p className="mb-0 mont-font mont-regular font-16 light-gray-dim">
+                <p className="mb-0 calibre-regular font-18 font-normal light-gray-dim">
                   Send us a message with any questions or feedback about
                   Verbena.
                 </p>
@@ -163,7 +163,7 @@ function Consultation() {
             <h3 className="hepta-semibold font-40 mb-2 text-white">
               Newsletter
             </h3>
-            <p className="mb-5 mont-font mont-regular font-16 text-white">
+            <p className="mb-5 calibre-regular font-18 font-normal text-white">
               Register for our quarterly newsletter to receive Verbena product
               and provider updates, top women’s health news and Q&A with our
               Verbena medical advisers.

@@ -54,7 +54,7 @@ export default function Dropdown({ name, type }) {
             {({ open }) => (
                 <>
                     <div>
-                        <Menu.Button className="inline-flex justify-center items-center font-bold">
+                        <Menu.Button className="inline-flex justify-center items-center font-normal">
                             {name}
                             <ChevronDownIcon
                                 className={`${

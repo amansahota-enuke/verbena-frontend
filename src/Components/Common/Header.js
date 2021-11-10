@@ -111,7 +111,7 @@ export default function Header() {
                                                             item.current
                                                                 ? "primary-text-color primary-text-hover-color"
                                                                 : "",
-                                                            "px-3 py-2 text-lg font-bold primary-text-hover-color"
+                                                            "px-3 py-2 text-lg font-normal primary-text-hover-color"
                                                         )}
                                                         aria-current={
                                                             item.current
@@ -133,7 +133,7 @@ export default function Header() {
                                                             item.current
                                                                 ? "primary-text-color primary-text-hover-color"
                                                                 : "",
-                                                            "px-3 py-2 text-lg font-bold primary-text-hover-color"
+                                                            "px-3 py-2 text-lg font-normal primary-text-hover-color"
                                                         )}
                                                         aria-current={
                                                             item.current
@@ -154,7 +154,7 @@ export default function Header() {
                                                             item.current
                                                                 ? "primary-text-color"
                                                                 : "",
-                                                            "px-3 py-2 text-lg font-bold primary-text-hover-color"
+                                                            "px-3 py-2 text-lg font-normal primary-text-hover-color"
                                                         )}
                                                         aria-current={
                                                             item.current
@@ -191,7 +191,7 @@ export default function Header() {
                                                 item.current
                                                     ? ""
                                                     : "hover:text-black",
-                                                "block px-3 py-2 text-sm font-bold"
+                                                "block px-3 py-2 text-sm font-normal"
                                             )}
                                             aria-current={
                                                 item.current
@@ -211,7 +211,7 @@ export default function Header() {
                                                 item.current
                                                     ? ""
                                                     : "hover:text-black",
-                                                "block px-3 py-2 text-sm font-bold"
+                                                "block px-3 py-2 text-sm font-normal"
                                             )}
                                             aria-current={
                                                 item.current
@@ -230,7 +230,7 @@ export default function Header() {
                                                 item.current
                                                     ? ""
                                                     : "hover:text-black",
-                                                "block px-3 py-2 text-sm font-bold"
+                                                "block px-3 py-2 text-sm font-normal"
                                             )}
                                             aria-current={
                                                 item.current

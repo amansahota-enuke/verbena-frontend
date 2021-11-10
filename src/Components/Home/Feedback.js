@@ -4,7 +4,7 @@ function Feedback() {
     return (
         <div className="our-patient-wrapper text-center mt-40 xl:mb-80 lg:mb-80 md:mb-20 sm:mb-20 mb-20">
             <div className="patient-wrapper-title">
-                <h4 className="uppercase font-18 mb-6 primary-text-color font-semibold">
+                <h4 className="capitalize font-24 mb-6 primary-text-color font-semibold">
                     What Our Patients Say
                 </h4>
             </div>

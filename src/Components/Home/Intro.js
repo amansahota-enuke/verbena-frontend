@@ -9,7 +9,7 @@ function Intro() {
                     <h3 className="font-72 hepta-semibold question-title-color leading-none">Your Doctor.</h3>
                     <h3 className="font-72 hepta-semibold question-title-color leading-none">Your Care.</h3>
                     <h3 className="font-72 hepta-semibold question-title-color leading-none mb-10">Your Time.</h3>
-                    <p className="mont-font mont-regular font-20 mb-10">
+                    <p className="calibre-regular font-18 font-normal mb-10">
                         We are a comprehensive women’s health platform offering
                         digital care and telemedicine services to patients,
                         together with their personal doctor—anywhere, anytime.
@@ -17,7 +17,7 @@ function Intro() {
                     <Link to='/services'>
                     <button
                         type="submit"
-                        className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
+                        className="btn-login calibre-regular font-normal font-18 uppercase primary-bg-color text-white mr-3 tracking-widest"
                     >
                         Explore
                     </button>

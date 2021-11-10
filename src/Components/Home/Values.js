@@ -17,12 +17,12 @@ function Values() {
                         Care + <br />
                         Consultations
                     </h4>
-                    <p className="mont-font mont-regular font-18 light-dim-gray-color mb-3">
+                    <p className="calibre-regular font-18 font-normal light-dim-gray-color mb-3">
                         Telehealth Visits, In-office Visits, Sick Visits, Well
                         Visits, Routine Procedures, Emotional Health
                     </p>
                     <Link
-                        className="primary-text-color mont-font mont-bold"
+                        className="primary-text-color calibre-regular font-18 font-normal"
                         to="/services"
                     >
                         Read More
@@ -40,11 +40,11 @@ function Values() {
                         Evaluations + <br />
                         Assessments
                     </h4>
-                    <p className="mont-font mont-regular font-18 light-dim-gray-color mb-3">
+                    <p className="calibre-regular font-18 font-normal light-dim-gray-color mb-3">
                         Lab Results, Diagnostics Review, Treatment Plans
                     </p>
                     <Link
-                        className="primary-text-color mont-font mont-bold"
+                        className="primary-text-color calibre-regular font-18 font-normal"
                         to="/services"
                     >
                         Read More
@@ -62,11 +62,11 @@ function Values() {
                         Medication + <br />
                         Prescriptions
                     </h4>
-                    <p className="mont-font mont-regular font-18 light-dim-gray-color mb-3">
+                    <p className="calibre-regular font-18 font-normal light-dim-gray-color mb-3">
                         New, Renewals, Symptom Specific, Medicine Management
                     </p>
                     <Link
-                        className="primary-text-color mont-font mont-bold"
+                        className="primary-text-color calibre-regular font-18 font-normal"
                         to="/services"
                     >
                         Read More

@@ -4,10 +4,10 @@ function AboutUs() {
     return (
         <div className="about-us-wrapper">
             <div className="about-wrapper-title mb-20 text-center">
-                <h2 className="hepta-semibold text-gray-dim font-72 mb-10 question-title-color leading-none">
+                <h2 className="hepta-semibold text-gray-dim font-42 mb-10 question-title-color leading-none">
                     About Us
                 </h2>
-                <p className="mont-font mont-regular font-20 text-gray-dim">
+                <p className="calibre-regular font-18 font-normal text-gray-dim">
                     We started Verbena because we wanted to transform the way
                     women engage <br /> and interact with their personal
                     physician in a safe, accessible and convenient way.
@@ -23,7 +23,7 @@ function AboutUs() {
                         <h5 className="uppercase question-title-color mb-4 hepta-semibold">
                             Our Mission
                         </h5>
-                        <p className="text-gray-dim font-18 mont-regular mont-font">
+                        <p className="text-gray-dim calibre-regular font-18 font-normal">
                             Empower women to take <br /> charge of their
                             healthcare in a <br /> safe, private, and convenient
                             way.
@@ -36,7 +36,7 @@ function AboutUs() {
                         <h5 className="uppercase question-title-color mb-4 hepta-semibold">
                             Our Vision
                         </h5>
-                        <p className="text-gray-dim font-18 mont-regular mont-font">
+                        <p className="text-gray-dim calibre-regular font-18 font-normal">
                             To provide a superior <br />
                             women’s telehealth <br />
                             platform that elevates <br />

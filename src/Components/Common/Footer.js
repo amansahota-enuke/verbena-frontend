@@ -40,14 +40,14 @@ const Footer = () => {
                                 <ul className="blog-footer-list">
                                     <li>
                                         <a href={`${process.env.REACT_APP_VERBENA_PATIENT}/home/appointment`}>
-                                            <a className="mont-regular text-white font-18 mont-font cursor-pointer">
+                                            <a className="calibre-regular font-18 font-normal text-white cursor-pointer">
                                                 Make Appointment
                                             </a>
                                         </a>
                                     </li>
                                     <li>
                                         <a href={`${process.env.REACT_APP_VERBENA_PATIENT}/login`}>
-                                            <a className="mont-regular text-white font-18 mont-font cursor-pointer">
+                                            <a className="calibre-regular font-18 font-normal text-white cursor-pointer">
                                                 Patient Log In
                                             </a>
                                         </a>
@@ -64,19 +64,19 @@ const Footer = () => {
                                 <ul className="blog-footer-list">
                                     <li>
                                         <a href={`${process.env.REACT_APP_VERBENA_PROVIDER}/login`}>
-                                            <a className="mont-regular text-white font-18 mont-font cursor-pointer">
+                                            <a className="calibre-regular font-18 font-normal text-white cursor-pointer">
                                                 Provider Log In
                                             </a>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="mailto:info@verbenacare.com" className="mont-regular text-white font-18 mont-font cursor-pointer"
+                                        <a href="mailto:info@verbenacare.com" className="calibre-regular font-18 font-normal text-white cursor-pointer"
                                         >
                                             Contact
                                         </a>
                                     </li>
                                     <li>
-                                        <Link className="mont-regular text-white font-18 mont-font cursor-pointer"
+                                        <Link className="calibre-regular font-18 font-normal text-white cursor-pointer"
                                         to="/Why-Verbena"
                                         >
                                             Why Verbena?
@@ -94,7 +94,7 @@ const Footer = () => {
                                 <ul className="blog-footer-list">
                                     <li>
                                         <Link
-                                            className="mont-regular text-white font-18 mont-font cursor-pointer"
+                                            className="calibre-regular font-18 font-normal text-white cursor-pointer"
                                             to="/about"
                                         >
                                             About Us
@@ -102,7 +102,7 @@ const Footer = () => {
                                     </li>
                                     <li>
                                         <Link
-                                            className="mont-regular text-white font-20 mont-font cursor-pointer"
+                                            className="calibre-regular font-18 font-normal text-white cursor-pointer"
                                             to="/faq"
                                         >
                                             FAQs
@@ -124,7 +124,7 @@ const Footer = () => {
                                     />
                                 </div>
                                 <div>
-                                    <p className="mont-font mont-regular text-white opacity-50 font-16">
+                                    <p className="calibre-regular font-18 font-normal text-white opacity-50 font-16">
                                         Copyright © 2021. All Rights Reserved.
                                     </p>
                                 </div>
@@ -133,7 +133,7 @@ const Footer = () => {
                                 <div>
                                     <Link 
                                     to="/termsofuse">
-                                    <button className="mont-font mont-regular text-white font-16 cursor-pointer">
+                                    <button className="calibre-regular font-18 font-normal text-white cursor-pointer">
                                         Terms of Use
                                     </button>
                                     </Link>
@@ -141,7 +141,7 @@ const Footer = () => {
                                 <div>
                                 <Link 
                                     to="/privacypolicy">
-                                    <button className="mont-font mont-regular text-white font-16 cursor-pointer">
+                                    <button className="calibre-regular font-18 font-normal text-white cursor-pointer">
                                         Privacy Policy
                                     </button>
                                 </Link>

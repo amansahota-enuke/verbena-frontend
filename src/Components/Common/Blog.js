@@ -35,7 +35,7 @@ function Blog() {
                                 />
                             </div>
                             <div className="blog-heading px-6 py-4 bg-white">
-                                <h4 className="text-gray-dim font-14 hepta-semibold m-0">
+                                <h4 className="text-gray-dim calibre-regular font-18 font-normal m-0">
                                     Which birth control is right for you (and
                                     there are way more than V.)?
                                 </h4>
@@ -56,7 +56,7 @@ function Blog() {
                                 <img src="/images/c.jpg" alt="" title="" />
                             </div>
                             <div className="blog-heading px-6 py-4 bg-white">
-                                <h4 className="text-gray-dim font-14 hepta-semibold m-0">
+                                <h4 className="text-gray-dim calibre-regular font-18 font-normal m-0">
                                     Top V. STIs (Sexually Transmitted
                                     Infections)
                                 </h4>
@@ -110,7 +110,7 @@ function Blog() {
                                 />
                             </div>
                             <div className="blog-heading px-6 py-4 bg-white">
-                                <h4 className="text-gray-dim font-14 hepta-semibold m-0">
+                                <h4 className="text-gray-dim calibre-regular font-18 font-normal m-0">
                                     V. Health issues to be mindful of during
                                     menopause (bonus, there are vi.)
                                 </h4>
@@ -123,7 +123,7 @@ function Blog() {
             <div className="see-more flex justify-center mt-10">
                 <a
                     href="https://verbenacare.com/blog"
-                    className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
+                    className="btn-login calibre-regular font-18 font-normal uppercase primary-bg-color text-white mr-3 tracking-widest"
                 >
                     Read More
                 </a>
