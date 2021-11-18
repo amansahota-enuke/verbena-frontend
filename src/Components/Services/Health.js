@@ -14,7 +14,7 @@ function Health() {
                         Adolescent + Young Adult Health
                     </h3>
                     
-                    <p className="font-18 mont-font mont-regular text-gray-dim">
+                    <p className="calibre-regular font-normal font-18 text-gray-dim">
                         Birth Control, STI Testing, UTI Treatment <br /> Vaginal
                         Infection, Menstrual Issues
                     </p>
@@ -28,7 +28,7 @@ function Health() {
                     <h3 className="font-24 hepta-semibold question-title-color mb-2">
                         Reproductive Health
                     </h3>
-                    <p className="font-18 mont-font mont-regular text-gray-dim">
+                    <p className="calibre-regular font-normal font-18 text-gray-dim">
                         Contraception, Unintended Pregnancy, Morning After Pill,
                         Fertility Concerns, Preconception Counseling
                     </p>
@@ -42,7 +42,7 @@ function Health() {
                     <h3 className="font-24 hepta-semibold question-title-color mb-2">
                         Obstetrics + Post-Partum Care
                     </h3>
-                    <p className="font-18 mont-font mont-regular text-gray-dim">
+                    <p className="calibre-regular font-normal font-18 text-gray-dim">
                         Post-Delivery Check Up, Breast Feeding Concerns
                         Post-Partum Contraception, Post Partum Mood Changes
                     </p>
@@ -56,7 +56,7 @@ function Health() {
                     <h3 className="font-24 hepta-semibold question-title-color mb-2">
                         Sexual Health
                     </h3>
-                    <p className="font-18 mont-font mont-regular text-gray-dim">
+                    <p className="calibre-regular font-normal font-18 text-gray-dim">
                         UTI Treatment, Vaginal Irritation, STI Concerns Libido,
                         Painful Sex
                     </p>
@@ -70,7 +70,7 @@ function Health() {
                     <h3 className="font-24 hepta-semibold question-title-color mb-2">
                         Peri + Menopausal Health
                     </h3>
-                    <p className="font-18 mont-font mont-regular text-gray-dim">
+                    <p className="calibre-regular font-normal font-18 text-gray-dim">
                         Hot Flashes, Mood + Sleep Disruption, Sexual Dysfunction
                         Hormone Concerns, Bone Health
                     </p>
@@ -84,7 +84,7 @@ function Health() {
                     <a href="mailto:info@verbenacare.com">
                     <button
                         type="submit"
-                        className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
+                        className="btn-login calibre-regular font-18 font-normal uppercase primary-bg-color text-white mr-3 tracking-widest"
                     >
                         Reach Out
                     </button>

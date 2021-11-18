@@ -4,13 +4,13 @@ function Task() {
     return (
         <div className="what-we-do">
             <div className="what-we-do-wrapper text-center">
-                <h5 className="font-18 question-title-color uppercase mb-4 hepta-semibold">
-                    what we do
+                <h5 className="font-24 question-title-color capitalize mb-4 hepta-semibold">
+                    What We Do
                 </h5>
                 <h5 className="font-56 question-title-color mb-4 hepta-semibold">
                     The Care You Need, When You Need It
                 </h5>
-                <p className="mont-font mont-regular font-20 text-gray-dim m-auto mxw-780">
+                <p className="calibre-regular font-18 font-normal mb-10 m-auto mxw-780">
                     Timely digital access and telehealth visits with your
                     personal doctor that is HIPPA compliant and securely stored
                     on our servers.

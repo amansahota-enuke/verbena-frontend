@@ -4,8 +4,8 @@ function Founders() {
     return (
         <div className="who-we-are-wrapper">
             <div className="who-we-are-title text-center">
-                <h5 className="uppercase question-title-color font-18 hepta-semibold mb-4">
-                    WHO WE ARE
+                <h5 className="capitalize question-title-color font-24 hepta-semibold mb-4">
+                    Who We Are
                 </h5>
                 <h2 className="font-72 question-title-color mb-10 hepta-semibold">
                     Meet Our Founders

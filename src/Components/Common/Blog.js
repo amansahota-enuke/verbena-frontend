@@ -4,7 +4,7 @@ function Blog() {
     return (
         <div className="our-blog-wrapper">
             <div className="blog-title-wrapper text-center mb-24">
-                <h5 className="font-18 hepta-semibold uppercase blog-subtitle-color mb-5">
+                <h5 className="font-24 hepta-semibold capitalize blog-subtitle-color mb-5">
                     Our Blog
                 </h5>
                 <h2 className="hepta-semibold text-white font-40 leading-none">
@@ -35,7 +35,7 @@ function Blog() {
                                 />
                             </div>
                             <div className="blog-heading px-6 py-4 bg-white">
-                                <h4 className="text-gray-dim calibre-regular font-18 font-normal m-0">
+                                <h4 className="text-gray-dim mont-font mont-regular font-16 font-normal m-0">
                                     Which birth control is right for you (and
                                     there are way more than V.)?
                                 </h4>
@@ -56,7 +56,7 @@ function Blog() {
                                 <img src="/images/c.jpg" alt="" title="" />
                             </div>
                             <div className="blog-heading px-6 py-4 bg-white">
-                                <h4 className="text-gray-dim calibre-regular font-18 font-normal m-0">
+                                <h4 className="text-gray-dim mont-font mont-regular font-16 font-normal m-0">
                                     Top V. STIs (Sexually Transmitted
                                     Infections)
                                 </h4>
@@ -110,7 +110,7 @@ function Blog() {
                                 />
                             </div>
                             <div className="blog-heading px-6 py-4 bg-white">
-                                <h4 className="text-gray-dim calibre-regular font-18 font-normal m-0">
+                                <h4 className="text-gray-dim mont-font mont-regular font-16 font-normal m-0">
                                     V. Health issues to be mindful of during
                                     menopause (bonus, there are vi.)
                                 </h4>

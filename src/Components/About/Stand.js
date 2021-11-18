@@ -4,8 +4,8 @@ function Stand() {
     return (
         <div className="what-we-stand-wrapper">
             <div className="what-we-stand-title text-center">
-                <h3 className="font-18 hepta-semibold question-title-color mb-10 leading-none uppercase">
-                    What we stand for
+                <h3 className="font-24 hepta-semibold question-title-color mb-10 leading-none capitalize">
+                    What We Stand For
                 </h3>
                 <h2 className="what-we-stand-content font-24 hepta-regular text-gray-dim leading-snug relative">
                     We started Verbena because we wanted to transform the way
