@@ -26,7 +26,7 @@ function Healthcare() {
                     </button>
                     </a>
                 </div>
-                <div className="health-care-left-img xl:absolute lg:absolute md:relative sm:relative relative left-0 top-55">
+                <div className="health-care-left-img xl:absolute lg:absolute md:relative sm:relative relative left-0 top-50">
                     <img src="/images/health-care-bg.png" alt="" title="" />
                 </div>
             </div>
