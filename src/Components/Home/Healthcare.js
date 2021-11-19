@@ -10,7 +10,7 @@ function Healthcare() {
                         Healthcare <br />
                         Her Way.
                     </h3>
-                    <p className="calibre-regular font-18 font-normal mb-10">
+                    <p className="font-20 mont-font mont-regular text-gray-dim mb-10">
                         Created with her care in mind, Verbena celebrates the
                         unique health needs throughout her lifetime—from
                         menstruation to menopause (and everything in between).

@@ -18,7 +18,7 @@ function Story() {
                         Where We Started
                     </h5>
                     <h2 className="question-title-color font-72 hepta-semibold mb-10 leading-none">Our Story</h2>
-                    <p className="calibre-regular font-18 font-normal mb-10">
+                    <p className="font-20 mont-font mont-regular text-gray-dim mb-10">
                         After 20 years, Dr. Patrusky thought there must be a
                         better and more convenient way to serve her patients.
                         Rather than lengthy in-person visits and crowded waiting
@@ -44,7 +44,7 @@ function Story() {
                     </div>
                 </div>
                 <div data-aos="fade-left" data-aos-duration="6000">
-                    <p className="calibre-regular font-18 font-normal mb-10">
+                    <p className="font-20 mont-font mont-regular text-gray-dim mb-10">
                         At the same time, the world was hit with COVID-19 and
                         her original idea was actually forced to become a
                         reality. Dr. Patrusky spent a year navigating the many

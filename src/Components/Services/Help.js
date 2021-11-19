@@ -11,7 +11,7 @@ function Help() {
                         How Can <br />
                         We Help You?
                     </h3>
-                    <p className="calibre-regular font-18 font-normal mb-10">
+                    <p className="font-20 mont-font mont-regular text-gray-dim mb-10">
                         We offer a range of services to best address your
                         <br /> healthcare needs.
                     </p>
