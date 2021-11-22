@@ -77,11 +77,11 @@ function Consultation() {
     <div
       data-aos="flip-right"
       data-aos-duration="2000"
-      className="get-consult box-white bg-white rounded-2xl shadow-md mt-40 overflow-hidden mb-24"
+      className="get-consult box-white bg-white rounded-2xl shadow-md overflow-hidden mb-24 xl:mt-0 lg:mt-0 md:mt-0 sm:mt-40 mt-40"
     >
       {loader && <Loader />}
       <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1">
-        <div className="p-10 get-consult-form">
+        <div className="xl:p-10 lg:p-10 md:p-5 sm:p-5 p-5 get-consult-form">
           <img src="/images/get-consult-logo.png" alt="" title="" />
           <h3 className="hepta-semibold font-40 mb-2 light-gray-dim mt-4">
             Find a Physician
@@ -135,7 +135,7 @@ function Consultation() {
           </div>
         </div>
         <div>
-          <div className="drop-message-box p-10 drop-msg-bg">
+          <div className="drop-message-box xl:p-10 lg:p-10 md:p-5 sm:p-5 p-5 drop-msg-bg">
             <h5 className="capitalize hepta-semibold question-title-color mb-10 mt-16">
               Have a Question? Let Us know.
             </h5>
@@ -159,7 +159,7 @@ function Consultation() {
             </div>
           </div>
 
-          <div className="newsletter-bg newletter-wrapper p-10">
+          <div className="newsletter-bg newletter-wrapper xl:p-10 lg:p-10 md:p-5 sm:p-5 p-5">
             <h3 className="hepta-semibold font-40 mb-2 text-white">
               Newsletter
             </h3>

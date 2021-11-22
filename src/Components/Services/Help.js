@@ -6,7 +6,7 @@ function Help() {
         <div className="health-care-explore">
             <span data-aos-duration="1000"data-aos="slide-left" className="xl:absolute lg:absolute md:relative sm:relative relative right-0 top-0"><img src="/images/service-home-bg.png" alt="" title=""/></span>
             <div className="flex justify-start">
-                <div data-aos-duration="1000" data-aos="slide-right" className="health-explore-content mt-20">
+                <div data-aos-duration="1000" data-aos="slide-right" className="health-explore-content xl:mt-20 lg:mt-20 md:mt-10 sm:mt-10 mt-10">
                     <h3 className="font-72 hepta-semibold mb-10 question-title-color leading-none">
                         How Can <br />
                         We Help You?

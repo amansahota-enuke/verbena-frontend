@@ -16,10 +16,10 @@ function AboutUs() {
 
             {/* Mission Vision wrapper */}
 
-            <div className="flex flex-wrap justify-between">
+            <div className="flex xl:flex-nowrap lg:flex-nowrap md:flex-nowrap sm:flex-wrap flex-wrap justify-between">
                 <div data-aos="fade-right" data-aos-duration="2000" className="mission mv-box xl:mb-0 lg:mb-0 mb:mb-10 sm:mb-10 mb-10">
                     <div className="mission-img mv-img overflow-hidden rounded-md shadow"></div>
-                    <div className="mv-content relative px-10 py-6 bg-white overflow-hidden rounded-lg shadow-lg">
+                    <div className="mv-content relative xl:px-10 lg:px-10 md:px-5 sm:px-5 px-5 py-6 bg-white overflow-hidden rounded-lg shadow-lg">
                         <h5 className="uppercase question-title-color mb-4 hepta-semibold">
                             Our Mission
                         </h5>
@@ -32,7 +32,7 @@ function AboutUs() {
                 </div>
                 <div data-aos="fade-left" data-aos-duration="3000" className="vision mv-box">
                     <div className="vision-img mv-img overflow-hidden rounded-md shadow"></div>
-                    <div className="mv-content relative px-10 py-6 bg-white overflow-hidden rounded-lg shadow-lg">
+                    <div className="mv-content relative xl:px-10 lg:px-10 md:px-5 sm:px-5 px-5 py-6 bg-white overflow-hidden rounded-lg shadow-lg">
                         <h5 className="uppercase question-title-color mb-4 hepta-semibold">
                             Our Vision
                         </h5>

@@ -4,7 +4,7 @@ function Healthcare() {
     return (
         <div className="health-care-way mt-90">
             
-            <div className="flex justify-end xl:flex-nowrap lg:flex-nowrap md:flex-wrap sm:flex-wrap flex-wrap">
+            <div className="flex xl:justify-end lg:justify-end md:justify-start sm:justify-start justify-start xl:flex-nowrap lg:flex-nowrap md:flex-wrap sm:flex-wrap flex-wrap">
                 <div className="health-care-content xl:mb-0 lg:mb-0 md:mb-10 sm:mb-10 mb-10">
                     <h3 className="font-42 hepta-semibold mb-10 question-title-color leading-none">
                         Healthcare <br />

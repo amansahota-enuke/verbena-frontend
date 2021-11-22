@@ -5,7 +5,7 @@ function Health() {
     return (
         <div className="woman-need-grid">
             <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-6">
-                <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
+                <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl xl:pl-10 lg:pl-10 md:pl-5 sm:pl-5 pl-5 xl:pr-10 lg:pr-10 md:pr-5 sm:pr-5 pr-5 pt-28 pb-28">
                     <span className="absolute top-0 -right-2">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
@@ -20,7 +20,7 @@ function Health() {
                     </p>
                     </a>
                 </div>
-                <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
+                <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl xl:pl-10 lg:pl-10 md:pl-5 sm:pl-5 pl-5 xl:pr-10 lg:pr-10 md:pr-5 sm:pr-5 pr-5 pt-28 pb-28">
                     <span className="absolute top-0 -right-2">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
@@ -34,7 +34,7 @@ function Health() {
                     </p>
                     </a>
                 </div>
-                <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
+                <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl xl:pl-10 lg:pl-10 md:pl-5 sm:pl-5 pl-5 xl:pr-10 lg:pr-10 md:pr-5 sm:pr-5 pr-5 pt-28 pb-28">
                     <span className="absolute top-0 -right-2">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
@@ -48,7 +48,7 @@ function Health() {
                     </p>
                     </a>
                 </div>
-                <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
+                <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl xl:pl-10 lg:pl-10 md:pl-5 sm:pl-5 pl-5 xl:pr-10 lg:pr-10 md:pr-5 sm:pr-5 pr-5 pt-28 pb-28">
                     <span className="absolute top-0 -right-2">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
@@ -62,7 +62,7 @@ function Health() {
                     </p>
                     </a>
                 </div>
-                <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl pl-10 pr-10 pt-28 pb-28">
+                <div data-aos="slide-up" data-aos-duration="2000" className="bg-white relative overflow-hidden rounded-xl shadow-xl xl:pl-10 lg:pl-10 md:pl-5 sm:pl-5 pl-5 xl:pr-10 lg:pr-10 md:pr-5 sm:pr-5 pr-5 pt-28 pb-28">
                     <span className="absolute top-0 -right-2">
                         <img src="/images/cloud-vector.png" title="" alt="" />
                     </span>
@@ -76,7 +76,7 @@ function Health() {
                     </p>
                     </a>
                 </div>
-                <div data-aos="slide-up" data-aos-duration="2000" className="pl-10 pr-10 pt-28 pb-28">
+                <div data-aos="slide-up" data-aos-duration="2000" className="xl:pl-10 lg:pl-10 md:pl-5 sm:pl-5 pl-5 xl:pr-10 lg:pr-10 md:pr-5 sm:pr-5 pr-5 pt-28 pb-28">
                     <h3 className="font-24 hepta-semibold question-title-color mb-2">
                         Is there something we didn’t mention that we can help
                         you with?

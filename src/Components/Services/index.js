@@ -15,7 +15,7 @@ function Services() {
                     <Help />
                 </BoxedWidthContainer>
             </section>
-            <section className="light-green-bg-color pt-40 pb-40 relative">
+            <section className="light-green-bg-color xl:pt-40 lg:pt-40 md:pt-20 sm:pt-20 pt-20 xl:pb-40 lg:pb-40 md:pb-20 sm:pb-20 pb-20 relative">
                 <BoxedWidthContainer>
                     <Task />
                     <Cards />
@@ -23,7 +23,7 @@ function Services() {
                     <Health />
                 </BoxedWidthContainer>
             </section>
-            <section className="bg-white pt-20 pb-80">
+            <section className="bg-white pt-20 xl:pb-80 lg:pb-80 md:pb-40 sm:pb-20 pb-20">
                 <BoxedWidthContainer>
                     <Represent />
                 </BoxedWidthContainer>

@@ -6,7 +6,7 @@ const Footer = () => {
         <>
             <section className="blog-footer">
                 <div className="container mx-auto xl:px-32 lg:px-32 md:px-10 sm:px-10 px-10 py-10">
-                    <div className="grid grid-flow-row xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 mb-12">
+                    <div className="grid grid-flow-row xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 mb-12">
                         <div className="footer-detail-logo xl:mb-0 lg:mb-0 md-mb-4 sm:mb-4 mb-8">
                             <div className="verbena-footer-logo mb-4">
                                 <Link to="/home">
@@ -89,7 +89,7 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="blog-footer-heading xl:mb-0 lg:mb-0 md-mb-4 sm:mb-4 mb-8">
+                        <div className="blog-footer-heading xl:mb-0 lg:mb-0 md-mb-4 sm:mb-4 mb-8 lg:mt-8">
                             <h5 className="hepta-semibold uppercase text-white mb-4">
                                 Who We Are
                             </h5>
