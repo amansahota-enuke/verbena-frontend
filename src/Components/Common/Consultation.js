@@ -127,7 +127,7 @@ function Consultation() {
             <button
               type="submit"
               disabled={selectedProvider ? false : true}
-              className="disabled:opacity-50 btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
+              className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
               onClick={openProviderConfirmation}
             >
               Submit

@@ -89,7 +89,7 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="blog-footer-heading xl:mb-0 lg:mb-0 md-mb-4 sm:mb-4 mb-8 lg:mt-8">
+                        <div className="blog-footer-heading xl:mb-0 lg:mb-0 md-mb-4 sm:mb-4 mb-8 xl:mt-0 lg:mt-8">
                             <h5 className="hepta-semibold uppercase text-white mb-4">
                                 Who We Are
                             </h5>
@@ -144,7 +144,7 @@ const Footer = () => {
                                 <div>
                                 <Link 
                                     to="/privacypolicy">
-                                    <button className="calibre-regular font-18 font-normal text-white cursor-pointer">
+                                    <button className="cfont-18 mont-font mont-regular text-white cursor-pointer">
                                         Privacy Policy
                                     </button>
                                 </Link>
