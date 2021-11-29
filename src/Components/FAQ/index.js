@@ -38,7 +38,7 @@ export default function FAQ() {
         },
         {
             question:"What if I need to cancel or reschedule my appointment?",
-            answer:"No problem. If you need to cancel or reschedule, just log in to your account and follow the prompts on the calendar feature. You will not need to call the office directly."   
+            answer:"No problem. If you need to cancel or reschedule, just log in to your account and follow the prompts on the calendar feature. You will not need to call the office directly. Please note that you need to cancel your appointment 24 hours in advance in order to receive a refund. You can also reschedule your appointment and apply the telehealth fee. You will not receive a refund if you are a no show to your appointment."   
         },
         {
             question:"When are office hours?",
@@ -82,7 +82,7 @@ export default function FAQ() {
         },
         {
             question:"What are payment options?",
-            answer:"You can pay for your telehealth visit with a credit card directly on the Verbena site.    Your provider will submit any/all insurance claims directly on your behalf."   
+            answer:"You can pay for your telehealth visit with a credit card directly on the Verbena site.    Your provider will submit any/all insurance claims directly on your behalf. Your credit card statement descriptor will be Verbena Telehealth Visit"   
         },
         {
             question:"Which insurance plans are accepted?",
