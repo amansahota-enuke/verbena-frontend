@@ -18,7 +18,7 @@ export default function WhyVerbena() {
         },
         {
             question:"Trusted + Thorough",
-            answer:"The healthcare encounter should be a trusted and thorough experience. The complete Verbena experience is branded with the patient’s healthcare provider/practice.  It is very clear that the patient is in direct communication with their current/chosen provider, resulting in a more trusted and thorough experience."   
+            answer:"The healthcare encounter should be a trusted and thorough experience. The complete Verbena experience is branded with the patient’s healthcare provider/practice.  It is very clear that the patient is in direct communication with their current/chosen provider, resulting in a more trusted and thorough experience. All patient and provider information is safely stored on our HIPPA compliant servers in partnership with AWS"   
         },
         {
             question:"Personal + Personalized Consultations",
@@ -33,7 +33,7 @@ export default function WhyVerbena() {
             answer:"Verbena is ready with training and technical support. Our Super Administrator provides on-board training to physicians and their staffs and is available for customer service for providers, office managers and patients a like."   
         },
         {
-            question:"More Patients = More Revenue",
+            question:"Time Efficient",
             answer:"Increased efficiency allows you to manage and scale your business. Our TH visits are controlled and focus on the immediate patient concern. This allows  you to see more patients in less time in your office or your home."   
         },
         {

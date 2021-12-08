@@ -9,19 +9,19 @@ function Intro() {
                     <h3 className="font-72 hepta-semibold question-title-color leading-none">Your Doctor.</h3>
                     <h3 className="font-72 hepta-semibold question-title-color leading-none">Your Care.</h3>
                     <h3 className="font-72 hepta-semibold question-title-color leading-none mb-10">Your Time.</h3>
-                    <p className="mont-font mont-regular font-20 mb-10">
+                    <p className="font-20 mont-font mont-regular text-gray-dim mb-10">
                         We are a comprehensive women’s health platform offering
                         digital care and telemedicine services to patients,
                         together with their personal doctor—anywhere, anytime.
                     </p>
-                    <a href={`${process.env.REACT_APP_VERBENA_PATIENT}/login`}>
+                    <Link to='/services'>
                     <button
                         type="submit"
-                        className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
+                        className="btn-login calibre-regular font-normal font-18 uppercase primary-bg-color text-white mr-3 tracking-widest"
                     >
                         Explore
                     </button>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

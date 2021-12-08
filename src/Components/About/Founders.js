@@ -4,8 +4,8 @@ function Founders() {
     return (
         <div className="who-we-are-wrapper">
             <div className="who-we-are-title text-center">
-                <h5 className="uppercase question-title-color font-18 hepta-semibold mb-4">
-                    WHO WE ARE
+                <h5 className="capitalize question-title-color font-24 hepta-semibold mb-4">
+                    Who We Are
                 </h5>
                 <h2 className="font-72 question-title-color mb-10 hepta-semibold">
                     Meet Our Founders
@@ -14,8 +14,8 @@ function Founders() {
 
             <div className="who-we-are-grid mt-10">
                 <div className="grid xl:grid-col-2 lg:grid-cols-2 md:grid-col-1 sm:grid-cols-1 grid-cols-1 gap-6">
-                    <div data-aos="fade-down" data-aos-duration="1000" className="bg-white rounded-xl overflow-hidden shadow-xl p-10">
-                    <div className="flex items-center mb-4">
+                    <div data-aos="fade-down" data-aos-duration="1000" className="bg-white rounded-xl overflow-hidden shadow-xl xl:p-10 lg:p-10 md:p-5 sm:p-5 p-5">
+                    <div className="flex xl:flex-nowrap lg:flex-nowrap md:flex-wrap sm:flex-wrap flex-wrap items-center mb-4">
                             <div className="founder-img mr-4 flex-shrink-0">
                             <img
                                         src="/images/IMG_0462.jpg"
@@ -39,8 +39,8 @@ function Founders() {
                             private practice taking care of women of all ages.
                         </p>
                     </div>
-                    <div data-aos="fade-down" data-aos-duration="2000" className="bg-white rounded-xl overflow-hidden shadow-xl p-10">
-                        <div className="flex items-center mb-4">
+                    <div data-aos="fade-down" data-aos-duration="2000" className="bg-white rounded-xl overflow-hidden shadow-xl xl:p-10 lg:p-10 md:p-5 sm:p-5 p-5">
+                        <div className="flex xl:flex-nowrap lg:flex-nowrap md:flex-wrap sm:flex-wrap flex-wrap items-center mb-4">
                             <div className="founder-img mr-4 flex-shrink-0">
                             <img
                                         src="/images/Heidishot.jpg"

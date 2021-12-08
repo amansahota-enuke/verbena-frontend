@@ -77,16 +77,16 @@ function Consultation() {
     <div
       data-aos="flip-right"
       data-aos-duration="2000"
-      className="get-consult box-white bg-white rounded-2xl shadow-md mt-40 overflow-hidden mb-24"
+      className="get-consult box-white bg-white rounded-2xl shadow-md overflow-hidden mb-24 xl:mt-0 lg:mt-0 md:mt-0 sm:mt-40 mt-40"
     >
       {loader && <Loader />}
       <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1">
-        <div className="p-10 get-consult-form">
+        <div className="xl:p-10 lg:p-10 md:p-5 sm:p-5 p-5 get-consult-form">
           <img src="/images/get-consult-logo.png" alt="" title="" />
           <h3 className="hepta-semibold font-40 mb-2 light-gray-dim mt-4">
             Find a Physician
           </h3>
-          <p className="mont-font mont-regular font-18 mb-10 light-gray-dim">
+          <p className="font-16 mont-font mont-regular mb-10 light-gray-dim">
             Select your state for a list of participating Verbena providers.
           </p>
           <div className="form-input">
@@ -127,7 +127,7 @@ function Consultation() {
             <button
               type="submit"
               disabled={selectedProvider ? false : true}
-              className="disabled:opacity-50 btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
+              className="btn-login calibre-regular font-16 uppercase primary-bg-color text-white mr-3 tracking-widest"
               onClick={openProviderConfirmation}
             >
               Submit
@@ -135,9 +135,9 @@ function Consultation() {
           </div>
         </div>
         <div>
-          <div className="drop-message-box p-10 drop-msg-bg">
-            <h5 className="uppercase hepta-semibold question-title-color mb-10 mt-16">
-              have a question? Let us know.
+          <div className="drop-message-box xl:p-10 lg:p-10 md:p-5 sm:p-5 p-5 drop-msg-bg">
+            <h5 className="capitalize hepta-semibold question-title-color mb-10 mt-16">
+              Have a Question? Let Us know.
             </h5>
             <div className="flex mb-10 xl:flex-nowrap lg:flex-wrap md:flex-wrap sm:flex-wrap flex-wrap">
               <div className="mr-4">
@@ -151,7 +151,7 @@ function Consultation() {
                 <a href="mailto:info@verbenacare.com" className="mont-font font-20 mont-bold">
                   info@verbenacare.com
                 </a>
-                <p className="mb-0 mont-font mont-regular font-16 light-gray-dim">
+                <p className="mb-0 font-18 mont-font mont-regular light-gray-dim">
                   Send us a message with any questions or feedback about
                   Verbena.
                 </p>
@@ -159,11 +159,11 @@ function Consultation() {
             </div>
           </div>
 
-          <div className="newsletter-bg newletter-wrapper p-10">
+          <div className="newsletter-bg newletter-wrapper xl:p-10 lg:p-10 md:p-5 sm:p-5 p-5">
             <h3 className="hepta-semibold font-40 mb-2 text-white">
               Newsletter
             </h3>
-            <p className="mb-5 mont-font mont-regular font-16 text-white">
+            <p className="mb-5 font-16 mont-font mont-regular text-white">
               Register for our quarterly newsletter to receive Verbena product
               and provider updates, top women’s health news and Q&A with our
               Verbena medical advisers.

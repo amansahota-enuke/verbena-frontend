@@ -67,7 +67,7 @@ function Index(props) {
                                         <div>
                                             <h3 className="hepta-slab mb-3 text-2xl">
                                                 {providerDetail &&
-                                                    `Dr.${parseName(
+                                                    `Dr. ${parseName(
                                                         providerDetail.first_name
                                                     )} ${parseName(
                                                         providerDetail.last_name
@@ -148,7 +148,7 @@ function Index(props) {
                                             href={
                                                 process.env
                                                     .REACT_APP_VERBENA_PATIENT +
-                                                "home/appointment/schedule/" +
+                                                "/home/appointment/schedule/" +
                                                 providerId
                                             }
                                         >
