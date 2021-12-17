@@ -137,7 +137,7 @@ const Footer = () => {
                                     <Link 
                                     to="/termsofuse">
                                     <button className="font-18 mont-font mont-regular text-white cursor-pointer">
-                                        Terms of Use
+                                        Terms and Services
                                     </button>
                                     </Link>
                                 </div>
