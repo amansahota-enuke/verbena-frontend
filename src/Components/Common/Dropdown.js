@@ -14,7 +14,7 @@ export default function Dropdown({ name, type }) {
             for: "Info",
             name: "V-Blog",
             type: "url",
-            path: "https://verbenacare.com/blog",
+            path: `${process.env.BLOG_URL}/blog`,
         },
         { for: "Info", name: "FAQ", type: "link", path: "/faq" },
         {
