@@ -122,7 +122,7 @@ function Blog() {
 
             <div className="see-more flex justify-center mt-10">
                 <a
-                    href={`${process.env.BLOG_URL}/blog`}
+                    href={`${process.env.REACT_APP_VERBENA_BLOG_URL}/blog`}
                     className="btn-login calibre-regular font-18 font-normal uppercase primary-bg-color text-white mr-3 tracking-widest"
                 >
                     Read More
