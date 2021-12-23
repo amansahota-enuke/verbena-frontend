@@ -21,7 +21,7 @@ function Blog() {
                         className="overflow-hidden rounded-lg shadow-sm relative"
                     >
                         <a
-                            href={`https://verbenacare.com/v-blog/birth-control`}
+                            href={`${process.env.REACT_APP_VERBENA_BLOG_URL}/v-blog/birth-control`}
                         >
                             {/* <span className="blog-category bg-black opacity-50 absolute top-6 left-5 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">
                                 Category 2
@@ -47,7 +47,7 @@ function Blog() {
                         data-aos-duration="1000"
                         className="overflow-hidden rounded-lg shadow-sm relative"
                     >
-                        <a href={`https://verbenacare.com/v-blog/health`}>
+                        <a href={`${process.env.REACT_APP_VERBENA_BLOG_URL}/v-blog/health`}>
                             {/* <span className="blog-category bg-black opacity-50 absolute top-6 left-5 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">
                                 Category 1
                             </span> */}
@@ -96,7 +96,7 @@ function Blog() {
                         className="overflow-hidden rounded-lg shadow-sm relative"
                     >
                         <a
-                            href={`https://verbenacare.com/v-blog/v-health-issues-to-be-mindful-of-during-menopause-bonus-there-are-vi`}
+                            href={`${process.env.REACT_APP_VERBENA_BLOG_URL}/v-blog/v-health-issues-to-be-mindful-of-during-menopause-bonus-there-are-vi`}
                         >
                             {/* <span className="blog-category bg-black opacity-50 absolute top-6 left-5 pt-1 pb-1 pl-2 pr-2 rounded text-white font-16 mont-font mont-regular">
                                 Category 4
