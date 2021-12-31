@@ -43,9 +43,9 @@ export default function Dropdown({ name, type }) {
         },
         {
             for: "For Providers",
-            name: "Register",
+            name: "Contacts",
             type: "url",
-            path: `${process.env.REACT_APP_VERBENA_PROVIDER}/signup`,
+            path: "mailto:registration@verbenacare.com?subject=I am interested in registering for Verbena",
         },
     ];
 
