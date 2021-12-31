@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 function Healthcare() {
     return (
         <div className="health-care-way mt-90">

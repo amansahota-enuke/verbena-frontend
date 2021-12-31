@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import { About, PrivacyPolicy } from "../../Components/";
+import { PrivacyPolicy } from "../../Components/";
 
 const PrivacyPolicyPage = (props) => {
     return (

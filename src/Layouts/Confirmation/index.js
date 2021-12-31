@@ -1,21 +1,17 @@
 import { Dialog, Transition } from "@headlessui/react";
 import React from "react";
 import { Fragment } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 import confirmationConstants from "../../constants/confirmation.constants";
 import selector from "../../redux/selector";
-import { ConfirmationActions } from "../../redux/slice/confirmation.slice";
 import TestConfirmation from "./TestConfirmation";
 import SubscribeConfirmation from "./SubscibeConfirmation";
 import ProviderDetail from "./ProviderDetail";
 
 const Confirmation = () => {
-    const dispatch = useDispatch();
     const isOpen = useSelector(selector.confirmationStatus);
-    const closeModal = () => {
-        dispatch(ConfirmationActions.closeConfirmation());
-    };
+
     const confirmationType = useSelector(selector.confirmationType);
 
     return (

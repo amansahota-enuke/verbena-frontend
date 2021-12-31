@@ -12,7 +12,7 @@ function Consultation() {
   const [selectedState, setSelectedState] = useState("");
   const [providers, setProviders] = useState([]);
   const [selectedProvider, setSelectedProvider] = useState("");
-  const [isOpen, setIsOpen] = useState(false);
+  const [email, setEmail] = useState("")
 
   const getStates = async () => {
     try {
@@ -23,10 +23,6 @@ function Consultation() {
       setLoader(false);
       console.log(error);
     }
-  };
-
-  const showPopUp = () => {
-    setIsOpen(!isOpen);
   };
 
   const getProviders = async () => {
@@ -53,14 +49,21 @@ function Consultation() {
     dispatch(ConfirmationActions.openConfirmation());
   };
 
-  const openSubscribeConfirmation = () => {
-    dispatch(ConfirmationActions.setConfirmationProvider(selectedProvider));
-    dispatch(
-      ConfirmationActions.setConfirmationType(
-        confirmationConstants.SUBSCRIBE_CONFIRMATION
-      )
-    );
-    dispatch(ConfirmationActions.openConfirmation());
+  const openSubscribeConfirmation = async () => {
+    const response = await CommonService.subscribeNewsletter({
+      email: email
+    })
+    
+    if (!response.data.error) {
+
+      dispatch(ConfirmationActions.setEmailConfirmation(response.data.data));
+      dispatch(
+        ConfirmationActions.setConfirmationType(
+          confirmationConstants.SUBSCRIBE_CONFIRMATION
+        )
+      );
+      dispatch(ConfirmationActions.openConfirmation());
+    }
   };
 
   useEffect(() => {
@@ -141,10 +144,10 @@ function Consultation() {
             </h5>
             <div className="flex mb-10 xl:flex-nowrap lg:flex-wrap md:flex-wrap sm:flex-wrap flex-wrap">
               <div className="mr-4">
-              <a href="mailto:info@verbenacare.com">
-                <span className="msg-ico">
-                  <i className="fas fa-envelope"></i>
-                </span>
+                <a href="mailto:info@verbenacare.com">
+                  <span className="msg-ico">
+                    <i className="fas fa-envelope"></i>
+                  </span>
                 </a>
               </div>
               <div>
@@ -176,6 +179,7 @@ function Consultation() {
                     className="custom-input input-border-color border"
                     placeholder="Your Email"
                     name="email"
+                    onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
                 <div>
@@ -193,7 +197,7 @@ function Consultation() {
         </div>
       </div>
     </div>
-    
+
   );
 }
 

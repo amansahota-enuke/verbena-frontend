@@ -1,9 +1,9 @@
 import { Disclosure } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/solid";
-import React, { Fragment, useState } from "react";
+import React from "react";
 
 export default function FAQ() {
-    const [faq, setFaq] = useState([
+    const faq = [
         {
             question: "What is Verbena?",
             answer: "Verbena is a comprehensive women’s digital and telehealth platform offering personalized care, consultations, specialty content and healthcare support in partnership with your personal physician. Consultations, care, services and solutions are provided by your chosen provider. Both of you will use the Verbena platform as a supplement to your in-person/in-office medical care.",
@@ -120,7 +120,7 @@ export default function FAQ() {
             question:"What if I have a medical emergency?",
             answer:"If you have amedicall emergency call 911 or go to your nearest hospital/emergency room."   
         },
-    ]);
+    ];
 
     return (
         <div className="w-full px-4 pt-48 pb-40">

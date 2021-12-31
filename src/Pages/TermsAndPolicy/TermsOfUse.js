@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import { About, TermsOfUse } from "../../Components/";
+import { TermsOfUse } from "../../Components/";
 
 const TermsOfUsePage = (props) => {
     return (

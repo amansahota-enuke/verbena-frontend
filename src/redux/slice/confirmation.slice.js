@@ -5,7 +5,8 @@ const ConfirmationSlice = createSlice({
     initialState: {
         status: false,
         type: "",
-        provider:""
+        provider:"",
+        email: ""
     },
     reducers: {
         openConfirmation: (state) => {
@@ -19,7 +20,10 @@ const ConfirmationSlice = createSlice({
         },
         setConfirmationProvider: (state, action) => {
             state.provider = action.payload;
-        }
+        },
+        setEmailConfirmation: (state, action) => {
+            state.email = action.payload;
+        },
     },
 });
 

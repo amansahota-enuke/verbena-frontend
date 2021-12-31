@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import { About, Contact } from "../../Components";
+import { Contact } from "../../Components";
 
 const ContactPage = (props) => {
     return (

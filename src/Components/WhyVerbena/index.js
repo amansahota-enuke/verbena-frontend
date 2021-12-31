@@ -1,9 +1,9 @@
 import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/solid";
-import React, { Fragment, useState } from "react";
+import React from "react";
 
 export default function WhyVerbena() {
-    const [why, setWhyverbena] = useState([
+    const why = [
         {
             question: "Why is a good telehealth solution necessary?",
             answer: "Complete telehealth solutions (TH) help providers deliver the best patient experience. With a good TH system patient satisfaction will increase resulting in new patient acquisition and patient retention. ",
@@ -41,7 +41,7 @@ export default function WhyVerbena() {
             answer:"Many EMR systems now offer virtual add-ons, but they are typically not effective overall in terms of satisfaction and efficiency. Verbena offers a complete solution, from consents forms, appointment reminders, scheduling, pre-consult assessment, virtual connection and post appointment follow up along with patient engagement tools that make the journey comprehensive and engaging. The platform tracks  who and why patients are using the TH solution which can help support and boost your practice."   
         },
         
-    ]);
+    ];
 
     return (
         <div className="w-full px-4 pt-48 pb-40">

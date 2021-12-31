@@ -1,11 +1,12 @@
 import { Dialog } from "@headlessui/react";
 import React from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import selector from "../../redux/selector";
 import { ConfirmationActions } from "../../redux/slice/confirmation.slice";
 
 function SubscribeConfirmation() {
     const dispatch = useDispatch();
-
+    const response = useSelector(selector.confirmationEmail)
     const closeModal = () => {
         dispatch(ConfirmationActions.closeConfirmation());
     };
@@ -20,7 +21,7 @@ function SubscribeConfirmation() {
             </Dialog.Title>
             <div className="mt-2">
                 <p className="text-sm text-gray-500">
-                    Thank you for subscribing to the Verbena newsletter
+                    {response}
                 </p>
             </div>
 

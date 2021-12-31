@@ -1,6 +1,4 @@
-import { Disclosure } from "@headlessui/react";
-import { ChevronDownIcon } from "@heroicons/react/solid";
-import React, { Fragment, useState } from "react";
+import React from "react";
 
 export default function Contact() {
   return (
