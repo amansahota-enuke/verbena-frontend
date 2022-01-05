@@ -105,6 +105,10 @@ export default function FAQ() {
             answer:"Verbena stores all of your personal and medical information securely and privately and does not share this information."   
         },
         {
+            question:"What is Two Factor Authentication?",
+            answer:"Two Factor Authentication (2FA) supplements your password to provide your Verbena account with a second layer of security. We use Google Authenticator which generates a 2-step verification code to your phone. To enable Google Authenticator, you will have to download the app from the Apple Store or Google Apps."   
+        },
+        {
             question:"Is Verbena HIPPA compliant?",
             answer:"Yes, Verbena is a HIPPA compliant platform. Your personal/medical information is safe and secure."   
         },

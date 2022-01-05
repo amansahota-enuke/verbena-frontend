@@ -43,7 +43,7 @@ export default function Dropdown({ name, type }) {
         },
         {
             for: "For Providers",
-            name: "Contacts",
+            name: "Contact",
             type: "url",
             path: "mailto:registration@verbenacare.com?subject=I am interested in registering for Verbena",
         },
