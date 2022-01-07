@@ -3,13 +3,13 @@ import { Route, Switch } from "react-router-dom";
 import { TermsOfUse } from "../../Components/";
 
 const TermsOfUsePage = (props) => {
-    return (
-        <>
-            <Switch>
-                <Route path={props.match.path} component={TermsOfUse} />
-            </Switch>
-        </>
-    );
+  return (
+    <>
+      <Switch>
+        <Route path={props.match.path} component={TermsOfUse} />
+      </Switch>
+    </>
+  );
 };
 
 export default TermsOfUsePage;

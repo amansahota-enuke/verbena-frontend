@@ -12,7 +12,7 @@ function Consultation() {
   const [selectedState, setSelectedState] = useState("");
   const [providers, setProviders] = useState([]);
   const [selectedProvider, setSelectedProvider] = useState("");
-  const [email, setEmail] = useState("")
+  const [email, setEmail] = useState("");
 
   const getStates = async () => {
     try {
@@ -51,11 +51,10 @@ function Consultation() {
 
   const openSubscribeConfirmation = async () => {
     const response = await CommonService.subscribeNewsletter({
-      email: email
-    })
-    
-    if (!response.data.error) {
+      email: email,
+    });
 
+    if (!response.data.error) {
       dispatch(ConfirmationActions.setEmailConfirmation(response.data.data));
       dispatch(
         ConfirmationActions.setConfirmationType(
@@ -151,7 +150,10 @@ function Consultation() {
                 </a>
               </div>
               <div>
-                <a href="mailto:info@verbenacare.com" className="mont-font font-20 mont-bold">
+                <a
+                  href="mailto:info@verbenacare.com"
+                  className="mont-font font-20 mont-bold"
+                >
                   info@verbenacare.com
                 </a>
                 <p className="mb-0 font-18 mont-font mont-regular light-gray-dim">
@@ -197,7 +199,6 @@ function Consultation() {
         </div>
       </div>
     </div>
-
   );
 }
 

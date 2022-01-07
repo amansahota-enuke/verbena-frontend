@@ -16,30 +16,30 @@ import About from "./About";
 import Services from "./Services";
 import FAQ from "./FAQ";
 import WhyVerbena from "./WhyVerbena";
-import Contact from './Contact/Contact';
+import Contact from "./Contact/Contact";
 import TermsOfUse from "./TermsAndPolicy/TermsOfUse";
 import PrivacyPolicy from "./TermsAndPolicy/PrivacyPolicy";
 export {
-    //Common
-    Header,
-    Footer,
-    Loader,
-    ButtonLoader,
-    Error,
-    Dropdown,
-    Blog,
-    Consultation,
-    ScrollToTop,
-    //Container
-    BoxedWidthContainer,
-    FullWidthContainer,
-    //Pages
-    Home,
-    About,
-    Services,
-    FAQ,
-    WhyVerbena,
-    Contact,
-    TermsOfUse,
-    PrivacyPolicy
+  //Common
+  Header,
+  Footer,
+  Loader,
+  ButtonLoader,
+  Error,
+  Dropdown,
+  Blog,
+  Consultation,
+  ScrollToTop,
+  //Container
+  BoxedWidthContainer,
+  FullWidthContainer,
+  //Pages
+  Home,
+  About,
+  Services,
+  FAQ,
+  WhyVerbena,
+  Contact,
+  TermsOfUse,
+  PrivacyPolicy,
 };

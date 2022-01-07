@@ -6,4 +6,13 @@ import WhyVerbenaPage from "./WhyVerbena";
 import ContactPage from "./Contact";
 import TermsOfUsePage from "./TermsAndPolicy/TermsOfUse";
 import PrivacyPolicyPage from "./TermsAndPolicy/PrivacyPolicy";
-export { HomePage, ServicesPage, AboutPage, FAQPage, WhyVerbenaPage, ContactPage, TermsOfUsePage,PrivacyPolicyPage };
+export {
+  HomePage,
+  ServicesPage,
+  AboutPage,
+  FAQPage,
+  WhyVerbenaPage,
+  ContactPage,
+  TermsOfUsePage,
+  PrivacyPolicyPage,
+};
