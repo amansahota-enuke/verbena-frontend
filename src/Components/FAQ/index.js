@@ -91,12 +91,12 @@ export default function FAQ() {
     {
       question: "How much does a telehealth visit/appointment cost?",
       answer:
-        "The tele-health visit fee is $30.00 for a review of your ‘reason for visit’ questionnaire plus a 20-minute video consultation. If you have follow up questions or are not feeling better or your issue(s) has not been resolved within 48 hours, the “visit” remains open during that period for communication and discussion with no additional charge. Any tests; bloodwork, radiology testing or further consultations that need to be ordered and/or assessed as well as prescriptions are reimbursable fees by your insurance provider. Additionally, these results can be reviewed and shared on the Verbena platform as well.",
+        "The tele-health visit fee is $35.00 for a review of your ‘reason for visit’ questionnaire plus a 20-minute video consultation. If you have follow up questions or are not feeling better or your issue(s) has not been resolved within 48 hours, the “visit” remains open during that period for communication and discussion with no additional charge. Any tests; bloodwork, radiology testing or further consultations that need to be ordered and/or assessed as well as prescriptions are reimbursable fees by your insurance provider. Additionally, these results can be reviewed and shared on the Verbena platform as well.",
     },
     {
       question: "Does my insurance cover my telehealth consultation fee?",
       answer:
-        "Your insurance will be billed by your provider accordingly for services rendered. Your only out of pocket expense is the $30.00 tele-health visit/service charge.",
+        "Your insurance will be billed by your provider accordingly for services rendered. Your only out of pocket expense is the $35.00 tele-health visit/service charge.",
     },
     {
       question: "What if I don’t have insurance?  How much is the visit?",
@@ -125,7 +125,7 @@ export default function FAQ() {
     {
       question: "Can I pay out of pocket?",
       answer:
-        "If you have insurance, you don’t have to pay out of pocket except for the $30.00 telehealth visit fee, equivalent to the co-pay,",
+        "If you have insurance, you don’t have to pay out of pocket except for the $35.00 telehealth visit fee, equivalent to the co-pay,",
     },
     {
       question: "Is my personal and medical information secure & private?",
