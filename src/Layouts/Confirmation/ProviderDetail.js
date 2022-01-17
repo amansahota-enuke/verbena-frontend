@@ -44,31 +44,7 @@ function Index(props) {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+    centerMode: true
   };
 
   return (
@@ -287,18 +263,18 @@ function Index(props) {
         </div>
         <div className="w-full">
             <div className="p-8 rounded-lg mb-8">
-              <h2 className="hepta-slab text-4xl mb-20 text-center">
+              <h2 className="hepta-slab text-4xl mb-10 text-center">
                 Patient Recognitions and Testimonials
               </h2>
 
               <div className="slick-slider">
                 <div className="">
-                  <Slider {...setting} className="slick-slider-inner">
+                  <Slider {...setting} className="slick-wrapper">
                     {providerDetail.patient_testimonial &&
                       JSON.parse(providerDetail.patient_testimonial).map(
                         (testimonial, index) => (
                           <div>
-                            <div class="author-profile text-center">
+                            <div className="author-profile text-center">
                               {[
                                 ...Array(
                                   testimonial && testimonial.rating
@@ -309,17 +285,17 @@ function Index(props) {
                                 <i className="fas fa-star mr-2"></i>
                               ))}
                             </div>
-                            <p class="my-8 hepta-slab text-4xl text-center relative">
-                              <span className="absolute right-full -mt-4">
+                            <p class="my-8 author-content hepta-slab text-4xl text-center relative">
+                              <span className="">
                                 <i class="fas fa-quote-left"></i>
                               </span>
 
                               {testimonial.value && testimonial.value}
-                              <span className="absolute left-full mt-4">
+                              <span className="">
                                 <i class="fas fa-quote-right"></i>
                               </span>
                             </p>
-                            <span class="caption-author text-center block">
+                            <span className="caption-author text-center block">
                               {testimonial.patient_name &&
                                 `-${testimonial.patient_name}`}
                             </span>
@@ -329,6 +305,7 @@ function Index(props) {
                   </Slider>
                 </div>
               </div>
+              
             </div>
           </div>
         <div className="mt-4 text-right">

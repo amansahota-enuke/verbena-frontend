@@ -1346,6 +1346,13 @@ video {
   object-fit: cover;
 }
 
+/* 17 Jan 2021 Css */
+
+p.author-content
+{
+  max-width:850px;
+  margin: 40px auto 40px;
+}
 
 /* Media Css */
 
