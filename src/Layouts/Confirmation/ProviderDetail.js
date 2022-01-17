@@ -5,6 +5,7 @@ import selector from "../../redux/selector";
 import { Loader, FullWidthContainer } from "../../Components";
 import { CommonService } from "../../services";
 import { ConfirmationActions } from "../../redux/slice/confirmation.slice";
+import Slider from "react-slick";
 
 function Index(props) {
   const dispatch = useDispatch();
@@ -34,6 +35,40 @@ function Index(props) {
   const parseName = (name) => {
     if (!name) return null;
     return name.charAt(0).toUpperCase() + name.substring(1).toLowerCase();
+  };
+
+  const setting = {
+    dots: false,
+    infinite: true,
+    arrows: false,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -137,32 +172,7 @@ function Index(props) {
             <div className="bg-white p-8 rounded-lg mb-8">
               <h3 className="hepta-bold text-2xl mb-6">About me</h3>
               <p className="about-content mid-dark-gray-color text-base mb-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est
-                laborum.hExcepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui offici.h
-              </p>
-              <p className="about-content mid-dark-gray-color text-base mb-2">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-                sit amet, consectetur, adipisci velit, sed quia non numquam eius
-                modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-                voluptatem. Ut enim ad minima veniam, quis nostrum
-                exercitationem ullam corporis suscipit laboriosam, nisi ut
-                aliquid ex ea commodi consequatur? Quis autem vel eum iure
-                reprehenderit qui in ea voluptate velit esse quam nihil
-                molestiae consequatur, vel illum qui dolorem eum fugiat quo
-                voluptas nulla pariatu. qui dolorem ipsum quia dolor sit amet.h
+                {providerDetail && providerDetail.bio && providerDetail.bio}
               </p>
             </div>
           </div>
@@ -256,10 +266,6 @@ function Index(props) {
                   <div className="mr-4">
                     <img src="images/icon-5.png" alt="" title="" />
                   </div>
-                  <div>
-                    <h2 className="mb-2 text-lg leading-none">Gender</h2>
-                    <p className="mid-dark-gray-color mb-2 text-lg">Male</p>
-                  </div>
                 </div>
 
                 <div className="flex xl:flex-nowrap lg:flex-nowrap md:flex-wrap sm:flex-wrap mb-4 border-b-2">
@@ -278,44 +284,53 @@ function Index(props) {
               </div>
             </div>
           </div>
-
-          <div className="col-span-6">
-            <div className="bg-white p-8 rounded-lg mb-8">
+        </div>
+        <div className="w-full">
+            <div className="p-8 rounded-lg mb-8">
               <h2 className="hepta-slab text-4xl mb-20 text-center">
                 Patient Recognitions and Testimonials
               </h2>
 
-              <div className="flex xl:flex-nowrap lg:flex-nowrap md:flex-wrap sm:flex-wrap flex-wrap items-center">
-                <div className="dd mr-16">
-                  <div className="testimonial-image">
-                    <div className="img-wrapper rounded-full primary-bg-color"></div>
-                  </div>
-                </div>
-                <div>
-                  <div className="testimonial-content relative">
-                    <span className="absolute blockquote">
-                      <img src="images/blockquote.png" alt="" title="" />
-                    </span>
-                    <p className="calibre-regular text-lg mid-dark-gray-color mb-8">
-                      Visited for acne advanced facial and full body laser hair
-                      removal. I have been visiting Dr. Rajveer Singh for last 4
-                      years for various skin problems. I took few advanced
-                      facials with Dr. Rahveer Singh before my wedding 2 years
-                      back. I was extremely happy and satisfied with results. I
-                      am happy that I did not spend money on parlour/ salon
-                      facials. 1 year back I started taking full body laser hair
-                      removal and again results were to my expectations. Now I
-                      hardly go through painful waxing.
-                    </p>
-                    <h4 className="client-name hepta-slab text-xl mb-0">
-                      Riya Malhotra
-                    </h4>
-                  </div>
+              <div className="slick-slider">
+                <div className="">
+                  <Slider {...setting} className="slick-slider-inner">
+                    {providerDetail.patient_testimonial &&
+                      JSON.parse(providerDetail.patient_testimonial).map(
+                        (testimonial, index) => (
+                          <div>
+                            <div class="author-profile text-center">
+                              {[
+                                ...Array(
+                                  testimonial && testimonial.rating
+                                    ? Number(testimonial.rating)
+                                    : 0
+                                ),
+                              ].map((x, i) => (
+                                <i className="fas fa-star mr-2"></i>
+                              ))}
+                            </div>
+                            <p class="my-8 hepta-slab text-4xl text-center relative">
+                              <span className="absolute right-full -mt-4">
+                                <i class="fas fa-quote-left"></i>
+                              </span>
+
+                              {testimonial.value && testimonial.value}
+                              <span className="absolute left-full mt-4">
+                                <i class="fas fa-quote-right"></i>
+                              </span>
+                            </p>
+                            <span class="caption-author text-center block">
+                              {testimonial.patient_name &&
+                                `-${testimonial.patient_name}`}
+                            </span>
+                          </div>
+                        )
+                      )}
+                  </Slider>
                 </div>
               </div>
             </div>
           </div>
-        </div>
         <div className="mt-4 text-right">
           <button
             type="button"
