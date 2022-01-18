@@ -1350,8 +1350,8 @@ video {
 
 p.author-content
 {
-  max-width:850px;
-  margin: 40px auto 40px;
+  max-width:850px !important;
+  margin: 50px 40px;
 }
 
 /* Media Css */
@@ -1375,6 +1375,7 @@ p.author-content
 
 @media(max-width:990px)
 {
+  p.author-content{margin: 40px 0;font-size: 16px;}
   .main-panel{margin-left: 0;}
   .left-menu{left:-80px;}
   .main-panel.expanded{margin-left: 0;}
@@ -1437,19 +1438,16 @@ button:focus-visible
   min-height: 84px;
 }
 
-.slick-slider-inner p
-{
-  max-width: 600px;
-  margin: 40px auto 20px;
-}
-
-.slick-slider-inner p span i
-{
-  color: #009b97;
-}
-
 p.author-content
 {
-  max-width:950px !important;
-  margin: 40px auto 40px;
+  max-width:850px !important;
+  margin: 50px 40px;
+}
+
+p.author-content span i {
+  color: #009b98;
+}
+
+.author-profile i {
+  color: #009b98;
 }
