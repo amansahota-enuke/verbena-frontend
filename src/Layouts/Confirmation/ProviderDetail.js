@@ -37,8 +37,8 @@ function Index(props) {
     return name.charAt(0).toUpperCase() + name.substring(1).toLowerCase();
   };
 
-  const setting = {
-    dots: false,
+  const settings = {
+    dots: true,
     infinite: true,
     arrows: false,
     speed: 500,
@@ -262,52 +262,52 @@ function Index(props) {
           </div>
         </div>
         <div className="w-full">
-            <div className="p-8 rounded-lg mb-8">
-              <h2 className="hepta-slab text-4xl mb-10 text-center">
-                Patient Recognitions and Testimonials
-              </h2>
+          <div className="p-8 rounded-lg mb-8">
+            <h2 className="hepta-slab text-4xl mb-20 text-center">
+              Patient Recognitions and Testimonials
+            </h2>
 
-              <div className="slick-slider">
-                <div className="">
-                  <Slider {...setting} className="slick-wrapper">
-                    {providerDetail.patient_testimonial &&
-                      JSON.parse(providerDetail.patient_testimonial).map(
-                        (testimonial, index) => (
-                          <div>
-                            <div className="author-profile text-center">
-                              {[
-                                ...Array(
-                                  testimonial && testimonial.rating
-                                    ? Number(testimonial.rating)
-                                    : 0
-                                ),
-                              ].map((x, i) => (
-                                <i className="fas fa-star mr-2"></i>
-                              ))}
-                            </div>
-                            <p class="my-8 author-content hepta-slab text-4xl text-center relative">
-                              <span className="">
-                                <i class="fas fa-quote-left"></i>
-                              </span>
-
-                              {testimonial.value && testimonial.value}
-                              <span className="">
-                                <i class="fas fa-quote-right"></i>
-                              </span>
-                            </p>
-                            <span className="caption-author text-center block">
-                              {testimonial.patient_name &&
-                                `-${testimonial.patient_name}`}
-                            </span>
+            <div className="slick-slider">
+              <div className="">
+                <Slider {...settings} className="slick-slider-inner">
+                  {providerDetail.patient_testimonial &&
+                    JSON.parse(providerDetail.patient_testimonial).map(
+                      (testimonial, index) => (
+                        <div>
+                          <div class="author-profile text-center">
+                            {[
+                              ...Array(
+                                testimonial && testimonial.rating
+                                  ? Number(testimonial.rating)
+                                  : 0
+                              ),
+                            ].map((x, i) => (
+                              <i className="fas fa-star mr-2"></i>
+                            ))}
                           </div>
-                        )
-                      )}
-                  </Slider>
-                </div>
+                          <p class="my-8 hepta-slab text-4xl text-center relative author-content">
+                            <span className="absolute right-full -mt-4">
+                              <i class="fas fa-quote-left"></i>
+                            </span>
+
+                            {testimonial.value && testimonial.value}
+                            <span className="absolute left-full mt-4">
+                              <i class="fas fa-quote-right"></i>
+                            </span>
+                          </p>
+                          <span class="caption-author text-center block">
+                            {testimonial.patient_name &&
+                              `-${testimonial.patient_name}`}
+                          </span>
+                        </div>
+                      )
+                    )}
+                </Slider>
               </div>
               
             </div>
           </div>
+        </div>
         <div className="mt-4 text-right">
           <button
             type="button"
