@@ -38,13 +38,37 @@ function Index(props) {
   };
 
   const setting = {
-    dots: false,
+    dots: true,
     infinite: true,
     arrows: false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    centerMode: true
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   return (
@@ -263,7 +287,7 @@ function Index(props) {
         </div>
         <div className="w-full">
             <div className="p-8 rounded-lg mb-8">
-              <h2 className="hepta-slab text-4xl mb-10 text-center">
+              <h2 className="hepta-slab xl:text-4xl lg:text-4xl md:text-2xl sm:text-2xl text-2xl mb-10 text-center">
                 Patient Recognitions and Testimonials
               </h2>
 
