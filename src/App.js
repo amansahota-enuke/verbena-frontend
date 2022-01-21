@@ -3,12 +3,12 @@ import "./App.css";
 import { Footer, Header, Error, ScrollToTop } from "./Components";
 import Confirmation from "./Layouts/Confirmation";
 import { AboutPage, HomePage, ServicesPage, FAQPage, WhyVerbenaPage, ContactPage, TermsOfUsePage, PrivacyPolicyPage } from "./Pages";
-
+import Test from "../src/Components/test"
 function App() {
     return (
         <>
             <div className="wrapper h-full">
-                <Header />
+                {/* <Header /> */}
                 <ScrollToTop>
                     <Switch>
                         <Route
@@ -24,11 +24,12 @@ function App() {
                         <Route path="/contact" component={ContactPage} />
                         <Route path="/termsofuse" component={TermsOfUsePage} />
                         <Route path="/privacypolicy" component={PrivacyPolicyPage} />
+                        <Route path="/testdesign" component={Test} />
                         <Route component={Error} />
                     </Switch>
                 </ScrollToTop>
-                <Footer />
-                <Confirmation />
+                {/* <Footer /> */}
+                {/* <Confirmation /> */}
             </div>
         </>
     );
