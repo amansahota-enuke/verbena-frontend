@@ -261,26 +261,6 @@ function Index(props) {
                       )}
                   </div>
                 </div>
-
-                <div className="flex xl:flex-nowrap lg:flex-nowrap md:flex-wrap sm:flex-wrap mb-4 border-b-2">
-                  <div className="mr-4">
-                    <img src="images/icon-5.png" alt="" title="" />
-                  </div>
-                </div>
-
-                <div className="flex xl:flex-nowrap lg:flex-nowrap md:flex-wrap sm:flex-wrap mb-4 border-b-2">
-                  <div className="mr-4">
-                    <img src="images/icon-6.png" alt="" title="" />
-                  </div>
-                  <div>
-                    <h2 className="mb-2 text-lg leading-none">
-                      Consultation Fees
-                    </h2>
-                    <p className="mid-dark-gray-color mb-2 text-lg">
-                      {providerDetail.consultation_fee}
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -309,16 +289,20 @@ function Index(props) {
                               <i className="fas fa-star mr-2"></i>
                             ))}
                           </div>
-                          <p class="my-8 author-content hepta-slab text-4xl text-center relative">
-                            <span className="">
-                              <i class="fas fa-quote-left"></i>
-                            </span>
+                          {testimonial.value ? (
+                            <p class="my-8 author-content hepta-slab text-4xl text-center relative">
+                              <span className="">
+                                <i class="fas fa-quote-left"></i>
+                              </span>
 
-                            {testimonial.value && testimonial.value}
-                            <span className="">
-                              <i class="fas fa-quote-right"></i>
-                            </span>
-                          </p>
+                              {testimonial.value && testimonial.value}
+                              <span className="">
+                                <i class="fas fa-quote-right"></i>
+                              </span>
+                            </p>
+                          ) : (
+                            ""
+                          )}
                           <span className="caption-author text-center block">
                             {testimonial.patient_name &&
                               `-${testimonial.patient_name}`}
