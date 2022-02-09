@@ -141,17 +141,7 @@ export default function PrivacyPolicy() {
                       patterns, and facilitating online advertising.
                     </p>
                   </li>
-                  <li>
-                    <p className="dd text-lg caliber-regular mb-4 dark-gray-color">
-                      <b>Cookies,</b> which are text files that websites store
-                      on a visitor‘s device to uniquely identify the visitor’s
-                      browser or to store information or settings in the browser
-                      for the purpose of helping you navigate between pages
-                      efficiently, remembering your preferences, enabling
-                      functionality, helping us understand user activity and
-                      patterns, and facilitating online advertising.
-                    </p>
-                  </li>
+
                   <li>
                     <p className="dd text-lg caliber-regular mb-4 dark-gray-color">
                       <b>Web beacons,</b> also known as pixel tags or clear
