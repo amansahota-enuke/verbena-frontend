@@ -78,7 +78,7 @@ export default function Header() {
                   <NavLink to="/home" className="logo">
                     <span className="sr-only">Verbena</span>
                     <img
-                      className="block lg:hidden w-auto"
+                      className="block lg:hidden w-auto header-new-logo"
                       src="/images/logo.png"
                       alt=""
                     />
@@ -86,7 +86,7 @@ export default function Header() {
                   <NavLink to="/home" className="logo">
                     <span className="sr-only">Verbena</span>
                     <img
-                      className="hidden lg:block w-auto"
+                      className="hidden lg:block w-auto header-new-logo"
                       src="/images/logo.png"
                       alt=""
                     />
