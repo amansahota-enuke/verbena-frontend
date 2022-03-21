@@ -63,7 +63,7 @@ export default function FAQ() {
     {
       question: "How long is my telehealth appointment?",
       answer:
-        "The tele-health appointment is approximately 20 minutes -- however, if you need more time that is perfectly fine. If your provider has another appointment he/she will follow up with you shortly thereafter and there will be no extra charge if more time is needed.",
+        "The telehealth appointment is approximately 10-20 minutes or however long it takes to reach a diagnosis and treatment plan. However, if you need more time that is perfectly fine. If your provider has another appointment he/she will follow up with you shortly thereafter and there will be no extra charge if more time is needed.",
     },
     {
       question:
@@ -91,7 +91,7 @@ export default function FAQ() {
     {
       question: "How much does a telehealth visit/appointment cost?",
       answer:
-        "The tele-health visit fee is $35.00 for a review of your ‘reason for visit’ questionnaire plus a 20-minute video consultation. If you have follow up questions or are not feeling better or your issue(s) has not been resolved within 48 hours, the “visit” remains open during that period for communication and discussion with no additional charge. Any tests; bloodwork, radiology testing or further consultations that need to be ordered and/or assessed as well as prescriptions are reimbursable fees by your insurance provider. Additionally, these results can be reviewed and shared on the Verbena platform as well.",
+        "The tele-health visit fee is $35.00 for a review of your ‘reason for visit’ questionnaire plus a telehealth consultation.. If you have follow up questions or are not feeling better or your issue(s) has not been resolved within 48 hours, the “visit” remains open during that period for communication and discussion with no additional charge. Any tests; bloodwork, radiology testing or further consultations that need to be ordered and/or assessed as well as prescriptions are reimbursable fees by your insurance provider. Additionally, these results can be reviewed and shared on the Verbena platform as well.",
     },
     {
       question: "Does my insurance cover my telehealth consultation fee?",
@@ -125,7 +125,7 @@ export default function FAQ() {
     {
       question: "Can I pay out of pocket?",
       answer:
-        "If you have insurance, you don’t have to pay out of pocket except for the $35.00 telehealth visit fee, equivalent to the co-pay,",
+        "Yes. Your telehealth visit fee is a $35 out of pocket expense. Following your visit, your provider will submit an insurance claim for the specific consultation. If you do not want to submit an insurance claim, the total fee is $50.00",
     },
     {
       question: "Is my personal and medical information secure & private?",
