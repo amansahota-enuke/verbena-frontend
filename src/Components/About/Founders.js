@@ -55,10 +55,10 @@ function Founders() {
             </div>
             <p className="font-16 mont-font mont-regular">
               Heidi Edelstein is an accomplished Marketing Executive with more
-              than 25 years of integrated marketing experience. A graduate of
-              Tulane University, she has worked for leading women’s lifestyle
-              brands and is recognized as both a strategic and creative industry
-              leader.
+              than 25 years of integrated marketing and branding experience. A
+              graduate of Tulane University, she has worked for leading women’s
+              lifestyle and media brands and is recognized as both a strategic
+              and creative industry leader.
             </p>
           </div>
         </div>
