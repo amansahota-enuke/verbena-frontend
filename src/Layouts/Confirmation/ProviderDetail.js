@@ -149,6 +149,19 @@ function Index(props) {
                   </div>
                 </div>
                 <div>
+                  <div className="strip-image text-center">
+                    <img
+                      src={
+                        providerDetail &&
+                        providerDetail.practice_logo &&
+                        process.env.REACT_APP_API_SERVER_URL +
+                          providerDetail.practice_logo
+                      }
+                      className="m-auto mb-10"
+                      alt=""
+                      title=""
+                    />
+                  </div>
                   <div className="scheduleded-appointment">
                     <a
                       type="button"

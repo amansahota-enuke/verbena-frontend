@@ -1395,3 +1395,9 @@ p.author-content span i {
 .author-profile i {
   color: #009b98;
 }
+
+.strip-image img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+}
