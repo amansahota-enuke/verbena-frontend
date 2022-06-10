@@ -37,7 +37,7 @@ export default function FAQ() {
     {
       question: "How much does it cost to enroll?",
       answer:
-        "Patients pay an annual fee of $12.99 to have access to the Verbena platform and its digital products, telehealth services, information/content plus scheduling and ongoing communication features.",
+        "Patients pay an annual fee of $12.00 to have access to the Verbena platform and its digital products, telehealth services, information/content plus scheduling and ongoing communication features.",
     },
     {
       question:
@@ -101,7 +101,7 @@ export default function FAQ() {
     {
       question: "What if I don’t have insurance?  How much is the visit?",
       answer:
-        "If you don’t have insurance, a Verbena tele-health visit will cost $50.00.",
+        "If you don’t have insurance, a Verbena tele-health visit will cost $25.00.",
     },
     {
       question: "What are payment options?",
@@ -120,12 +120,12 @@ export default function FAQ() {
     {
       question: "What if I don’t have insurance?",
       answer:
-        "If you don’t have insurance, the out-of-pocket fee for the Verbena appointment is $50.00",
+        "If you don’t have insurance, the out-of-pocket fee for the Verbena appointment is $25.00",
     },
     {
       question: "Can I pay out of pocket?",
       answer:
-        "Yes. Your telehealth visit fee is a $35 out of pocket expense. Following your visit, your provider will submit an insurance claim for the specific consultation. If you do not want to submit an insurance claim, the total fee is $50.00",
+        "Yes. Your telehealth visit fee is a $35 out of pocket expense. Following your visit, your provider will submit an insurance claim for the specific consultation. If you do not want to submit an insurance claim, the total fee is $25.00",
     },
     {
       question: "Is my personal and medical information secure & private?",
